@@ -4,8 +4,7 @@ description: Meer informatie over algemene problemen met API's voor Campaigns St
 role: Data Engineer
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -86,7 +85,7 @@ Uw token is ongeldig (onjuiste IMS-aanroep die wordt gebruikt om een token te ge
 
 Afhankelijk van de instantieconfiguratie moet het gemaakte profiel worden gekoppeld aan een **orgUnit**. Als u wilt weten hoe u dit veld kunt toevoegen aan uw creatie, raadpleegt u [deze sectie](creating-profiles-api.md).
 
-<!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
+<!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
 
 With Curl
 List all profiles
