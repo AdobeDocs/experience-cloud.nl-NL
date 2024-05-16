@@ -3,7 +3,7 @@ title: Adobe Campaign Web User Interface
 description: Adobe Campaign Web User Interface ontdekken
 badge: label="Beperkte beschikbaarheid" type="Informative" url="campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
 exl-id: eecf4e13-820d-4454-9f11-f50be565bb79
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+source-git-commit: ba22719c91d44e537020d17a53ff7f8f6a929111
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 3%
@@ -21,7 +21,7 @@ Bovendien zal deze overgang veel voordelen opleveren:
 * Integratie met Adobe Experience Platform
 * Consistente gebruikersinterface en ervaring
 
-Voor meer informatie over zeer belangrijke mogelijkheden en conceptafwijkingen, verwijs naar [deze pagina](https://experienceleague.adobe.com/en/docs/campaign-web/v8/rn/acs-migration.html).
+Voor meer informatie over zeer belangrijke mogelijkheden en conceptafwijkingen, verwijs naar [deze pagina](https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/acs-migration).
 
 ## Nieuwe functies
 
