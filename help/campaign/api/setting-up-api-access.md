@@ -7,10 +7,11 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
+source-git-commit: 18979fea28f4f3adce1139293203a59876831313
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 30%
+source-wordcount: '392'
+ht-degree: 27%
 
 ---
 
@@ -24,7 +25,7 @@ Adobe Campaign Standard API-toegang wordt ingesteld via de onderstaande stappen.
 
 1. **Controleer of u een digitaal certificaat hebt**, of maak er zo nodig een. De bij het certificaat geleverde openbare en privésleutels zijn nodig bij de volgende stappen.
 1. **Een nieuwe integratie met Adobe Campaign Service maken** in [Adobe Developer](https://developer.adobe.com/) en configureren. Uw referenties worden dan gegenereerd (API-sleutel, klantgeheim...).
-1. **Maak een JSON-webtoken (JWT)** van de eerder gegenereerde referenties en onderteken deze met uw privésleutel. De JWT codeert alle identiteits- en beveiligingsgegevens die door de Adobe nodig zijn om uw identiteit te verifiëren en u toegang tot de API te verlenen.
+1. **Een OAuth Server-to-Server maken** referentie door deze [uitvoeringsstappen](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
 
    >[!IMPORTANT]
    >
@@ -32,8 +33,6 @@ Adobe Campaign Standard API-toegang wordt ingesteld via de onderstaande stappen.
    >* [Migratie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
    >* [Implementatie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
    >* [Veelgestelde vragen over Deprectie JWT](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
-
-1. **Uitwisseling uw JWT voor een Token van de Toegang** via een verzoek van de POST. Deze toegangstoken moet worden gebruikt in elke header van uw API-verzoeken.
 
 Om een veilige Adobe I/O API-sessie tussen services tot stand te brengen moet elk verzoek aan een Adobe-service de onderstaande informatie bevatten in de autorisatieheader.
 
