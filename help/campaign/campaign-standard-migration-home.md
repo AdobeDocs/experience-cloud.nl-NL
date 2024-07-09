@@ -3,7 +3,7 @@ title: Adobe Campaign Web User Interface
 description: Adobe Campaign Web User Interface ontdekken
 badge: label="Beperkte beschikbaarheid" type="Informative" url="campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
 exl-id: eecf4e13-820d-4454-9f11-f50be565bb79
-source-git-commit: ba22719c91d44e537020d17a53ff7f8f6a929111
+source-git-commit: 619453901147f83d691156a3b870d36b6caa1868
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 3%
@@ -21,7 +21,7 @@ Bovendien zal deze overgang veel voordelen opleveren:
 * Integratie met Adobe Experience Platform
 * Consistente gebruikersinterface en ervaring
 
-Voor meer informatie over zeer belangrijke mogelijkheden en conceptafwijkingen, verwijs naar [deze pagina](https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/acs-migration).
+Voor meer informatie over zeer belangrijke mogelijkheden en conceptafwijkingen, verwijs naar [deze pagina](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration).
 
 ## Nieuwe functies
 
@@ -65,7 +65,7 @@ U kunt Rest APIs gebruiken om integratie voor Adobe Campaign tot stand te brenge
     </td>
     <td>
     <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/content/start-design/get-started-email-designer"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>Maak kennis met de e-mailontwerper</strong><br/>
+    <div><strong>Maak kennis met de e-mail-Designer</strong><br/>
     </div></td>
     <td>
     <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/dynamic-content/gs-personalization"><img src="assets/do-not-localize/menu-dynamic.png"></a>
