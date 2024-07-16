@@ -4,10 +4,10 @@ user-guide-description: Adobe Campaign v8
 breadcrumb-title: Adobe Campaign v8
 solution: Experience Cloud
 role: User
-source-git-commit: dfe80854447b2a49b53908947b7814c7b8e29fa5
+source-git-commit: 0650d42102216c353c5843322d01af5af80d2e5c
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 72%
+source-wordcount: '159'
+ht-degree: 70%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 72%
       + [Visualisaties toevoegen](reporting/adding-visualizations.md)
       + [Componenten toevoegen](reporting/adding-components.md)
       + [Een aangepaste profieldimensie maken](reporting/creating-a-custom-profile-dimension.md)
+      + [Dynamische gebruiksovereenkomst voor rapportage](reporting/pii-agreement.md)
 + Branding {#branding}
    + [Branding](branding/branding-gs.md)
    + [Een merk configureren](branding/branding-configure.md)
