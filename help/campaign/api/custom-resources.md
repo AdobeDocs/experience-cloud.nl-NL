@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: d7b2231d-46ff-4966-9ea7-27a775e5236b
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 2%
@@ -18,23 +19,23 @@ ht-degree: 2%
 
 Adobe Campaign wordt geleverd met een vooraf gedefinieerd gegevensmodel, waarbij gegevens via verschillende bronnen worden gedefinieerd. U kunt het gegevensmodel verrijken dat wordt verstrekt door de middelen uit te breiden om uw eigen douanevelden of douanetabellen, zoals aankoop of productlijsten toe te voegen.
 
-Aangepaste bronnen zijn toegankelijk via API&#39;s die de **/profileAndServicesExt** en de naam van de aangepaste bron.
+De middelen van de douane zijn toegankelijk door APIs gebruikend het **/profileAndServicesExt** eindpunt, en de naam van het douanemiddel.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/`
 
 >[!NOTE]
 >
->Voor middelen die niet uit-van-de-doos zijn, gebruik altijd <b>&quot;cus&quot;</b> voor de naam van de bron.
+>Voor middelen die niet uit-van-de-doos zijn, gebruik altijd <b> &quot;focus&quot;</b> prefix vóór de naam van het middel.
 
 U kunt elke gewenste bewerking uitvoeren met aangepaste bronnen, mits deze zijn gekoppeld aan de tabel Profiel. Neem bijvoorbeeld de onderstaande tabelstructuur:
 
-![alt-tekst](assets/cusresources.png)
+![ alt tekst ](assets/cusresources.png)
 
-In dat geval alle middelen van het **Transactie**, **TransactieDetails** en **Product** tabellen zijn beschikbaar zolang ze gekoppeld zijn aan de **Profiel** tabel.
+In dat geval, zijn alle middelen van de **Transactie**, **TransactionDetails** en **de lijsten van het Product** beschikbaar zolang zij met de **7} lijst van het Profiel {verbonden zijn.**
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
 Het verzoek van de GET van de steekproef om tot het uitgebreide profileAndServicesExt middel toegang te hebben.
 

@@ -6,7 +6,8 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 51abadc86b97097d13824651d8c50d4ddd014a51
+exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 19%
@@ -27,37 +28,37 @@ Je template wordt gekoppeld aan het merk. In de e-maileditor maken de elementen 
 
 >[!BEGINTABS]
 
->[!TAB Adobe Campaign V8]
+>[!TAB  Adobe Campaign V8 ]
 
 Om een leveringsmalplaatje tot stand te brengen, kunt u een ingebouwde malplaatje dupliceren, een bestaande levering in een malplaatje omzetten of een leveringsmalplaatje van kras tot stand brengen. [Meer informatie](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates)
 
 Nadat u de sjabloon hebt gemaakt, kunt u deze koppelen aan een merk. Dit doet u als volgt:
 
-1. Bladeren naar **[!UICONTROL Resources]** `>` **[!UICONTROL Templates]** `>` **[!UICONTROL Delivery templates]** in Adobe Campaign.
+1. Blader naar **[!UICONTROL Resources]** `>` **[!UICONTROL Templates]** `>` **[!UICONTROL Delivery templates]** in Adobe Campaign Explorer.
 
 1. Selecteer een leveringssjabloon of dupliceer een bestaande sjabloon.
 
    ![](assets/branding_assign_V8_1.png)
 
-1. Toegang krijgen tot de **[!UICONTROL Properties]** van de geselecteerde leveringstemplate.
+1. Open **[!UICONTROL Properties]** van de geselecteerde leveringssjabloon.
 
    ![](assets/branding_assign_V8_2.png)
 
-1. Van de **[!UICONTROL General]** selecteert u uw merk in het **[!UICONTROL Branding]** vervolgkeuzelijst.
+1. Selecteer op het tabblad **[!UICONTROL General]** uw merk in de vervolgkeuzelijst **[!UICONTROL Branding]** .
 
    ![](assets/branding_assign_V8_3.png)
 
-1. Zodra gevormd, uitgezocht **OK**.
+1. Zodra gevormd, uitgezochte **O.K.**.
 
 U kunt deze sjabloon nu gebruiken om uw leveringen te verzenden.
 
->[!TAB Adobe Campaign Web]
+>[!TAB  het Web van Adobe Campaign ]
 
 Om een leveringsmalplaatje tot stand te brengen, kunt u een ingebouwde malplaatje dupliceren, een bestaande levering in een malplaatje omzetten of een leveringsmalplaatje van kras tot stand brengen. [Meer informatie](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-template)
 
 Nadat u de sjabloon hebt gemaakt, kunt u deze koppelen aan een merk. Dit doet u als volgt:
 
-1. Bladeren naar de **[!UICONTROL Templates]** tabblad, van de **[!UICONTROL Deliveries]** en selecteer een leveringssjabloon.
+1. Blader naar het tabblad **[!UICONTROL Templates]** in het linkermenu van **[!UICONTROL Deliveries]** en selecteer een leveringssjabloon.
 
    ![](assets/branding_assign_web_1.png)
 
@@ -65,7 +66,7 @@ Nadat u de sjabloon hebt gemaakt, kunt u deze koppelen aan een merk. Dit doet u 
 
    ![](assets/branding_assign_web_2.png)
 
-1. Van de **[!UICONTROL Delivery]** tabblad, opent u de **[!UICONTROL Branding]** en selecteert u het merk dat u aan de sjabloon wilt koppelen.
+1. Open op het tabblad **[!UICONTROL Delivery]** het veld **[!UICONTROL Branding]** en selecteer het merk dat u aan de sjabloon wilt koppelen.
 
    ![](assets/branding_assign_web_3.png)
 
@@ -79,35 +80,35 @@ U kunt deze sjabloon nu gebruiken om uw leveringen te verzenden.
 
 >[!BEGINTABS]
 
->[!TAB Adobe Campaign V8]
+>[!TAB  Adobe Campaign V8 ]
 
 Volg de onderstaande stappen om een nieuwe, zelfstandige levering te maken.
 
-1. Blader naar de **[!UICONTROL Campaigns]** tab.
+1. Blader naar het tabblad **[!UICONTROL Campaigns]** om een nieuwe levering te maken.
 
-1. Klikken **[!UICONTROL Deliveries]** en klik op de knop **[!UICONTROL Create]** boven de lijst met bestaande leveringen.
+1. Klik op **[!UICONTROL Deliveries]** en klik op de knop **[!UICONTROL Create]** boven de lijst met bestaande leveringen.
 
    ![](assets/branding_assign_V8_4.png)
 
 1. Selecteer een leveringssjabloon.
 
-1. Toegang krijgen tot de **[!UICONTROL Properties]** van de geselecteerde leveringstemplate.
+1. Open **[!UICONTROL Properties]** van de geselecteerde leveringssjabloon.
 
    ![](assets/branding_assign_V8_5.png)
 
-1. Van de **[!UICONTROL General]** selecteert u uw merk in het **[!UICONTROL Branding]** vervolgkeuzelijst.
+1. Selecteer op het tabblad **[!UICONTROL General]** uw merk in de vervolgkeuzelijst **[!UICONTROL Branding]** .
 
    ![](assets/branding_assign_V8_6.png)
 
-1. Zodra gevormd, uitgezocht **OK**.
+1. Zodra gevormd, uitgezochte **O.K.**.
 
-1. Pas uw leveringen verder aan. Voor meer informatie over het maken van een e-mailbericht raadpleegt u de [E-mails ontwerpen en verzenden](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) sectie.
+1. Pas uw leveringen verder aan. Voor meer informatie over het creëren van een e-mail verwijs naar het [ Ontwerp en verzend e-mails ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) sectie.
 
->[!TAB Adobe Campaign Web]
+>[!TAB  het Web van Adobe Campaign ]
 
 Volg de onderstaande stappen om een nieuwe, zelfstandige levering te maken.
 
-1. Bladeren naar de **[!UICONTROL Deliveries]** op de linkerspoorstaaf en klik op **[!UICONTROL Create delivery]** knop.
+1. Blader naar het menu **[!UICONTROL Deliveries]** op de linkertrack en klik op de knop **[!UICONTROL Create delivery]** .
 
    ![](assets/branding_assign_web_4.png)
 
@@ -115,11 +116,11 @@ Volg de onderstaande stappen om een nieuwe, zelfstandige levering te maken.
 
 1. Klik op de knop **[!UICONTROL Create delivery]** ter bevestiging.
 
-1. Van de **[!UICONTROL Properties]** pagina, klikt u **[!UICONTROL Settings]**.
+1. Klik op **[!UICONTROL Settings]** op de pagina **[!UICONTROL Properties]** .
 
    ![](assets/branding_assign_web_5.png)
 
-1. Van de **[!UICONTROL Delivery]** tabblad, opent u de **[!UICONTROL Branding]** veld.
+1. Open het veld **[!UICONTROL Branding]** via het tabblad **[!UICONTROL Delivery]** .
 
    ![](assets/branding_assign_web_6.png)
 
@@ -127,6 +128,6 @@ Volg de onderstaande stappen om een nieuwe, zelfstandige levering te maken.
 
    ![](assets/branding_assign_web_7.png)
 
-1. Pas uw leveringen verder aan. Voor meer informatie over het maken van een e-mailbericht raadpleegt u de [Uw eerste e-mail maken](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) sectie.
+1. Pas uw leveringen verder aan. Voor meer informatie over het creëren van een e-mail verwijs naar [ creeer uw eerste e-mail ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) sectie.
 
 >[!ENDTABS]

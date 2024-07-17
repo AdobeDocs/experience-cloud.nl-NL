@@ -4,7 +4,8 @@ description: De belemmering en laat vallen componenten aan uw vrije vormlijst be
 audience: end-user
 level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: 2b22f147-ed75-40ca-8859-8f4b23bca7c3
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 4%
@@ -15,31 +16,31 @@ ht-degree: 4%
 
 Componenten helpen u bij het aanpassen van rapporten met verschillende afmetingen, meetwaarden en tijdsperioden.
 
-1. Klik op de knop **[!UICONTROL Components]** om de lijst met componenten te openen.
+1. Klik op de tab **[!UICONTROL Components]** om de lijst met componenten te openen.
 
    ![](assets/dynamic_report_components.png)
 
-1. Elke categorie in de **[!UICONTROL Components]** wordt weergegeven met de vijf meest gebruikte items en klikt u op de naam van een categorie om de volledige lijst met componenten te openen.
+1. In elke categorie op het tabblad **[!UICONTROL Components]** worden de vijf meest gebruikte items weergegeven en wordt op de naam van een categorie geklikt voor toegang tot de volledige lijst met componenten.
 
    De tabel met componenten bestaat uit vier categorieën:
 
    * **Dimensionen**: Krijg details van het leveringslogboek, zoals browser of domein van de ontvanger, of het succes van een levering.
-   * **Metrisch**: Meer informatie over de status van een bericht. Als bijvoorbeeld een bericht is verzonden en de gebruiker het heeft geopend.
-   * **[!UICONTROL Segments]**: De gegevens van de filter afhankelijk van de leeftijdswaaier van de ontvanger. **[!UICONTROL Segments]** U kunt rechtstreeks slepen en neerzetten in een vrije-vormtabel of in de bovenste balk van het deelvenster.
+   * **Metriek**: Krijg details op het statuut van een bericht. Als bijvoorbeeld een bericht is verzonden en de gebruiker het heeft geopend.
+   * **[!UICONTROL Segments]**: filtergegevens afhankelijk van het leeftijdsbereik van de ontvanger. **[!UICONTROL Segments]** kan rechtstreeks in een vrije-vormlijst of in de hoogste bar van het paneel worden gesleept en worden gelaten vallen.
 
-     Deze categorie is alleen beschikbaar als de beheerder de voorwaarden van de Dynamic Reporting Usage Agreement heeft goedgekeurd die op het scherm worden weergegeven. Als de beheerder de overeenkomst afwijst, zijn de segmenten niet zichtbaar in het dialoogvenster **[!UICONTROL Components]** worden niet verzameld.
+     Deze categorie is alleen beschikbaar als de beheerder de voorwaarden van de Dynamic Reporting Usage Agreement heeft goedgekeurd die op het scherm worden weergegeven. Als de beheerder de overeenkomst afwijst, zijn de segmenten niet zichtbaar op het tabblad **[!UICONTROL Components]** en worden er geen gegevens verzameld.
 
-   * **Tijd**: Stel een tijdsperiode in voor uw tabel.
+   * **Tijd**: Plaats een tijdspanne voor uw lijst.
 
 1. Sleep componenten in een deelvenster om de gegevens te filteren.
 
    ![](assets/dynamic_report_components_2.png)
 
-1. Nadat u de component hebt gesleept en neergezet, kunt u de tabel verder configureren met de **[!UICONTROL Row settings]** -optie.
+1. Nadat u de component hebt gesleept en neergezet, kunt u de tabel verder configureren met de optie **[!UICONTROL Row settings]** .
 
    ![](assets/dynamic_report_components_3.png)
 
-1. U kunt uw tabel ook verder filteren door op de knop **Zoeken** pictogram. Met deze zoekopdracht kunt u naar specifieke resultaten zoeken, zoals een bepaalde levering of browser.
+1. U kunt uw lijst verder filtreren door het **pictogram van het Onderzoek** te klikken. Met deze zoekopdracht kunt u naar specifieke resultaten zoeken, zoals een bepaalde levering of browser.
 
    ![](assets/dynamic_report_components_4.png)
 

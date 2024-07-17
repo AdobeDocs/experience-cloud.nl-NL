@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: de97a194-d497-4665-906e-53178fd3b119
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -19,15 +20,15 @@ ht-degree: 0%
 Beschikbare werkwoorden voor het uitvoeren van bewerkingen op de bronnen zijn:
 
 * `GET`: haalt één element of een verzameling elementen op
-* `POST`: maakt een bron met parameters.
+* `POST` : maakt een bron met parameters.
 * `PATCH`: werkt een bron met parameters bij.
-* `DELETE`: verwijdert een bron.
+* `DELETE`: hiermee verwijdert u een bron.
 
 <!-- ajouter codes retour -->
 
 <br/>
 
-***Voorbeeldverzoeken***
+***verzoeken van de Steekproef***
 
 * Voorbeeld-GET-verzoek voor de profielverzameling.
 

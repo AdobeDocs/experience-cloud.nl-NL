@@ -4,7 +4,8 @@ description: Met de Onderverdeling door domeinen uit-van-de-doos rapport, leer o
 level: Intermediate
 audience: end-user
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: 9b6126b7-3f9c-4810-9288-33a3f0a034d8
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 2%
@@ -17,19 +18,19 @@ Dit rapport bevat de prestatiegegevens voor elk domein dat in het publiek voor e
 
 ![](assets/delivery_reports_6.png)
 
-De tabel **Uitzendstatistieken** bevat de beschikbare gegevens voor mogelijke fouten die met elk domein worden aangetroffen, zoals:
+De lijst **statistieken van de Uitzending** bevat de beschikbare gegevens voor mogelijke fouten die met elk domein, zoals worden ontmoet:
 
-* **Verwerkt/verzonden**: Het aantal verzonden e-mailberichten.
+* **Verwerkt/verzonden**: Het aantal verzonden e-mails.
 * **Geleverd**: Het aantal geleverde e-mails.
-* **Bounces + fouten**: Het aantal berichten dat niet kon worden afgeleverd.
-* **Hard stuiteren**: Het totale aantal permanente fouten, zoals een onjuist e-mailadres.
-* **Zachte stuit**: Het totale aantal tijdelijke fouten, zoals een volledig postvak.
+* **Bounces + Fouten**: Het aantal berichten dat niet kon worden geleverd.
+* **Vaste stuit**: Het totale aantal permanente fouten, zoals een verkeerd e-mailadres.
+* **Zacht stuiteren**: Het totale aantal tijdelijke fouten, zoals volledig inbox.
 
-De tweede tabel, **Trackingstatistieken** bevat de beschikbare gegevens voor de reactiviteit van de ontvanger tot de levering, zoals:
+De tweede lijst, **het Volgen statistieken**, bevat de beschikbare gegevens voor ontvankelijke reactiviteit aan levering, zoals:
 
 * **Geleverd**: Het aantal geleverde e-mails
-* **Openen**: Het aantal keren dat een bericht is geopend in een levering.
-* **Klikken**: Het aantal keren dat op de inhoud is geklikt in een levering.
-* **Abonnement opgezegd**: Het aantal klikken op de abonnementkoppeling.
-* **Pagina spiegelen**: Het aantal klikken op de koppeling van de spiegelpagina.
-* **Op lijst van gewezen personen**: Het aantal ontvangers dat een e-mail heeft gedeclareerd als spam of junk.
+* **Open**: Het aantal tijden een bericht werd geopend in een levering.
+* **klik**: Het aantal tijden werd de inhoud geklikt in een levering.
+* **Unsubscribed**: Het aantal klikt op de abonnementverbinding.
+* **de Pagina van het Spiegel**: Het aantal klikt op de verbinding van de spiegelpagina.
+* **op lijst van gewezen personen**: Het aantal ontvangers die een e-mail als spam of junk hebben verklaard.

@@ -4,7 +4,8 @@ description: Met het uit-van-de-doos rapport van de het Volgen indicatoren, leer
 audience: end-user
 level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: cdb41d18-7d92-4128-a29b-70e17b6a3358
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 2%
@@ -13,7 +14,7 @@ ht-degree: 2%
 
 # Trackingsindicatoren{#tracking-indicators}
 
-De **[!UICONTROL Tracking indicators]** het rapport bevat de belangrijkste indicatoren voor het volgen van gedrag nadat de e-mailberichten worden ontvangen.
+Het **[!UICONTROL Tracking indicators]** -rapport bevat de belangrijkste indicatoren voor het bijhouden van het gedrag nadat e-mailberichten zijn ontvangen.
 
 >[!NOTE]
 >
@@ -21,11 +22,11 @@ De **[!UICONTROL Tracking indicators]** het rapport bevat de belangrijkste indic
 
 ![](assets/delivery_reports_2.png)
 
-De **[!UICONTROL Tracking indicators]** tabel en **Meest 5 leveringen** de grafiek bevat de beschikbare gegevens voor e-mailtracking, zoals:
+De **[!UICONTROL Tracking indicators]** lijst en **Hoogste 5 leveranties** grafiek bevatten de beschikbare gegevens voor e-mailvolgen, zoals:
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden. Er wordt rekening gehouden met de geconstateerde fouten. er wordt echter geen rekening gehouden met klachten ( spamverklaringen ) en wegberichten zoals &quot; out of office &quot; .
-* **Openen**: Het aantal keren dat een bericht is geopend in een levering.
-* **Klikken**: Het aantal keren dat op de inhoud is geklikt in een levering.
-* **Abonnement opgezegd**: Het aantal klikken op de abonnementkoppeling.
-* **Spam:** Het aantal ontvangers dat een e-mail heeft gedeclareerd als spam.
-* **Pagina spiegelen**: Het aantal klikken op de koppeling van de spiegelpagina.
+* **Open**: Het aantal tijden een bericht werd geopend in een levering.
+* **klik**: Het aantal tijden werd de inhoud geklikt in een levering.
+* **Unsubscribed**: Het aantal klikt op de abonnementverbinding.
+* **Spam:** het aantal ontvangers die een e-mail als spam hebben verklaard.
+* **de Pagina van het Spiegel**: Het aantal klikt op de verbinding van de spiegelpagina.

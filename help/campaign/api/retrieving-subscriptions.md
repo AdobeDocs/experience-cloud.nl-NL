@@ -4,7 +4,8 @@ description: Leer hoe u abonnementen ophaalt met API's
 role: Data Engineer
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -22,11 +23,11 @@ Dit is een procedure in twee stappen.
 
 >[!CAUTION]
 >
->De REST-API retourneert de eigenschap &quot;href&quot;, die de te gebruiken URL bevat. <b>Gebruik altijd de URL in het antwoord om het volgende API-verzoek in te dienen</b>.
+>De REST-API retourneert de eigenschap &quot;href&quot;, die de te gebruiken URL bevat. <b> gebruikt altijd URL in de reactie om het verdere API verzoek </b> te maken.
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
 Voer een verzoek van de GET uit om de dienst terug te winnen.
 
@@ -88,7 +89,7 @@ Dit is een procedure in twee stappen.
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
 Voer een verzoek van de GET uit om het profiel terug te winnen.
 

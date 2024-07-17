@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%
@@ -16,13 +17,13 @@ ht-degree: 1%
 
 # Metadatamechanisme {#metadata-mechanism}
 
-U kunt de metagegevens van de bronnen ophalen met **resourceType** in een GET-verzoek:
+U kunt de middelmeta-gegevens terugwinnen gebruikend **resourceType** in een verzoek van de GET:
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
 De reactie retourneert de hoofdmetagegevens van de bron (alle andere velden zijn beschrijvend of intern):
 
-* De **Inhoud** de knoop keert de gebieden van het middel terug. Voor elk veld in het veld **content** knooppunten, kunnen wij de volgende gebieden vinden:
+* De **knoop van de Inhoud** keert de gebieden van het middel terug. Voor elk gebied in de **inhoud** knoop, kunnen wij de volgende gebieden vinden:
 
    * &quot;apiName&quot;: naam van het kenmerk dat in de API&#39;s wordt gebruikt.
    * &quot;type&quot;: dit is de typedefinitie op hoog niveau (tekenreeks, nummer, koppeling, verzameling, opsomming...).
@@ -31,9 +32,9 @@ De reactie retourneert de hoofdmetagegevens van de bron (alle andere velden zijn
    * &quot;resType&quot;: dit is het technische type.
 
      Als &quot;type&quot;met de waarde &quot;verbinding&quot;of &quot;inzameling&quot;wordt voltooid, is de resTarget waarde de naam van het middel dat door de verbinding wordt gericht.
-Als &quot;type&quot; is ingevuld met de waarde &quot;enumeration&quot;, wordt een veld &quot;values&quot; toegevoegd en wordt elke opsommingswaarde in het veld **waarden** knooppunt.
+Als het &quot;type&quot;met de waarde &quot;opsomming&quot;wordt voltooid, wordt een &quot;waarden&quot;gebied toegevoegd en elke opsommingswaarde is gedetailleerd in de **waarden** knoop.
 
-* De **Filters** de knoop keert URL terug om de bijbehorende filters terug te winnen. Zie voor meer informatie over filters [deze sectie](filtering.md) sectie.
+* De **Filters** knoop keert URL terug om de bijbehorende filters terug te winnen. Voor meer op filters, verwijs naar [ deze sectie ](filtering.md) sectie.
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
@@ -42,7 +43,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
 Voer een verzoek van de GET op het middel uit.
 

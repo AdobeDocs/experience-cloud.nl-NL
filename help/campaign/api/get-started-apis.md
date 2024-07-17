@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 48%
@@ -22,7 +23,7 @@ ht-degree: 48%
 >
 >Controleer voordat u API-aanroepen uitvoert, de schaalbeperkingen bij uw licentieovereenkomst. Raadpleeg [deze pagina](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers) voor meer informatie.
 
-De API&#39;s van de campagne REST zijn bedoeld om u te laten **integraties maken** voor Adobe Campaign en **bouwen uw eigen ecosysteem** door Adobe Campaign te koppelen aan het deelvenster met technologieën dat u gebruikt.
+De REST APIs van de campagne wordt gericht op het laten van u **integraties** voor Adobe Campaign creëren en **uw eigen ecosysteem** bouwen door Adobe Campaign met het paneel van technologieën te verbinden die u gebruikt.
 
 Met de Adobe Campaign REST API&#39;s hebt u toegang tot de volgende functies:
 

@@ -6,7 +6,8 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 51abadc86b97097d13824651d8c50d4ddd014a51
+exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 16%
@@ -25,13 +26,12 @@ Technische beheerders kunnen meerdere merken binnen Adobe Campaign maken en behe
 
 U kunt nieuwe entiteiten van uw organisatie toevoegen in Campagne, of een nieuw type van e-mail tot stand brengen dat u onder een verschillend subdomain moet verzenden. Volg onderstaande stappen om dit te doen:
 
-1. **Een nieuw subdomein configureren** - Voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap het vormen zijn. U kunt dit via [Campagne](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl) of neem contact op met uw technische Adobe. Meer informatie over subdomeinconfiguratie [op deze pagina](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
+1. **vorm een nieuw subdomain** - voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap het vormen zijn. U kunt dit door [ het Controlebord van de Campagne ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl) uitvoeren of uit naar uw Adobe technisch contact reiken. Leer meer over subdomeinconfiguratie [ in deze pagina ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
 
    >[!NOTE]
    >
    >Het configuratiescherm is toegankelijk voor alle gebruikers met beheerdersrechten. De stappen om toegang met beheerdersrechten aan een gebruiker te verlenen worden gedetailleerd beschreven op [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
 
-1. **Een leveringssjabloon maken** - Zodra het nieuwe merk beschikbaar is, is het de beste manier om ten minste één nieuwe lege leveringstemplate te maken die naar dit nieuwe merk verwijzen. [Meer informatie](branding-assign.md).
+1. **creeer een leveringsmalplaatje** - Zodra het nieuwe merk beschikbaar is, moeten de beste praktijken minstens één nieuw leeg leveringsmalplaatje tot stand brengen dat dit nieuwe merk van verwijzingen voorziet. [Meer informatie](branding-assign.md).
 
-1. **Richtlijnen voor levering controleren** - Voordat u begint met het gebruik van het nieuwe domein, moet de strategie worden besproken met het team voor aflevering van Adobe. Zij zullen helpen om de beste praktijken te bepalen, als een nieuwe affiniteit zou moeten worden gecreeerd om IPs tussen domeinen bijvoorbeeld te verdelen, en/of als een platforminplan zou moeten worden bepaald.
-
+1. **de leveringsrichtlijnen van de Controle** - alvorens het beginnen gebruiken van het nieuwe domein, zou de strategie met het team van de Leverbaarheid van de Adobe moeten worden besproken. Zij zullen helpen om de beste praktijken te bepalen, als een nieuwe affiniteit zou moeten worden gecreeerd om IPs tussen domeinen bijvoorbeeld te verdelen, en/of als een platforminplan zou moeten worden bepaald.

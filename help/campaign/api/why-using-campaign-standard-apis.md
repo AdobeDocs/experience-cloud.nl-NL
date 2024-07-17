@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 1%
@@ -33,15 +34,15 @@ Ze zijn gemaakt met de volgende elementen:
 
 1. Een registratieformulier met campagne-API-listeners.
 
-   ![alt-tekst](assets/apis_uc1.png)
+   ![ alt tekst ](assets/apis_uc1.png)
 
 1. Aangepaste acties die moeten worden uitgevoerd op basis van selectievakjes. Een klant die &#39;Speciale aanbiedingen per e-mail&#39; selecteert, ontvangt een andere aangepaste e-mail met een cadeaubon dan het normale registratieproces.
 
-   ![alt-tekst](assets/apis_uc2.png)
+   ![ alt tekst ](assets/apis_uc2.png)
 
 1. De details van een profiel kunnen worden gewijzigd nadat u op de koppeling Details bijwerken in de e-mail hebt geklikt. Hiermee wordt het profiel weergegeven op de pagina &quot;Uw profiel en voorkeursgegevens bijwerken&quot;. Om de bewerking uit te voeren, worden de profieldetails (sleutel) overgegaan tot de server van de Campagne en het profiel wordt teruggewonnen en vertegenwoordigd. Nadat het profiel op de knop &quot;Bijwerken&quot; heeft geklikt, wordt de informatie in het systeem bijgewerkt (via de opdracht PATCH).
 
-   ![alt-tekst](assets/apis_uc3.png)
+   ![ alt tekst ](assets/apis_uc3.png)
 
 Er is een verzameling aanvragen beschikbaar om u te helpen vertrouwd te maken met Campaign Standard-API&#39;s. Deze verzameling in JSON-indeling biedt vooraf ontworpen API-aanvragen die veelvoorkomende gebruiksgevallen vertegenwoordigen.
 
@@ -51,26 +52,26 @@ In de onderstaande stappen wordt een stapsgewijze beschrijving van het gebruik b
 >
 >In ons voorbeeld wordt Postman gebruikt. U kunt echter uw favoriete REST-client gebruiken.
 
-1. Download de JSON-verzameling door op [hier](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
+1. Download de inzameling JSON door [ hier ](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip) te klikken.
 
-1. Open Postman en selecteer vervolgens de **Bestand** / **Importeren** -menu.
+1. Open Postman, dan selecteer het **Dossier** / **de Invoer** menu.
 
 1. Sleep het gedownloade bestand naar het venster. Vooraf ontworpen API-aanvragen worden weergegeven en kunnen worden gebruikt.
 
-   ![alt-tekst](assets/postman_collection.png)
+   ![ alt tekst ](assets/postman_collection.png)
 
-1. Selecteer de **Een profiel maken** verzoek, dan update het verzoek van de POST en **Kopteksten** met uw eigen gegevens (&lt;organization>, &lt;api_key>, &lt;access_token>). Raadpleeg [deze sectie](setting-up-api-access.md) voor meer informatie.
+1. Selecteer **Creërend een profiel** verzoek, dan werk het verzoek van de POST en het **kopballen** lusje met uw eigen informatie (&lt;ORGANIZATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>) bij. Raadpleeg [deze sectie](setting-up-api-access.md) voor meer informatie.
 
-   ![alt-tekst](assets/postman_uc1.png)
+   ![ alt tekst ](assets/postman_uc1.png)
 
-1. Vul de **Lichaam** met de informatie die u aan het nieuwe profiel wilt toevoegen, klikt u op de knop **Verzenden** om de aanvraag uit te voeren.
+1. Vul het **Lichaam** lusje met de informatie in u aan het nieuwe profiel wilt toevoegen, dan **verzenden** knoop klikken om het verzoek uit te voeren.
 
-   ![alt-tekst](assets/postman_uc2.png)
+   ![ alt tekst ](assets/postman_uc2.png)
 
 1. Wanneer een object is gemaakt, wordt er een primaire sleutel (PKey) aan gekoppeld. Het is zichtbaar in de verzoekreactie, evenals andere attributen.
 
-   ![alt-tekst](assets/postman_uc3.png)
+   ![ alt tekst ](assets/postman_uc3.png)
 
 1. Open uw instantie van het Campaign Standard, dan controleer dat het profiel, met alle informatie van de lading wordt gecreeerd.
 
-   ![alt-tekst](assets/postman_uc4.png)
+   ![ alt tekst ](assets/postman_uc4.png)

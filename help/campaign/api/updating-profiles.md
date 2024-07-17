@@ -4,7 +4,8 @@ description: Meer informatie over het bijwerken van profielen met API's
 role: Data Engineer
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 1%
@@ -13,19 +14,19 @@ ht-degree: 1%
 
 # Profielen bijwerken met API&#39;s{#updating-profiles-api}
 
-Het bijwerken van profielen wordt uitgevoerd met een **PATCH** verzoek.
+Het bijwerken van profielen wordt uitgevoerd met a **PATCH** verzoek.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. De eerste stap is: **het profiel ophalen**.
+1. De eerste stap moet **het profiel** terugwinnen.
 
-1. In een tweede verzoek voert u een **PATCH-verzoek** in het profiel met de voltooide informatie in de lading.
+1. In een tweede verzoek, voer a **verzoek van de PATCH** op het profiel met de voltooide informatie in de nuttige lading uit.
 
 1. Om te controleren of het PATCH verzoek het profiel heeft bijgewerkt, kunnen wij een definitieve GET verzoek uitvoeren.
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
 Voorbeeld van een GET-aanvraag om een profiel op te halen.
 

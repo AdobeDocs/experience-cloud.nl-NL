@@ -6,7 +6,8 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 56f2d2ff4b2ba4184629615a14724e6640df6961
+exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 37%
@@ -19,11 +20,11 @@ ht-degree: 37%
 >
 >Merken kunnen niet door eindgebruikers worden gemaakt of gewijzigd. Deze bewerkingen moeten worden uitgevoerd door de technische beheerder van Adobe Campaign. Neem voor elk verzoek contact op met de klantenservice van Adobe.
 
-In Adobe Campaign V8 zijn de merken te vinden in de **[!UICONTROL Administration > Platform > Branding]** -menu.
+In Adobe Campaign V8 staan de merken in het menu **[!UICONTROL Administration > Platform > Branding]** .
 
-A **[!UICONTROL Brand]** wordt gedefinieerd door de volgende kenmerken:
+A **[!UICONTROL Brand]** wordt bepaald door de volgende kenmerken:
 
-* An **[!UICONTROL Identity]**, die uw merk definieert en personaliseert. Deze sectie bevat de volgende velden:
+* An **[!UICONTROL Identity]**, which define and personalizes your brand. Deze sectie bevat de volgende velden:
 
    * **[!UICONTROL Label]** zichtbaar in de interface
    * **[!UICONTROL ID]**
@@ -35,7 +36,7 @@ A **[!UICONTROL Brand]** wordt gedefinieerd door de volgende kenmerken:
 
 * **[!UICONTROL Header parameters of sent emails]** personaliseert wat de ontvangers van uw campagnes te zien krijgen. Deze sectie bevat de volgende velden:
 
-   * **[!UICONTROL Sender (email address)]** met het e-mailadres van het merk.
+   * **[!UICONTROL Sender (email address)]** met het e-mailadres van het merk
    * **[!UICONTROL Sender (name)]** met de merknaam.
    * **[!UICONTROL Reply to (email address)]** met het e-mailadres waarop de klant kan antwoorden.
    * **[!UICONTROL Reply to (name)]** met de merknaam.
@@ -47,11 +48,11 @@ A **[!UICONTROL Brand]** wordt gedefinieerd door de volgende kenmerken:
 
   ![](assets/branding_2.png)
 
-* **[!UICONTROL Brand configs]** definieert de servers die worden gebruikt voor tracering, ook voor toegang tot de bestemmingspagina. Deze sectie bevat de volgende velden:
+* **[!UICONTROL Brand configs]** definieert de servers die worden gebruikt voor tracering, ook voor het openen van pagina-toegang. Deze sectie bevat de volgende velden:
 
-   * **[!UICONTROL Brand subdomain]** verwijst naar de opgegeven subdomein-URL die specifiek is voor dit merk en die wordt gevraagd om te worden gedelegeerd aan de Adobe.
+   * **[!UICONTROL Brand subdomain]** verwijst naar de specifieke subdomein-URL voor dit merk, die wordt gevraagd om te worden gedelegeerd aan de Adobe.
 
-  Merk op dat de configuratie voor het volgen, de spiegel, en toepassingsservers in afzonderlijke externe rekeningen verbonden aan het verpletteren wordt opgeslagen. Deze instellingen worden toegepast tijdens de provisioning en mogen niet worden gewijzigd. Als u URL&#39;s wilt weergeven, opent u het dialoogvenster **[!UICONTROL Branding prefixes]** van uw externe account.
+  Merk op dat de configuratie voor het volgen, de spiegel, en toepassingsservers in afzonderlijke externe rekeningen verbonden aan het verpletteren wordt opgeslagen. Deze instellingen worden toegepast tijdens de provisioning en mogen niet worden gewijzigd. Als u URL&#39;s wilt weergeven, opent u het tabblad **[!UICONTROL Branding prefixes]** via uw externe account.
 
   ![](assets/branding_3.png)
 

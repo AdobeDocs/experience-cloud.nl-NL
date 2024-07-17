@@ -8,7 +8,8 @@ role: Data Engineer
 level: Experienced
 mini-toc-levels: 1
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 4ddde59006a72f34090a0ed4a765447c69c5f029
+exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 1%
@@ -27,7 +28,7 @@ Met de migratie worden twee productprofielen toegevoegd aan uw bestaande of voor
 
 ### Tenant-id
 
-Na migratie, voor om het even welke toekomstige integratie, wordt het geadviseerd om uw **Campagne v8 huurder-id** in REST URLs, die uw vorige Campaign Standard huurder ID vervangt.
+Na migratie, voor om het even welke toekomstige integratie, wordt het geadviseerd om uw **20} huurdersidentiteitskaart van de Campagne v8** in REST URLs te gebruiken, die uw vorige huurdersidentiteitskaart van het Campaign Standard vervangen.
 
 ### Sleutelgebruik
 
@@ -38,13 +39,13 @@ Het beheer van PKey-waarden verschilt tussen Campaign Standard en Campaign v8. A
 Momenteel zijn de REST API&#39;s die hieronder worden vermeld, beschikbaar voor gebruik:
 
 * **Profielen**
-* **Services en abonnementen**
+* **de Diensten &amp; abonnementen**
 * **Aangepaste resources**
 * **Workflows**
 
 >[!AVAILABILITY]
 >
->Voor nu, **Transactieberichten** REST API is niet beschikbaar.
+>Voor nu, is de **Transactionele berichten** REST API niet beschikbaar.
 >
 >De REST API&#39;s die hieronder worden vermeld, zijn afgekeurd en zijn niet beschikbaar voor gebruik:
 >* Marketinggeschiedenis
@@ -53,7 +54,7 @@ Momenteel zijn de REST API&#39;s die hieronder worden vermeld, beschikbaar voor 
 
 ## Filteren
 
-* Als u uw filters wilt gebruiken in REST API-ladingen, moet u ze bewerken in Campagne v8 en een naam opgeven die u in uw ladingen kunt gebruiken. Om dit te doen heb toegang tot de extra parameters van de filter van **[!UICONTROL Parameters]** en geeft u de gewenste naam op in het dialoogvenster **[!UICONTROL Filter name in REST API]** veld.
+* Als u uw filters wilt gebruiken in REST API-ladingen, moet u ze bewerken in Campagne v8 en een naam opgeven die u in uw ladingen kunt gebruiken. U doet dit door de aanvullende parameters van het filter vanaf het tabblad **[!UICONTROL Parameters]** te openen en de gewenste naam op te geven in het veld **[!UICONTROL Filter name in REST API]** .
 
   ![](assets/api-filtering.png)
 
@@ -113,13 +114,13 @@ In de onderstaande sectie ziet u de verschillen tussen foutcodes en berichten vo
 | Niet-bestaande raw-id gebruiken in URI | 404 - RST-360011 Er is een fout opgetreden. Neem contact op met de beheerder. Kan document met pad &#39;Service&#39; van sleutel &#39;adobe_nl:0&#39; (document met schema&#39;service&#39; en naam &#39;adobe_nl&#39;) niet vinden. | 404 - Kan document met pad &#39;Service&#39; van sleutel &#39;adobe_nl&#39; niet vinden (document met schema&#39;service&#39; en naam &#39;adobe_nl&#39;) |
 | Niet-bestaande raw-id gebruiken in aanvraagbody | 404 - RST-360011 Er is een fout opgetreden. Neem contact op met de beheerder. Document met pad &#39;Service&#39; van sleutel &#39;adobe_nl&#39; kan niet worden gevonden (document met schema&#39;service&#39; en naam &#39;adobe_nl&#39;) | 404 - Kan document met pad &#39;Service&#39; van sleutel &#39;adobe_nl&#39; niet vinden (document met schema&#39;service&#39; en naam &#39;adobe_nl&#39;) |
 | - | 500 - RST-360011 Er is een fout opgetreden. Neem contact op met de beheerder. | 500 - Er is een fout opgetreden. Neem contact op met de beheerder. |
-| Een profiel/service met een ongeldige waarde voor het geslacht (of iets anders) invoegen | 500 - RST-360011 Er is een fout opgetreden. Neem contact op met de beheerder. De waarde &#39;invalid&#39; is niet geldig voor de &#39;nms:recipient:Genderopsomming van het veld @gender | 500 -Er is een fout opgetreden. Neem contact op met de beheerder. |
+| Een profiel/service met een ongeldige waarde voor het geslacht (of iets anders) invoegen | 500 - RST-360011 Er is een fout opgetreden. Neem contact op met de beheerder. De waarde &quot;ongeldig&quot;is ongeldig voor de &quot;nms :recipient: gender&quot;opsomming van het &quot;@gender&quot;gebied | 500 -Er is een fout opgetreden. Neem contact op met de beheerder. |
 
 ## Profiel - tijdzone
 
-Met Campaign Standard wordt de tijdzone weergegeven als onderdeel van de JSON-reactie van **profileAndServices/profile** REST API-aanroepen.
+Met Campaign Standard, wordt timezone getoond als deel van de reactie JSON van **profileAndServices/profile** REST API vraag.
 
-Met Campagne v8 wordt de tijdzone alleen aan de gebruiker getoond als onderdeel van **profileAndServicesExt/profile** REST API-aanroepen. Het maakt geen deel uit van **profileAndServices/profile** REST API-aanroepen omdat deze worden toegevoegd in een uitgebreid schema.
+Met Campagne v8, wordt timezone slechts getoond aan gebruiker als deel van **profileAndServicesExt/profile** REST API vraag. Het maakt geen deel uit van **profileAndServices/profile** REST API vraag aangezien het in een uitgebreid schema wordt toegevoegd.
 
 ## Workflows - externe signaalactivering
 

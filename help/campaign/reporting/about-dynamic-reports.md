@@ -4,7 +4,8 @@ description: Met dynamische rapporten, sleep en laat vallen variabelen en dimens
 level: Beginner
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
 audience: end-user
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: d79f8a07-2322-4bc7-9d74-446db24a8d70
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 4%
@@ -17,7 +18,7 @@ De dynamische Rapportering verstrekt volledig klantgerichte en real-time rapport
 
 ## Dynamische rapporten openen {#accessing-dynamic-reports}
 
-De rapporten kunnen in elke campagne en levering door klikken worden betreden **Rapporten**. Er wordt een pop-upvenster weergegeven met de mededeling dat u de opdracht **Dynamisch rapport** in een nieuw browsertabblad.
+De rapporten kunnen in elke campagne en levering worden betreden door **Rapporten** te klikken. Een popup venster zal verschijnen, op de hoogte brengend u dat u aan de **Dynamische pagina van het Rapport** in een nieuwe browser tabel opnieuw zult worden gericht.
 
 ![](assets/campaign_reports_access.png)
 
@@ -25,7 +26,7 @@ Bepaalde rapporten kunnen niet direct na een levering beschikbaar zijn, afhankel
 
 Dynamische rapporten worden in twee categorieën onderverdeeld:
 
-* **Sjablonen**, die kunnen worden gewijzigd door ze te kopiëren met behulp van de **Opslaan als** option (**Project > Opslaan als.**) in de sjabloon.
-* **Aangepaste rapporten** (geïdentificeerd in blauw), die direct kan worden tot stand gebracht door te klikken op **Nieuw project maken** op de knop **Rapporten** homepage.
+* **Malplaatjes**, die kunnen worden gewijzigd door hen te kopiëren gebruikend **sparen als** optie (**Project > sparen als..** ) in de sjabloon.
+* **de rapporten van de Douane** (die in blauw worden geïdentificeerd), die direct kunnen worden tot stand gebracht door **te klikken leidt tot Nieuwe knoop van het Project** op de **Rapporten** homepage.
 
 ![](assets/dynamic_report_overview.png)

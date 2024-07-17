@@ -1,99 +1,100 @@
 ---
 title: Lijst met componenten
-description: Hier vindt u de lijst met alle componenten die beschikbaar zijn in dynamische rapporten en de bijbehorende definities.
+description: Hier vindt u de lijst met alle beschikbare componenten in     Dynamische rapporten en hun definities.
 level: Beginner
 audience: end-user
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: b11d696767209145511b38735f22275a38676ade
+exl-id: 5c58db92-7878-4c70-b076-a393f1cda8b7
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # Lijst met componenten {#list-of-components}
 
-Als twee componenten niet compatibel zijn, wordt de waarde in de cel weergegeven. **Geen**.
+Merk op dat als twee componenten niet compatibel zijn, de cel de waarde **niets** zal tonen.
 
-## Dimensies {#dimensions}
+## Dimensionen {#dimensions}
 
 In de onderstaande tabel vindt u een overzicht van de afmetingen die in rapporten en de definities daarvan worden gebruikt.
 
 <table> 
  <thead> 
   <tr> 
-   <th> Dimension<br/> </th> 
-   <th> Definitie<br/> </th> 
+   <th> Dimension <br/> </th> 
+   <th> Definition<br/> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Browser<br/> </td> 
+   <td> Browser <br/> </td> 
    <td> Browser waarvan het bericht werd geopend of aangeklikt.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Campagne<br/> </td> 
-   <td> Label en id van uw campagne.<br/> </td> 
+   <td> Campagne <br/> </td> 
+   <td> Etiket en identiteitskaart van uw campagne.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Aflevering<br/> </td> 
-   <td> Label en id van de levering.<br/> </td> 
+   <td> Aflevering <br/> </td> 
+   <td> Etiket en identiteitskaart van de levering.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Apparaat<br/> </td> 
-   <td> Apparaat van waaruit de e-mail/SMS/push-melding is geopend/bekeken/aangeklikt.<br/> </td> 
+   <td> Apparaat <br/> </td> 
+   <td> Apparaat van waaruit de e-mail/SMS/push-melding werd geopend/bekeken/aangeklikt.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Mislukt<br/> </td> 
-   <td> Typen fouten die stuitingen veroorzaakten voor elke levering, bijvoorbeeld onbekend gebruiker, ongeldig domein of postbus vol.<br/> </td> 
+   <td> Redenen voor fout <br/> </td> 
+   <td> Typen fouten die stuitingen voor elke levering hebben veroorzaakt, bijvoorbeeld onbekende gebruiker, ongeldig domein of postbus vol.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Naam van mobiele toepassing<br/> </td> 
-   <td> Naam van de mobiele toepassing<br/> </td> 
+   <td> Naam van mobiele toepassing <br/> </td> 
+   <td> Naam van de mobiele toepassing <br/> </td> 
   </tr>
   <tr> 
-   <td> Platform<br/> </td> 
-   <td> Platform van het apparaat waarvan het bericht werd geopend/bekeken/aangeklikt.<br/> </td> 
+   <td> Platform <br/> </td> 
+   <td> Platform van het apparaat waarvan het bericht werd geopend/bekeken/kliked.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Profiel<br/> </td> 
-   <td> Hiermee groepeert u de velden voor het out-of-the-box- en aangepaste profiel die tijdens de uitbreiding van de profielbron zijn gemaakt.<br/> </td> 
+   <td> Profiel <br/> </td> 
+   <td> Reggroepeert uit-van-de-doos en de gebieden van het douaneprofiel die tijdens de uitbreiding van het profielmiddel worden gecreeerd.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Ontvangerdomein<br/> </td> 
-   <td> Domein dat wordt gebruikt om de e-mail te openen.<br/> </td> 
+   <td> Ontvangerdomein <br/> </td> 
+   <td> Domein dat wordt gebruikt om e-mail te openen.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Terugkerende levering<br/> </td> 
-   <td> Label en id van de terugkerende levering.<br/> </td> 
+   <td> Terugkerende levering <br/> </td> 
+   <td> Etiket en identiteitskaart van de terugkomende levering.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Domein afzender<br/> </td> 
-   <td> Domein dat wordt gebruikt om de e-mail te verzenden.<br/> </td> 
+   <td> Het domein van de afzender <br/> </td> 
+   <td> Domein dat wordt gebruikt om e-mail te verzenden.<br/> </td> 
   </tr> 
   <tr> 
-   <td> IP van afzender<br/> </td> 
-   <td> IP gebruikt om e-mail te verzenden.<br/> </td> 
+   <td> IP van afzender <br/> </td> 
+   <td> IP gebruikte om e-mail te verzenden.<br/> </td> 
   </tr> 
   <tr> 
-   <td> URL bijhouden<br/> </td> 
-   <td> URL waarop de gebruiker via het bericht heeft geklikt.<br/> </td> 
+   <td> URL bijhouden <br/> </td> 
+   <td> URL die door de gebruiker van het bericht werd aangeklikt.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Categorie URL bijhouden<br/> </td> 
-   <td> Categorie die is toegewezen aan de URL voor bijhouden.<br/> </td> 
+   <td> Categorie URL bijhouden <br/> </td> 
+   <td> Categorie die aan volgende URL wordt toegewezen.<br/> </td> 
   </tr> 
   <tr> 
-   <td> URL-label bijhouden<br/> </td> 
-   <td> Label dat aan de URL wordt gegeven, zoals de spiegel, neemt contact met ons op of opent.<br/> </td> 
+   <td> URL-label bijhouden <br/> </td> 
+   <td> Label dat aan de URL wordt gegeven, zoals spiegel, contacteer ons of open.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Transactionele levering<br/> </td> 
-   <td> Label en id van de levering voor de transactie.<br/> </td> 
+   <td> Transactionele levering <br/> </td> 
+   <td> Etiket en identiteitskaart van de transactionele levering.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Variant<br/> </td> 
-   <td> Variant van het e-mailbericht in het geval van A/B-tests.<br/> </td> 
+   <td> Variant <br/> </td> 
+   <td> Variant van de e-mail in het geval van A/B-tests.<br/> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,122 +108,122 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
 <table> 
  <thead> 
   <tr> 
-   <th> Metrisch<br/> </th> 
-   <th> Definitie<br/> </th> 
+   <th> Metrisch <br/> </th> 
+   <th> Definition<br/> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Op lijst van gewezen personen<br/> </td> 
-   <td> Aantal ontvangers die een e-mailbericht hebben gedeclareerd als spam of junk.<br/> </td> 
+   <td> Op lijst van gewezen personen <br/> </td> 
+   <td> Aantal ontvangers die een e-mail als spam of junk hebben verklaard.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Lijst van gewezen personen<br/> </td> 
-   <td> Percentage van de op de lijst van gewezen personen aangegeven leveringen.<br/> </td> 
+   <td> Lijst van gewezen personen rate <br/> </td> 
+   <td> Percentage leveringen gemarkeerd op lijst van gewezen personen.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Bounces + fouten<br/> </td> 
+   <td> Stuiterwaarden + fouten <br/> </td> 
    <td> Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Stuiteren + foutenfrequentie<br/> </td> 
-   <td> Percentage van e-mailberichten dat is teruggestuurd in vergelijking met verzonden e-mail.<br/> </td> 
+   <td> Stuiteren + foutenfrequentie <br/> </td> 
+   <td> Percentage verzonden e-mailberichten dat is teruggestuurd in vergelijking met verzonden e-mail.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Klikken<br/> </td> 
-   <td> Het aantal keren dat op een inhoud is geklikt in een levering.<br/> </td> 
+   <td> Klikken <br/> </td> 
+   <td> Aantal tijden een inhoud in een levering werd geklikt.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Klikken tot snelheid<br/> </td> 
-   <td> Percentage van klikken in een levering.<br/> </td> 
+   <td> Klikken door snelheid <br/> </td> 
+   <td> Percentage van kliks in een levering.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Geleverd<br/> </td> 
-   <td> Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.<br/> </td> 
+   <td> Geleverd <br/> </td> 
+   <td> Aantal met succes verzonden berichten, met betrekking tot het totale aantal verzonden berichten.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Afgeleverde rente<br/> </td> 
-   <td> Percentage berichten verzonden.<br/> </td> 
+   <td> Afgeleverde snelheid <br/> </td> 
+   <td> Percentage van met succes verzonden berichten.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Hard stuiteren<br/> </td> 
-   <td> Het totale aantal permanente fouten, zoals een onjuist e-mailadres.<br/> </td> 
+   <td> Hard stuiteren <br/> </td> 
+   <td> Het totale aantal permanente fouten, zoals een verkeerd e-mailadres.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Harde stuitsnelheid<br/> </td> 
-   <td> Percentage leveringen dat is mislukt door permanente fouten.<br/> </td> 
+   <td> Harde stuitsnelheid <br/> </td> 
+   <td> Percentage leveringen dat is mislukt als gevolg van permanente fouten.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Pagina spiegelen<br/> </td> 
+   <td> Pagina spiegelen <br/> </td> 
    <td> Aantal ontvangers die op de verbinding van de spiegelpagina klikte.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Paginasnelheid spiegelen<br/> </td> 
+   <td> Paginasnelheid spiegelen <br/> </td> 
    <td> Percentage van klikken op de verbinding van de spiegelpagina vergeleken met de totale leveringsberichten.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Aanbiedingen klikken<br/> </td> 
-   <td> Aantal tijd waarop op een voorstel is geklikt in een levering.<br/> </td> 
+   <td> Aanbieding klikt <br/> </td> 
+   <td> Aantal tijd een aanbieding in een levering werd geklikt.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Aanbiedingskliktarief<br/> </td> 
+   <td> Aanbieding met klikfrequentie <br/> </td> 
    <td> Percentage van klikken op een aanbieding.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Openen<br/> </td> 
-   <td> Aantal keren dat een bericht in een levering werd geopend.<br/> </td> 
+   <td> Openen <br/> </td> 
+   <td> Aantal tijden een bericht in een levering werd geopend.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br/> </td> 
-   <td> Percentage geopende berichten.<br/> </td> 
+   <td> Open rate <br/> </td> 
+   <td> Percentage van geopende berichten.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Verwerkt/verzonden<br/> </td> 
+   <td> Verwerkt/verzonden <br/> </td> 
    <td> Het totale aantal verzendt voor de levering.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine<br/> </td> 
+   <td> Quarantine <br/> </td> 
    <td> Aantal berichten die in quarantaine van het adres stuitten en resulteerden.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Quarantaine<br/> </td> 
+   <td> Quarantainerfrequentie <br/> </td> 
    <td> Percentage quarantines vergeleken met verzonden berichten.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Geweigerd<br/> </td> 
+   <td> Afgewezen <br/> </td> 
    <td> Aantal berichten die als spam door de servers SMTP worden geclassificeerd.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Geweigerde snelheid<br/> </td> 
-   <td> Percentage berichten gemarkeerd als afgewezen.<br/> </td> 
+   <td> Geweigerde snelheid <br/> </td> 
+   <td> Percentage van berichten duidelijk zoals verworpen.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Zachte stuit<br/> </td> 
-   <td> Het totale aantal tijdelijke fouten, zoals een volledig postvak.<br/> </td> 
+   <td> Zacht stuiteren <br/> </td> 
+   <td> Het totale aantal tijdelijke fouten, zoals volledig inbox.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Zachte stuitsnelheid<br/> </td> 
-   <td> Percentage leveringen dat om tijdelijke redenen is mislukt.<br/> </td> 
+   <td> Zachte stuitsnelheid <br/> </td> 
+   <td> Percentage leveringen dat vanwege een tijdelijke reden is mislukt.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Unieke klikken<br/> </td> 
-   <td> Aantal ontvangers die op een inhoud in een levering hebben geklikt.<br/> </td> 
+   <td> Unieke klikken <br/> </td> 
+   <td> Aantal ontvangers die op een inhoud in een levering klikte.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Unieke openingen<br/> </td> 
-   <td> Aantal ontvangers dat de levering heeft geopend.<br/> </td> 
+   <td> Uniek wordt geopend <br/> </td> 
+   <td> Aantal ontvangers die de levering opende.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Uniek geabonneerd<br/> </td> 
-   <td> Aantal ontvangers die op de unsubscription-koppeling hebben geklikt.<br/> </td> 
+   <td> Uniek niet-geabonneerd <br/> </td> 
+   <td> Aantal ontvangers die op de unsubscription verbinding klikte.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Abonnement opzeggen<br/> </td> 
-   <td> Aantal unieke uitschrijving in vergelijking met de geleverde berichten.<br/> </td> 
+   <td> Abonnement opzeggen <br/> </td> 
+   <td> Aantal unieke unsubscription in vergelijking met de geleverde berichten.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Abonnement opgezegd<br/> </td> 
-   <td> Aantal klikken op de verbinding van het unsubscription.<br/> </td> 
+   <td> Unsubscribed <br/> </td> 
+   <td> Aantal klikken op de unsubscription verbinding.<br/> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -354,74 +355,74 @@ In de onderstaande tabel vindt u een lijst met segmenten die in rapporten en de 
 <table> 
  <thead> 
   <tr> 
-   <th> Segment<br/> </th> 
-   <th> Definitie<br/> </th> 
+   <th> Segment <br/> </th> 
+   <th> Definition<br/> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Leeftijd: Boomers 1<br/> </td> 
+   <td> Leeftijd: Boomers 1 <br/> </td> 
    <td> Ontvangers geboren van 1946 tot 1954.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: Boomers 2<br/> </td> 
+   <td> Leeftijd: Boomers 2 <br/> </td> 
    <td> Ontvangers geboren van 1955 tot 1965.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: van 18 tot 25 jaar<br/> </td> 
+   <td> Leeftijd: 18 tot 25 jaar <br/> </td> 
    <td> Ontvangers van 18 tot 25 jaar oud.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: van 26 tot 30 jaar<br/> </td> 
+   <td> Leeftijd: van 26 tot 30 <br/> </td> 
    <td> Ontvangers van 26 tot 30 jaar oud.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: van 31 tot 40<br/> </td> 
+   <td> Leeftijd: van 31 tot 40 <br/> </td> 
    <td> Ontvangers van 31 tot 40 jaar oud.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: van 41 tot 50<br/> </td> 
+   <td> Leeftijd: van 41 tot 50 <br/> </td> 
    <td> Ontvangers van 41 tot 50 jaar oud.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: generatie X<br/> </td> 
+   <td> Leeftijd: Generatie X <br/> </td> 
    <td> Ontvangers geboren van 1966 tot 1976.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: generatie Y (miljoenen)<br/> </td> 
-   <td> Ontvangers, geboren van 1977 tot 1994.<br/> </td> 
+   <td> Leeftijd: Generatie Y (Miljarigen) <br/> </td> 
+   <td> Ontvangers geboren van 1977 tot 1994.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: generatie Z<br/> </td> 
+   <td> Leeftijd: Generatie Z<br/> </td> 
    <td> Ontvangers geboren van 1995 tot vandaag.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: groter dan 50<br/> </td> 
+   <td> Leeftijd: groter dan 50 <br/> </td> 
    <td> Ontvangers die ouder zijn dan 50 jaar.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: minder dan 25 jaar<br/> </td> 
+   <td> Leeftijd: minder dan 25 <br/> </td> 
    <td> Ontvangers die jonger zijn dan 25 jaar.<br/> </td> 
   </tr> 
   <tr> 
-   <td> leeftijd: minder dan 30<br/> </td> 
+   <td> Leeftijd: minder dan 30 <br/> </td> 
    <td> Ontvangers die jonger zijn dan 30 jaar.<br/> </td> 
   </tr> 
   <tr> 
-   <td> leeftijd: minder dan 40<br/> </td> 
+   <td> Leeftijd: minder dan 40 <br/> </td> 
    <td> Ontvangers die jonger zijn dan 40 jaar.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: minder dan 50<br/> </td> 
+   <td> Leeftijd: minder dan 50 <br/> </td> 
    <td> Ontvangers die jonger zijn dan 50 jaar.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: stille generatie<br/> </td> 
+   <td> Leeftijd: stille generatie <br/> </td> 
    <td> Ontvangers geboren in 1945 of eerder.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Alle bezoeken<br/> </td> 
-   <td> Elke ontvanger<br/> </td> 
+   <td> Alle bezoeken <br/> </td> 
+   <td> Elke ontvanger <br/> </td> 
   </tr>
  </tbody> 
 </table>

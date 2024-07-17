@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # API-problemen {#troubleshooting}
 
-* **Wanneer u naar de console Adobe.io gaat, krijgt u de volgende fout: &quot;De console van de Adobe I/O is slechts beschikbaar om leden van ondernemingsrekeningen te selecteren. Als u van mening bent dat u toegang moet hebben, neemt u contact op met uw systeembeheerder.&quot;**
+* **wanneer het gaan naar de Console Adobe.io krijgt u de volgende fout: &quot;De console van de Adobe I/O is slechts beschikbaar om leden van ondernemingsrekeningen te selecteren. Als u gelooft u toegang zou moeten hebben, gelieve uw Beheerder van het Systeem te contacteren.&quot;**
 
 U kunt alleen API-sleutels maken voor de organisaties waarvan u de beheerder bent. Als dit bericht wordt weergegeven en u API-sleutels wilt maken, vraagt u een van de beheerders van de organisatie.
 
-* **Wanneer u een aanvraag doet naar Adobe.io, wordt {&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profile is not valid&quot;}**
+* **wanneer het doen van een verzoek aan Adobe.io krijgt u {&quot;error_code&quot;:&quot;403023&quot;, &quot;bericht&quot;:&quot;Het profiel is ongeldig&quot;}**
 
 Dit betekent dat er een probleem is met de IMS-provisioning van uw specifieke campagneproduct: het IMS-team moet dit probleem oplossen.
 
@@ -73,17 +73,17 @@ In de reactie, moet de waarde ORGANIZATION_ID het zelfde in uw eerste verzoek va
 }
 ```
 
-* **Wanneer u een aanvraag doet naar Adobe.io, krijgt u {&quot;code&quot;:500, &quot;message&quot;:&quot;Oeps. Er is iets misgegaan. Controleer de URI en probeer het opnieuw.&quot;}**
+* **wanneer het doen van een verzoek aan Adobe.io krijgt u {&quot;code&quot;:500, &quot;bericht&quot;:&quot;Oeps. Er is iets misgegaan. Controleer uw URI en probeer opnieuw.&quot;}**
 
 Adobe.io declareert uw ongeldige URI: de URI die u aanvraagt, is naar alle waarschijnlijkheid ongeldig. Op Adobe.io wanneer u de dienst van de Campagne selecteert, krijgt u een plukker met een lijst van mogelijke organisatie_ids. U moet controleren dat u kiest u in uw URL plaatst.
 
-* **Wanneer u een aanvraag doet naar Adobe.io, krijgt u {&quot;error_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Oauth token is not valid&quot;}**
+* **wanneer het doen van een verzoek aan Adobe.io krijgt u {&quot;error_code&quot;:&quot;401013&quot;, &quot;bericht&quot;:&quot;Het oautetoken is niet geldig&quot;}**
 
 Uw token is ongeldig (onjuiste IMS-aanroep die wordt gebruikt om een token te genereren) of uw token is verlopen.
 
-* **Ik zie mijn profiel niet na creatie**
+* **ik zie mijn profiel na verwezenlijking niet**
 
-Afhankelijk van de instantieconfiguratie moet het gemaakte profiel worden gekoppeld aan een **orgUnit**. Als u wilt weten hoe u dit veld kunt toevoegen aan uw creatie, raadpleegt u [deze sectie](creating-profiles-api.md).
+Afhankelijk van de instantieconfiguratie, moet het gecreeerde profiel aan een **orgUnit** worden geassocieerd. Om te begrijpen hoe te om dit gebied in uw verwezenlijking toe te voegen, raadpleeg [ deze sectie ](creating-profiles-api.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
 

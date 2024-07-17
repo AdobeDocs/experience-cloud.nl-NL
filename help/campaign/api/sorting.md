@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 10%
@@ -16,13 +17,13 @@ ht-degree: 10%
 
 # Sorteren
 
-Sorteren is standaard in oplopende volgorde beschikbaar. Als u in aflopende volgorde wilt sorteren, voegt u **%20desc** aan de **_order** waarde van de parameter.
+Sorteren is standaard in oplopende volgorde beschikbaar. Om in dalende orde te sorteren, voeg **%20desc** aan de **_order** waarde van de parameter toe.
 
 Als u wilt weten of een veld kan worden gesorteerd, controleert u de parameter &quot;sortable&quot; in de metagegevens van de bron. Raadpleeg [deze sectie](metadata-mechanism.md) voor meer informatie.
 
 <br/>
 
-***Voorbeeldverzoeken***
+***verzoeken van de Steekproef***
 
 * Voorbeeld van een GET-aanvraag om e-mailberichten op te halen in de database in alfabetische volgorde.
 

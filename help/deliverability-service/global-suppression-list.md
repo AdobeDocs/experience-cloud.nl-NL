@@ -5,26 +5,26 @@ hide: true
 exl-id: 40aef987-52a3-470b-88ca-c716a116bdfc
 source-git-commit: b66e2525694c771ebb7ac5190b7259ef5658d81a
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
 
 # Algemene suppressielijst {#global-suppression-list}
 
-Een suppressielijst bestaat uit e-mailadressen die klanten van hun leveringen willen uitsluiten, omdat het verzenden naar deze contacten hun verzendende reputatie en leveringspercentages zou kunnen beschadigen. Adobe houdt momenteel een bijgewerkte lijst bij van bekende slechte e-mailadressen waarvan is aangetoond dat deze schadelijk zijn voor de service en de reputatie van mails, en zorgt ervoor dat er geen e-mailberichten aan hen worden bezorgd. Deze lijst wordt beheerd in een globale suppressielijst die over alle klanten van Adobe gemeenschappelijk is. De adressen en domeinnamen in de globale suppressielijst worden verborgen. Alleen het aantal uitgesloten ontvangers wordt vermeld in de leveringsverslagen.
+Een suppressielijst bestaat uit e-mailadressen die klanten van hun leveringen willen uitsluiten, omdat het verzenden naar deze contacten hun verzendende reputatie en leveringspercentages zou kunnen beschadigen. Momenteel houdt de Adobe een bijgewerkte lijst bij van bekende slechte e-mailadressen waarvan is aangetoond dat deze schadelijk zijn voor de service en de reputatie bij het verzenden van berichten, en zorgt deze ervoor dat er geen e-mailberichten aan hen worden bezorgd. Deze lijst wordt beheerd in een globale suppressielijst die over alle klanten van de Adobe gemeenschappelijk is. De adressen en domeinnamen in de globale suppressielijst worden verborgen. Alleen het aantal uitgesloten ontvangers wordt vermeld in de leveringsverslagen.
 
 Het is nu mogelijk om de globale suppressielijst van een interface te beheren die intern beschikbaar is. Deze lijst wordt alleen door de consultants van de leveringszekerheid bijgehouden. De algemene suppressielijst kan e-mail- of domeinadressen bevatten.
 
-## De algemene suppressielijst openen
+## Toegang tot de algemene suppressielijst
 
-Ga naar **[!UICONTROL Gloabl suppression list]**.
+Ga naar **[!UICONTROL Gloabl suppression list]** voor toegang tot de gedetailleerde lijst met uitgesloten e-mailadressen en domeinen.
 
 >[!CAUTION]
 >
 >Toestemmingen om de globale suppressielijst te bekijken, uit te voeren en te beheren hangen van de distributielijst af u aan wordt toegewezen. Meer informatie
 
-Er worden twee tabbladen weergegeven: **[!UICONTROL Email]** en **[!UICONTROL Domain]**.
+Er worden twee tabbladen weergegeven: **[!UICONTROL Email]** en **[!UICONTROL Domain]** .
 
 Er zijn filters beschikbaar waarmee u door de lijst kunt bladeren.
 
@@ -35,13 +35,13 @@ Er zijn momenteel twee manieren waarop adressen aan de algemene suppressielijst 
 * Lijst beheerd door het leveringsteam.
 * Lijst verstrekt door de derde dienstverlener Blackbox.
 
-U kunt e-mailadressen of domeinen toevoegen [één voor één](#add-one-address-or-domain), of [in bulkmodus](#upload-csv-file) via een CSV-bestandsupload.
+U kunt e-mailadressen of domeinen [ tegelijkertijd ](#add-one-address-or-domain), of [ op bulkwijze ](#upload-csv-file) door een Csv- dossierupload toevoegen.
 
-Selecteer hiervoor de optie **[!UICONTROL Add email or domain]** en voert u een van de onderstaande methoden uit.
+Hiervoor selecteert u de knop **[!UICONTROL Add email or domain]** en volgt u een van de onderstaande methoden.
 
 ### Eén adres of domein toevoegen {#add-one-address-or-domain}
 
-1. Selecteer **[!UICONTROL One by one]** optie.
+1. Selecteer de optie **[!UICONTROL One by one]** .
 
 1. Kies het adrestype: **[!UICONTROL Email address]** of **[!UICONTROL Domain address]**.
 
@@ -49,19 +49,19 @@ Selecteer hiervoor de optie **[!UICONTROL Add email or domain]** en voert u een 
 
    >[!NOTE]
    >
-   >Zorg ervoor dat u een geldig e-mailadres (zoals abc@company.com) of domein (zoals abc.company.com) opgeeft.
+   >Controleer of u een geldig e-mailadres (zoals abc@company.com) of domein (zoals abc.company.com) invoert.
 
 1. Geef indien nodig een reden op.
 
    >[!NOTE]
    >
-   >Alle afdrukbare ASCII-tekens tussen 32 en 126 zijn toegestaan in dit veld. De volledige lijst is te vinden op [deze pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} bijvoorbeeld.
+   >Alle afdrukbare ASCII-tekens tussen 32 en 126 zijn toegestaan in dit veld. De volledige lijst kan op [ worden gevonden deze pagina ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters) {target="_blank"} bijvoorbeeld.
 
 1. Klik op **[!UICONTROL Submit]** om te bevestigen.
 
 ### Een CSV-bestand uploaden {#upload-csv-file}
 
-1. Selecteer **[!UICONTROL Upload CSV]** optie.
+1. Selecteer de optie **[!UICONTROL Upload CSV]** .
 
 1. Download de CSV-sjabloon die u wilt gebruiken, inclusief de onderstaande kolommen en indeling:
 
@@ -81,13 +81,13 @@ Selecteer hiervoor de optie **[!UICONTROL Add email or domain]** en voert u een 
 
    >[!NOTE]
    >
-   >Alle ASCII-tekens tussen 32 en 126 zijn toegestaan in het dialoogvenster **Opmerking** kolom. De volledige lijst is te vinden op [deze pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} bijvoorbeeld.
+   >Alle karakters ASCII die tussen 32 en 126 worden samengesteld worden toegestaan in de **1} kolom van de Commentaar {.** De volledige lijst kan op [ worden gevonden deze pagina ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters) {target="_blank"} bijvoorbeeld.
 
-1. Wanneer u klaar bent, sleept u het CSV-bestand en klikt u op **[!UICONTROL Submit]** ter bevestiging.
+1. Als u klaar bent, sleept u het CSV-bestand en klikt u op **[!UICONTROL Submit]** om het bestand te bevestigen.
 
 >[!NOTE]
 >
->Zodra uploaden wordt gedaan, zorg ervoor het door zijn status van de interface te controleren succesvol was. [Meer informatie](#recent-uploads)
+>Zodra uploaden wordt gedaan, zorg ervoor het door zijn status van de interface te controleren succesvol was. [ leer hoe ](#recent-uploads)
 
 ### Status van recente uploads controleren {#recent-uploads}
 
@@ -95,9 +95,9 @@ Klik op de knop **[!UICONTROL Recent uploads]** om de status te controleren van 
 
 Mogelijke statussen zijn:
 
-* **[!UICONTROL Pending]**: De bestandsupload wordt verwerkt.
-* **[!UICONTROL Error]**: Het uploaden van het bestand is mislukt als gevolg van een technische fout of een fout in de bestandsindeling.
-* **[!UICONTROL Complete]**: Het uploaden van het bestand is voltooid.
+* **[!UICONTROL Pending]**: het uploaden van het bestand wordt verwerkt.
+* **[!UICONTROL Error]**: Het uploaden van het bestand is mislukt als gevolg van een technisch probleem of een fout in de bestandsindeling.
+* **[!UICONTROL Complete]**: het uploadproces voor het bestand is voltooid.
 
 Wanneer tijdens het uploaden sommige adressen niet de juiste indeling hebben, worden ze niet toegevoegd aan de algemene lijst met suppressies.
 
@@ -105,7 +105,7 @@ In dat geval, wanneer uploaden volledig is, wordt het geassocieerd met een rappo
 
 ## Adressen verwijderen
 
-Als u een adres uit de lijst met wereldwijde onderdrukking wilt verwijderen, gebruikt u de opdracht **[!UICONTROL Delete]** knop.
+Als u een adres uit de lijst met wereldwijde onderdrukking wilt verwijderen, gebruikt u de knop **[!UICONTROL Delete]** .
 
 >[!CAUTION]
 >

@@ -2,13 +2,13 @@
 title: Adobe Campaign Web User Interface
 description: 64-bits tabellen
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 47b06a42fad73254025d8e21d14724f6fe93345b
+exl-id: ab5f01fd-4ad5-46e9-b132-011fe0f7bbd2
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%
 
 ---
-
 
 # 64-bits schema&#39;s {#64-bit-tables}
 
@@ -45,5 +45,3 @@ Hier is de lijst van schema&#39;s veranderd in 64 beetjes en hun gewijzigde attr
 | nms:webEvent | wideLogSrc-id, wideLogRemkt-id |
 | nms:wideLogMid | mktBroadLogId |
 | nms:mirrorPageSearch | remoteMessageId |
-
-

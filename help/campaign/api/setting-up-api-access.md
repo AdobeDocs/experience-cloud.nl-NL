@@ -17,22 +17,22 @@ ht-degree: 27%
 
 # API-toegang instellen {#setting-up-api-access}
 
-Adobe Campaign Standard API-toegang wordt ingesteld via de onderstaande stappen. Elk van deze stappen wordt beschreven in [Adobe Developer-documentatie](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+Adobe Campaign Standard API-toegang wordt ingesteld via de onderstaande stappen. Elk van deze stappen wordt gedetailleerd in de [ documentatie van Adobe Developer ](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!IMPORTANT]
 >
->Certificaten beheren in [Adobe Developer](https://developer.adobe.com/), zorg ervoor dat u **Systeembeheerder** rechten van de organisatie of [ontwikkelingsaccount](https://helpx.adobe.com/nl/enterprise/using/manage-developers.html) in de Admin Console.
+>Om certificaten in [ Adobe Developer ](https://developer.adobe.com/) te beheren, zorg ervoor u **de beheerderrechten van het Systeem** op de organisatie of a [ ontwikkelaarrekening ](https://helpx.adobe.com/nl/enterprise/using/manage-developers.html) in de Admin Console hebt.
 
 1. **Controleer of u een digitaal certificaat hebt**, of maak er zo nodig een. De bij het certificaat geleverde openbare en privésleutels zijn nodig bij de volgende stappen.
-1. **Een nieuwe integratie met Adobe Campaign Service maken** in [Adobe Developer](https://developer.adobe.com/) en configureren. Uw referenties worden dan gegenereerd (API-sleutel, klantgeheim...).
-1. **Een OAuth Server-to-Server maken** referentie door deze [uitvoeringsstappen](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
+1. **creeer een nieuwe integratie aan de Dienst van Adobe Campaign** in [ Adobe Developer ](https://developer.adobe.com/) en vorm het. Uw referenties worden dan gegenereerd (API-sleutel, klantgeheim...).
+1. **creeer een OAuth Server-aan-Server** credential door deze [ implementatiestappen te volgen ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
 
    >[!IMPORTANT]
    >
    >JWT (JSON Web Tokens) wordt momenteel uitgefaseerd en wordt vervangen door OAuth. De overgang wordt geleidelijk uitgevoerd in de komende releases van Campagne. De referenties van de serviceaccount (JWT) zijn gemarkeerd als afgekeurd. Ze blijven werken tot 27 januari 2025. Daarom moet u uw toepassing of integratie migreren om de nieuwe server-aan-server referentie OAuth vóór 27 jan. 2025 te gebruiken. OAuth-verificatie verdient de voorkeur. U zult alle elementen vinden om van authentificatie JWT aan authentificatie OAuth op deze pagina&#39;s te migreren:
-   >* [Migratie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
-   >* [Implementatie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
-   >* [Veelgestelde vragen over Deprectie JWT](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
+   >* [ Migratie ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
+   >* [ Implementatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
+   >* [ Veelgestelde Veelgestelde vragen van de Verdringing JWT ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
 
 Om een veilige Adobe I/O API-sessie tussen services tot stand te brengen moet elk verzoek aan een Adobe-service de onderstaande informatie bevatten in de autorisatieheader.
 
@@ -44,18 +44,18 @@ Om een veilige Adobe I/O API-sessie tussen services tot stand te brengen moet el
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-* **&lt;organization>**: Dit is uw persoonlijke ORGANISATIE-ID, één ORGANISATIE-ID wordt per Adobe opgegeven voor elk van uw gevallen:
+* **&lt;ORGANIZATION>**: Dit is uw persoonlijke ORGANIZATION identiteitskaart, wordt één ORGANIZATION identiteitskaart verstrekt door Adobe voor elk van uw instanties:
 
-   * &lt;organization> : uw productie-instantie,
-   * &lt;organization-mkt-stage>: uw werkgebiedinstantie.
+   * &lt;ORGANIZATION>: uw productieexemplaar
+   * &lt;ORGANIZATION-market-stage>: de instantie van het werkgebied.
 
-  Voor het verkrijgen van uw ORGANISATIE-ID-waarde raadpleegt u uw beheerder of uw technische contactpersoon bij Adobe. U kunt het in Adobe I/O ook terugwinnen wanneer het creëren van een nieuwe integratie, in de vergunningslijst (zie <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer-documentatie</a>).
+  Voor het verkrijgen van uw ORGANISATIE-ID-waarde raadpleegt u uw beheerder of uw technische contactpersoon bij Adobe. U kunt het in Adobe I/O ook terugwinnen wanneer het creëren van een nieuwe integratie, in de vergunningslijst (zie de <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/"> documentatie van Adobe Developer </a>).
 
-* **&lt;access_token>**: Uw persoonlijke toegangstoken, die werd teruggewonnen toen het ruilen van uw Token van het Web JSON door een verzoek van de POST.
+* **&lt;ACCESS_TOKEN>**: Uw persoonlijk toegangstoken, dat werd teruggewonnen toen het ruilen van uw Symbolisch van het Web JSON door een verzoek van de POST.
 
 * **&lt;API_KEY>**: uw persoonlijke API-sleutel. Het wordt geleverd in Adobe I/O na het creëren van een nieuwe integratie aan de Dienst van Adobe Campaign.
 
-  ![alt-tekst](assets/tenant.png)
+  ![ alt tekst ](assets/tenant.png)
 
 ## Problemen oplossen
 

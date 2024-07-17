@@ -23,6 +23,6 @@ U kunt triggers gebruiken in realtime beslissingen en personalisatie, bijvoorbee
 
 Over het algemeen kan het 15 tot 90 minuten duren voordat een marketingcampagne wordt gestart. Deze vertraging is afhankelijk van de implementatie van gegevensverzameling, het laden op de pijplijn, de aangepaste configuratie van de gedefinieerde trigger en de workflow in Adobe Campaign.
 
-* **Afschaffing:** U kunt een trigger maken die moet worden geactiveerd wanneer een bezoeker een product weergeeft, maar er niets aan toevoegt.
-* **Handeling:** U kunt bijvoorbeeld triggers maken om na aanmelding voor nieuwsbrieven, e-mailabonnementen of aanvragen voor creditcards (bevestigingen) te activeren. Als u een detailhandelaar bent, kunt u een trekker voor een bezoeker tot stand brengen die zich voor een loyaliteitsprogramma ondertekent. In media en vermaak, creeer trekkers voor bezoekers die op een bepaalde show letten, en misschien wilt u met een onderzoek antwoorden.
-* **Begin en einde sessie:** Maak een trigger voor het starten en beëindigen van de sessie.
+* **Afschaffing:** u kunt een trekker tot stand brengen om in brand te steken wanneer een bezoeker een product bekijkt maar om het even wat niet aan de kar toevoegt.
+* **Actie:** U kunt trekkers tot stand brengen, bijvoorbeeld, aan brand na nieuwsbrief-ups, e-mailabonnementen, of toepassingen voor creditcards (bevestigingen). Als u een detailhandelaar bent, kunt u een trekker voor een bezoeker tot stand brengen die zich voor een loyaliteitsprogramma ondertekent. In media en vermaak, creeer trekkers voor bezoekers die op een bepaalde show letten, en misschien wilt u met een onderzoek antwoorden.
+* **Begin van de Zitting en Eind van de Zitting:** creeer een trekker voor zittingsbegin en zittingseindgebeurtenissen.

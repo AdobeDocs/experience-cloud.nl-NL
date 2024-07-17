@@ -4,7 +4,8 @@ description: Begrijp de resultaten van uw rapporten met een lijst van elke metri
 level: Intermediate
 audience: end-user
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 031d5b692d9b9e4420b14ba1ab892fbafed57ec0
+exl-id: 06fb21a5-ae98-4c14-97f0-7f851d60ae7d
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 1%
@@ -24,195 +25,195 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Label</strong> <br/> </th> 
-   <th> <strong>Veldnaam</strong> <br/> </th> 
-   <th> <strong>Indicatorberekeningsformule</strong> <br/> </th> 
-   <th> <strong>Opmerkingen</strong><br/> </th> 
+   <th> <strong> Etiket </strong> <br/> </th> 
+   <th> <strong> Naam van het Gebied </strong> <br/> </th> 
+   <th> <strong> de berekeningsformule van de Indicator </strong> <br/> </th> 
+   <th> <strong> Commentaren </strong><br/> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Account uitgeschakeld<br/> </td> 
+   <td> Account uitgeschakeld <br/> </td> 
    <td> @disabled<br/> </td> 
    <td> count(@failureReason=4)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Op lijst van gewezen personen<br/> </td> 
+   <td> Op lijst van gewezen personen <br/> </td> 
    <td> @blacklist<br/> </td> 
-   <td> count(@failureReason=8, @failureType=2)<br/> </td> 
+   <td> count(@failureReason=8, @failureType=2) <br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Lijst van gewezen personen<br/> </td> 
+   <td> Lijst van gewezen personen rate <br/> </td> 
    <td> @rateBlacklist<br/> </td> 
    <td> @blacklist/@sent<br/> </td> 
-   <td> De noemer voor de berekening van de rente is gebaseerd op het aantal verzonden (Geleverd + Bounces).<br/> </td> 
+   <td> De noemer voor tariefberekening is gebaseerd op Verzonden telling (Geleverd + Stemmen).<br/> </td> 
   </tr> 
   <tr> 
-   <td> Bounces + fouten<br/> </td> 
-   <td> @bounces<br/> </td> 
+   <td> Stuiterwaarden + fouten <br/> </td> 
+   <td> @bounces <br/> </td> 
    <td> count(@status=2)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Stuiteren + foutenfrequentie<br/> </td> 
-   <td> @rateBounces<br/> </td> 
+   <td> Stuiteren + foutenfrequentie <br/> </td> 
+   <td> @rateBounces <br/> </td> 
    <td> @bounces/@sent<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Klikken<br/> </td> 
+   <td> Klikken <br/> </td> 
    <td> @clicks<br/> </td> 
-   <td> count(@trackingUrlType=1, 10 of 11)<br/> </td> 
+   <td> count(@trackingUrlType=1 of 10 of 11) <br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Klikken tot snelheid<br/> </td> 
-   <td> @clickthrough<br/> </td> 
-   <td> @uniqueclicks/@bezorgd<br/> </td> 
-   <td> De noemer voor de berekening van het tarief is gebaseerd op slechts Geleverd.<br/> </td> 
+   <td> Klikken door snelheid <br/> </td> 
+   <td> @clickthrough <br/> </td> 
+   <td> @uniqueclicks/@delivery<br/> </td> 
+   <td> De noemer voor tariefberekening is gebaseerd op Geleverd slechts.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Geleverd<br/> </td> 
-   <td> @loaded<br/> </td> 
+   <td> Geleverd <br/> </td> 
+   <td> @delivery<br/> </td> 
    <td> count(@status=1)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Afgeleverde rente<br/> </td> 
-   <td> @rateDelivered<br/> </td> 
+   <td> Afgeleverde snelheid <br/> </td> 
+   <td> @rateDelivered <br/> </td> 
    <td> @delivery/@sent<br/> </td> 
-   <td> De noemer voor de berekening van de rente is gebaseerd op het aantal verzonden (Geleverd + Bounces).<br/> </td> 
+   <td> De noemer voor tariefberekening is gebaseerd op Verzonden telling (Geleverd + Stemmen).<br/> </td> 
   </tr> 
   <tr> 
-   <td> Harde vlekken<br/> </td> 
-   <td> @hardBounces<br/> </td> 
-   <td> count(@failureType=2 EN @failureReason=8)<br/> </td> 
+   <td> Harde grenzen <br/> </td> 
+   <td> @hardBounces <br/> </td> 
+   <td> count(@failureType=2 EN @failureReason=8) <br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Fel-stallatiesnelheid<br/> </td> 
-   <td> @rateHardBounces<br/> </td> 
+   <td> Harde-stuiteringsfrequentie <br/> </td> 
+   <td> @rateHardBounces <br/> </td> 
    <td> @hardBounces/@sent<br/> </td> 
-   <td> De noemer voor de berekening van de rente is gebaseerd op het aantal verzonden (Geleverd + Bounces).<br/> </td> 
+   <td> De noemer voor tariefberekening is gebaseerd op Verzonden telling (Geleverd + Stemmen).<br/> </td> 
   </tr> 
   <tr> 
-   <td> Ongeldig domein<br/> </td> 
+   <td> Ongeldig domein <br/> </td> 
    <td> @invalidDomain<br/> </td> 
    <td> count(@failureReason=2)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Postbus vol<br/> </td> 
+   <td> Brievenbus volledig <br/> </td> 
    <td> @mailBoxFull<br/> </td> 
    <td> count(@failureReason=5)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Pagina spiegelen<br/> </td> 
+   <td> Pagina spiegelen <br/> </td> 
    <td> @mirrorPage<br/> </td> 
-   <td> count(@trackingUrlType=6)<br/> </td> 
-   <td> De noemer voor de berekening van het tarief is gebaseerd op slechts Geleverd.<br/> </td> 
+   <td> count(@trackingUrlType=6) <br/> </td> 
+   <td> De noemer voor tariefberekening is gebaseerd op Geleverd slechts.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Paginasnelheid spiegelen<br/> </td> 
+   <td> Paginasnelheid spiegelen <br/> </td> 
    <td> @rateMirrorPage<br/> </td> 
-   <td> @mirrorPage/@loaded<br/> </td> 
+   <td> @mirrorPage/@delivery<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Niet verbonden<br/> </td> 
+   <td> Niet verbonden <br/> </td> 
    <td> @notConnected<br/> </td> 
    <td> count(@failureReason=6)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Openen<br/> </td> 
-   <td> @uniqueOpens<br/> </td> 
-   <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2)<br/> </td> 
+   <td> Openen <br/> </td> 
+   <td> @uniqueOpens <br/> </td> 
+   <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2)) <br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br/> </td> 
-   <td> @rateOpens<br/> </td> 
-   <td> @Opens/@bezorgd<br/> </td> 
-   <td> De noemer voor de berekening van het tarief is gebaseerd op slechts Geleverd.<br/> </td> 
+   <td> Open rate <br/> </td> 
+   <td> @rateOpens <br/> </td> 
+   <td> @open/@delivery<br/> </td> 
+   <td> De noemer voor tariefberekening is gebaseerd op Geleverd slechts.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine<br/> </td> 
-   <td> @quarantaine<br/> </td> 
-   <td> isQuarantine=true<br/> </td> 
+   <td> Quarantine <br/> </td> 
+   <td> @quarantaine <br/> </td> 
+   <td> isQuarantine=true <br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Quarantaine<br/> </td> 
-   <td> @rateQuarantine<br/> </td> 
-   <td> @quarantaine/@verzonden<br/> </td> 
-   <td> De noemer voor de berekening van de rente is gebaseerd op het aantal verzonden (Geleverd + Bounces).<br/> </td> 
+   <td> Quarantainerfrequentie <br/> </td> 
+   <td> @rateQuarantine <br/> </td> 
+   <td> @quarantaine/@sent<br/> </td> 
+   <td> De noemer voor tariefberekening is gebaseerd op Verzonden telling (Geleverd + Stemmen).<br/> </td> 
   </tr>
   <tr> 
-   <td> Geweigerd<br/> </td> 
-   <td> @geweigerd<br/> </td> 
-   <td> count(@failureReason=20, @failureType=2)<br/> </td> 
+   <td> Afgewezen <br/> </td> 
+   <td> @removed<br/> </td> 
+   <td> count(@failureReason=20, @failureType=2) <br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Geweigerde snelheid<br/> </td> 
+   <td> Geweigerde snelheid <br/> </td> 
    <td> @rateRejected<br/> </td> 
-   <td> @geweigerd/@verzonden<br/> </td> 
-   <td> De noemer voor de berekening van de rente is gebaseerd op het aantal verzonden (Geleverd + Bounces).<br/> </td> 
+   <td> @geweigerde/@sent<br/> </td> 
+   <td> De noemer voor tariefberekening is gebaseerd op Verzonden telling (Geleverd + Stemmen).<br/> </td> 
   </tr> 
   <tr> 
-   <td> Verwerkt/verzonden<br/> </td> 
+   <td> Verwerkt/verzonden <br/> </td> 
    <td> @sent<br/> </td> 
-   <td> @delivery + @bounces<br/> </td> 
+   <td> @delivery + @bounces <br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Zachte stuit<br/> </td> 
-   <td> @softBounces<br/> </td> 
+   <td> Zacht stuiteren <br/> </td> 
+   <td> @softBounces <br/> </td> 
    <td> count(@failureType=1)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Zachte stuitsnelheid<br/> </td> 
-   <td> @rateSoftBounces<br/> </td> 
+   <td> Zachte stuitsnelheid <br/> </td> 
+   <td> @rateSoftBounces <br/> </td> 
    <td> @softBounces/@sent<br/> </td> 
-   <td> De noemer voor de berekening van de rente is gebaseerd op het aantal verzonden (Geleverd + Bounces).<br/> </td> 
+   <td> De noemer voor tariefberekening is gebaseerd op Verzonden telling (Geleverd + Stemmen).<br/> </td> 
   </tr> 
   <tr> 
-   <td> Unieke klikken<br/> </td> 
-   <td> @uniqueclicks<br/> </td> 
+   <td> Unieke klikken <br/> </td> 
+   <td> @uniqueclicks <br/> </td> 
    <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. </a>.<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unieke openingen<br/> </td> 
-   <td> @uniqueOpenen<br/> </td> 
-   <td> unique(@trackingUrlType=1,2,3,6,10,11)<br/> </td> 
+   <td> Uniek wordt geopend <br/> </td> 
+   <td> @uniqueopen <br/> </td> 
+   <td> unique(@trackingUrlType=1,2,3,6,10,11) <br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> Onbereikbaar <br/> </td> 
-   <td> @onbereikbaar<br/> </td> 
+   <td> @unbereikable<br/> </td> 
    <td> count(@failureReason=3)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Abonnement opzeggen<br/> </td> 
-   <td> @unsubscribes<br/> </td> 
-   <td> count(@trackingUrlType=3)<br/> </td> 
+   <td> Abonnement opzeggen <br/> </td> 
+   <td> @unsubscribes <br/> </td> 
+   <td> count(@trackingUrlType=3) <br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Abonnement opzeggen<br/> </td> 
-   <td> @rateUnsubscribes<br/> </td> 
-   <td> @unsubscribes/@loaded<br/> </td> 
-   <td> De noemer voor de berekening van het tarief is gebaseerd op slechts Geleverd.<br/> </td> 
+   <td> Abonnement opzeggen <br/> </td> 
+   <td> @rateUnsubscribes <br/> </td> 
+   <td> @unsubscribes/@delivery<br/> </td> 
+   <td> De noemer voor tariefberekening is gebaseerd op Geleverd slechts.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Gebruiker onbekend<br/> </td> 
+   <td> Onbekende gebruiker <br/> </td> 
    <td> @unknownUser<br/> </td> 
    <td> count(@failureReason=1)<br/> </td> 
    <td> </td> 

@@ -4,7 +4,8 @@ description: Met het Unsubscriptions uit-van-de-doos rapport, leer hoeveel tijde
 level: Intermediate
 audience: end-user
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: 91ec13d7-1c2b-45ae-af29-89d02c0f3bcb
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 15%
@@ -17,4 +18,4 @@ Het rapport **[!UICONTROL Unsubscriptions]** identificeert de leveringen met de 
 
 ![](assets/delivery_reports_unsub.png)
 
-De **[!UICONTROL TOP 5 deliveries]** de lijst en de grafiek toont de hoogste vijf leveranties met het hoogste aantal geleverde berichten en het aantal ontvangers die hebben afgemeld. De hier vermelde gegevens zijn gebaseerd op het aantal klikken op de verbinding van het bericht unsubscription.
+In de tabel en grafiek van **[!UICONTROL TOP 5 deliveries]** worden de vijf hoogste leveringen weergegeven met het hoogste aantal geleverde berichten en het aantal ontvangers dat zich niet heeft geabonneerd. De hier vermelde gegevens zijn gebaseerd op het aantal klikken op de verbinding van het bericht unsubscription.

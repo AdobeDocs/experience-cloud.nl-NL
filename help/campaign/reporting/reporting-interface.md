@@ -4,7 +4,8 @@ description: Leer meer over de Dynamische basis van de rapportinterface en hoe t
 level: Beginner
 audience: end-user
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: 9b5a8b5f-2258-4861-b5c2-feefef67ccb3
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 4%
@@ -17,24 +18,24 @@ Op de bovenste werkbalk kunt u bijvoorbeeld uw rapport wijzigen, opslaan of afdr
 
 ![](assets/dynamic_report_toolbar.png)
 
-Gebruik de **Project** tab naar:
+Gebruik het **lusje van het Project** aan:
 
-* **Openen...**: Opent een eerder gemaakt rapport of een sjabloon.
-* **Opslaan als..**: Hiermee dupliceert u sjablonen om deze te kunnen wijzigen.
-* **Project vernieuwen**: werkt uw rapport bij op basis van nieuwe gegevens en wijzigingen in filters.
-* **CSV downloaden**: Exporteert uw rapporten naar een CSV-bestand.
+* **Open...**: Opent een eerder gecreeerd rapport of een malplaatje.
+* **sparen als...**: Dupliceert malplaatjes om hen te kunnen wijzigen.
+* **verfrist project**: Werkt uw rapport bij dat op nieuwe gegevens en veranderingen in filters wordt gebaseerd.
+* **download CSV**: Exporteert uw rapporten aan een Csv- dossier.
 
-De **Bewerken** kunt u:
+Het **geeft** lusje uit staat u toe:
 
-* **Ongedaan maken**: Annuleert de laatste handeling op het dashboard.
-* **Alles wissen**: verwijdert elk deelvenster op het dashboard.
+* **maak** ongedaan: Annuleert uw laatste actie op uw dashboard.
+* **ontruim allen**: schrapt elk paneel op uw dashboard.
 
-De **Invoegen** in de tabel kunt u uw rapporten aanpassen door grafieken en tabellen toe te voegen aan het dashboard:
+De **lijst van het Tussenvoegsel** laat u uw rapporten aanpassen door grafieken en lijsten aan uw dashboard toe te voegen:
 
-* **Nieuw leeg deelvenster**: Voegt een nieuw leeg deelvenster toe aan het dashboard.
-* **Nieuwe vrije vorm**: Voegt een nieuwe vrije-vormlijst aan uw dashboard toe.
-* **Nieuwe regel**: Voegt een nieuwe lijngrafiek aan uw dashboard toe.
-* **Nieuwe balk**: Voegt een nieuwe staafgrafiek toe aan het dashboard.
+* **Nieuw Leeg Comité**: Voegt een nieuw leeg paneel aan uw dashboard toe.
+* **Nieuwe Vrije vorm**: Voegt een nieuwe vrije vormlijst aan uw dashboard toe.
+* **Nieuwe Lijn**: Voegt een nieuwe lijngrafiek aan uw dashboard toe.
+* **Nieuwe Bar**: Voegt een nieuwe staafgrafiek aan uw dashboard toe.
 
 **Verwante onderwerpen:**
 
@@ -70,30 +71,30 @@ De werkbalk bevindt zich boven de werkruimte. Het wordt samengesteld uit verschi
 
 ![](assets/tab_project.png)
 
-Gebruik de **Project** tab naar:
+Gebruik het **lusje van het Project** aan:
 
-* **Openen...**: Opent een eerder gemaakt rapport of een sjabloon.
-* **Opslaan als..**: Hiermee dupliceert u sjablonen om deze te kunnen wijzigen.
-* **Project vernieuwen**: werkt uw rapport bij op basis van nieuwe gegevens en wijzigingen in filters.
-* **CSV downloaden**: Exporteert uw rapporten naar een CSV-bestand.
-* **[!UICONTROL Print]**: Druk uw rapport af.
+* **Open...**: Opent een eerder gecreeerd rapport of een malplaatje.
+* **sparen als...**: Dupliceert malplaatjes om hen te kunnen wijzigen.
+* **verfrist project**: Werkt uw rapport bij dat op nieuwe gegevens en veranderingen in filters wordt gebaseerd.
+* **download CSV**: Exporteert uw rapporten aan een Csv- dossier.
+* **[!UICONTROL Print]**: druk uw rapport.
 
 ### Tabblad Bewerken {#edit-tab}
 
 ![](assets/tab_edit.png)
 
-De **Bewerken** kunt u:
+Het **geeft** lusje uit staat u toe:
 
-* **Ongedaan maken**: Annuleert de laatste handeling op het dashboard.
-* **Alles wissen**: verwijdert elk deelvenster op het dashboard.
+* **maak** ongedaan: Annuleert uw laatste actie op uw dashboard.
+* **ontruim allen**: schrapt elk paneel op uw dashboard.
 
 ### Tabblad Invoegen {#insert-tab}
 
 ![](assets/tab_insert.png)
 
-De **Invoegen** kunt u uw rapporten aanpassen door grafieken en lijsten aan uw dashboard toe te voegen:
+Het **lusje van het Tussenvoegsel** laat u uw rapporten aanpassen door grafieken en lijsten aan uw dashboard toe te voegen:
 
-* **Nieuw leeg deelvenster**: Voegt een nieuw leeg deelvenster toe aan het dashboard.
-* **Nieuwe vrije vorm**: Voegt een nieuwe vrije-vormlijst aan uw dashboard toe.
-* **Nieuwe regel**: Voegt een nieuwe lijngrafiek aan uw dashboard toe.
-* **Nieuwe balk**: Voegt een nieuwe staafgrafiek toe aan het dashboard.
+* **Nieuw Leeg Comité**: Voegt een nieuw leeg paneel aan uw dashboard toe.
+* **Nieuwe Vrije vorm**: Voegt een nieuwe vrije vormlijst aan uw dashboard toe.
+* **Nieuwe Lijn**: Voegt een nieuwe lijngrafiek aan uw dashboard toe.
+* **Nieuwe Bar**: Voegt een nieuwe staafgrafiek aan uw dashboard toe.
