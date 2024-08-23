@@ -1,55 +1,73 @@
 ---
 title: Softwaredistributie
-description: Adobe Experience Cloud Software Distribution gebruiken
+description: Leer hoe u softwaredistributie kunt gebruiken om uw Adobe Experience Cloud-software te downloaden.
 exl-id: ac559a28-4444-4326-ba92-78afd10ed9ab
-source-git-commit: e98b6985c8e24e56e021422f8e32cad0d823d440
+source-git-commit: 6a2ba27cfeae875ab9184760b6d233ef759dd460
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '409'
 ht-degree: 1%
 
 ---
 
+
 # Softwaredistributie
+
+Leer hoe u softwaredistributie kunt gebruiken om uw Adobe Experience Cloud-software te downloaden.
 
 ## Inleiding
 
-Vanaf juni 2020 vervangt de pagina [!UICONTROL PackageShare] for AEM and [!DNL Neolane] for [!DNL Campaign] van het downloadplatform de pagina [!UICONTROL Software Distribution] voor het oplossen van Experiencen Cloud. Het biedt een efficiëntere ervaring om uw software te zoeken en te downloaden. Dankzij een intuïtieve gebruikersinterface, een vereenvoudigde zoekfunctie en een sterk verbeterde downloadsnelheid is het downloaden van softwarepakketten voor Experiencen Cloud een geweldige gebruikerservaring. Goedgekeurde softwarepakketten van Adobe en pakketten van partnerbedrijven zijn nu beschikbaar voor de volgende producten:
+Softwaredistributie biedt een efficiënte ervaring om uw Adobe Experience Cloud-software te zoeken en te downloaden. Goedgekeurde softwarepakketten van Adobe en pakketten van partnerbedrijven zijn beschikbaar voor de volgende producten:
 
-1. **Adobe Experience Manager** - alles met betrekking tot Dienst en Onderhoud, Veiligheid, het Tooling en meer - voor alle gesteunde AEM versies.
-1. **Adobe Experience Manager als a[!UICONTROL Cloud Service]** - [!UICONTROL AEM Cloud SDK], [!UICONTROL AEM Cloud] migratiehulpmiddelen en meer.
-1. **Adobe Campaign** - Alle huidige [!DNL Campaign] installatieversies en verwante hulpmiddelen.
-1. **Algemeen** - het Algemene doel tooling met inbegrip van [!DNL Oracle] JDKs voor Adobe klanten.
+1. **Adobe Experience Manager** - alles met betrekking tot dienst en onderhoud, veiligheid, tooling en meer - voor alle gesteunde AEM versies
+1. **Adobe Experience Manager als[!UICONTROL Cloud Service]** - [!UICONTROL AEM Cloud SDK], [!UICONTROL AEM Cloud] migratiehulpmiddelen en meer
+1. **Adobe Campaign** - Alle huidige [!DNL Campaign] installatieversies en verwante hulpmiddelen
+1. **Algemeen** - het Algemene doel tooling met inbegrip van [!DNL Oracle] JDKs voor Adobe klanten
 
-## Toegang tot softwaredistributie
+Het gebruik van softwaredistributie is eenvoudig:
 
-Ga naar [ https://experience.adobe.com/downloads ](https://experience.adobe.com/downloads) en teken binnen aan [!UICONTROL Software Distribution] met uw Adobe ID.
+1. [Toegang tot softwaredistributie](#accessing)
+1. [Uw product selecteren](#selecting)
+1. [Uw download zoeken](#finding)
+1. [Uw software downloaden](#downloading)
+
+## Toegang tot softwaredistributie {#accessing}
+
+Ga naar [`https://experience.adobe.com/downloads` ](https://experience.adobe.com/downloads) en meld u aan bij [!UICONTROL Software Distribution] met uw Adobe ID om toegang te krijgen tot Softwaredistributie.
+
+## Uw product selecteren {#selecting}
+
+De UI van de Distributie van de Software wordt georganiseerd door product zoals aangetoond in het menu.
+
+![ Menu dat door producten ](assets/menu.png) wordt georganiseerd
+
+U komt op het **Algemene** lusje aan, waar u softwaredownloads voor algemeen gebruik kunt vinden.
+
+Tik of klik op het product in het menu waarvoor u de software wilt downloaden. U kunt alleen producten downloaden waarvoor uw organisatie een licentie heeft.
+
+## Uw download zoeken {#finding}
+
+Nadat u het gewenste producttabblad hebt geselecteerd, worden alle verwante downloads weergegeven. Gebruik de zoekfilters in het linkervenster om snel uw download te vinden. Filteropties verschillen per product.
+
+![ Filters ](assets/filters.png)
+
+## Uw software downloaden {#downloading}
+
+Als u op een weergegeven download tikt of erop klikt, wordt er een dialoogvenster geopend met meer informatie over de download. U kunt bijvoorbeeld een beschrijving, de naam van de provider en de EULA zien.
+
+![ de details van de Download ](assets/details.png)
+
+U moet EULA goedkeuren door **te selecteren keurt de Termijnen van EULA** goed om de **3} knoop van de Download {toe te laten.**
+
+U kunt een verbinding aan die bepaalde download ook delen door te tikken of **Aandeel** te klikken om URL te kopiëren.
+
+## Pakket delen {#package-share}
+
+In juni 2020 is [!UICONTROL Software Distribution] replace [!UICONTROL Package Share] for AEM and [!DNL Neolane] for [!DNL Campaign]. Dankzij een intuïtieve gebruikersinterface, een vereenvoudigde zoekopdracht en een sterk verbeterde downloadsnelheid is het downloaden van softwarepakketten voor Experience Cloud producten een betere ervaring met softwaredistributie.
 
 >[!IMPORTANT]
 >
->Aanmeldingsgegevens van [!UICONTROL Package Share] of [!DNL Neolane] werken niet in [!UICONTROL Software Distribution] . Dit biedt mogelijkheden om u aan te melden met beveiligingsstandaarden voor de hele Adobe. Als u uw Adobe ID niet kent, neemt u contact op met een ondersteuningsbeheerder binnen uw organisatie.
-
-## Navigatie
-
-### Selecteer uw product
-
-U kunt softwaredownloads van de producten kiezen die uw organisatie vergunning heeft gegeven. Het kopbalmenu in [!UICONTROL Software Distribution] toont deze producten met inbegrip van de **Algemene** beginpagina waar u softwaredownloads voor algemeen gebruik kunt vinden. Selecteer het product waarvoor u software wilt downloaden.
-
-### Uw download zoeken
-
-Als u eenmaal op een productdownloadpagina van uw keuze bent, worden alle productgerelateerde downloads op die pagina weergegeven. De lijst met downloads is mogelijk te lang om uw download op het eerste gezicht te vinden. Daarom biedt [!UICONTROL Software Distribution] u eenvoudige, maar krachtige manieren om uw download te vinden. In de meeste gevallen vindt u het handig om de zoekfilters links te gebruiken om de lijst met downloads te filteren op wat voor u relevant is. Afhankelijk van het product vindt u filters zoals versie, oplossing of softwaretype.
-
-Een andere zoekoptie is de vrije-tekstzoekopdracht aan de rechterbovenzijde.
-
-Als deel van de familie van de oplossingen van het Experience Cloud, [!UICONTROL Software Distribution] staat u toe om in uw de oplossingscontext van het Experience Cloud te navigeren en gebruik te maken van de verenigde diensten van het Experience Cloud, met inbegrip van kerndiensten, gepersonaliseerde berichten, en veel meer.
-
-### Software downloaden
-
-Door te dubbelklikken op een softwaredownload die wordt weergegeven, wordt een dialoogvenster geopend met meer informatie. U kunt bijvoorbeeld een beschrijving, de naam van de provider en EULA zien, die u moet accepteren voordat u verder kunt gaan met downloaden.
-
-U kunt ook een koppeling naar die specifieke download delen. Klik de **knoop van het Aandeel** om URL te kopiëren.
+>Aanmeldingsgegevens van [!UICONTROL Package Share] of [!DNL Neolane] werken niet voor [!UICONTROL Software Distribution] . Dit biedt mogelijkheden om u aan te melden met beveiligingsstandaarden voor de hele Adobe. Neem contact op met een ondersteuningsbeheerder binnen uw organisatie als u uw Adobe ID niet kent.
 
 >[!NOTE]
 >
 >[!UICONTROL Software Distribution] ondersteunt alleen downloads door browsers. Wanneer u AEM [!UICONTROL Package Manager] gebruikt voor nieuwe installaties, wordt aangeraden het pakket naar een lokale map te downloaden en het pakket van daaruit te installeren.
-
-[!UICONTROL Software Distribution] is gemaakt met AEM componenten en wordt door Adobe Experience Manager als een [!UICONTROL Cloud Service] gevoed.
