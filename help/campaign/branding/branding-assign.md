@@ -7,18 +7,14 @@ role: Admin
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+source-git-commit: 62c2f2e7a6f5dd347749e963a655b717cd5c7310
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '444'
 ht-degree: 19%
 
 ---
 
 # Uw merk toewijzen {#branding-assign}
-
->[!IMPORTANT]
->
->De merkopties zijn momenteel beperkt tot e-mail- en pushberichten.
 
 ## Een merk koppelen aan een sjabloon {#linking-a-brand-to-a-template}
 

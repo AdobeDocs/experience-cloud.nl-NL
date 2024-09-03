@@ -5,14 +5,18 @@ audience: end-user
 level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
 exl-id: 36506f7d-aeeb-41cf-b971-6e42e1c7cdc8
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+source-git-commit: 62c2f2e7a6f5dd347749e963a655b717cd5c7310
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '238'
 ht-degree: 3%
 
 ---
 
 # De rapportperiode definiëren{#defining-the-report-period}
+
+>[!NOTE]
+>
+>Gegevensrapportage is beschikbaar voor de laatste 13 maanden. Neem voor meer informatie over bewaartermijnen contact op met Adobe-consultants of uw technische .
 
 Voordat u een rapport kunt starten of openen, moet u een tijdsperiode toepassen. Rechtsboven in het rapport kan toegang worden verkregen tot de opgegeven periode.
 

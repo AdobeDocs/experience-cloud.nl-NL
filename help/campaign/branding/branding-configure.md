@@ -7,10 +7,10 @@ role: Admin
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+source-git-commit: 62c2f2e7a6f5dd347749e963a655b717cd5c7310
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 37%
+source-wordcount: '326'
+ht-degree: 26%
 
 ---
 
@@ -56,10 +56,8 @@ A **[!UICONTROL Brand]** wordt bepaald door de volgende kenmerken:
 
   ![](assets/branding_3.png)
 
-<!--![](assets/branding_05.png)-->
+* Met het menu **[!UICONTROL Tracking URL configs]** kunt u URL-tracking verbeteren door aanvullende parameters te definiëren voor integratie met hulpprogramma&#39;s voor webanalyse, zoals Adobe Analytics en Googles Analytics.
 
-<!--
-* **[!UICONTROL Tracking URL configs]**, which defines the configuration of the URLs tracking for your brand.
+  Gebruik het menu **[!UICONTROL Additional URL Parameters]** om extra parameters als sleutel-waardeparen samen met hun toepassingsvoorwaarden tot stand te brengen. Elke parameternaam moet uniek en niet leeg zijn en elke parameterwaarde moet niet leeg zijn. De toepassingsvoorwaarde kan leeg zijn, maar geen van deze waarden kan JST-tags bevatten.
 
-  The additional parameters that allow the links to be tracked on external systems such as Web Analytics tools like Adobe Analytics or Google Analytics are defined here.
--->
+  Deze parameters worden toegepast op bijgehouden URL&#39;s die overeenkomen met een domeinnaam die is opgegeven in de **[!UICONTROL List of Domain Names]** . Deze parameters kunnen reguliere expressies bevatten.
