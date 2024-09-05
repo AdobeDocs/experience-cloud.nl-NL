@@ -9,9 +9,9 @@ level: Experienced
 mini-toc-levels: 1
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
 exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+source-git-commit: 6e4e214731b9772014d01dde89b3f80e4c4e93a6
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1057'
 ht-degree: 1%
 
 ---
@@ -128,10 +128,10 @@ De GET API van het Werkschema van het Campaign Standard keert parameternamen zoa
 
 Campaign v8 biedt geen ondersteuning voor instantievariabelen van advertentieworkflows, maar verwacht dat ontwikkelaars weten wat dat zijn. Als zodanig, post-migratie, zal parameterinformatie in de POST aanvraaginstantie moeten worden samengesteld zonder de beschikbaarheid van parameterinformatie in de reactie van de GET API.
 
-## Transactionele berichten
+<!--## Transactional messages
 
-* Met Campaign Standard, keert een POST verzoek lege gebieden voor elementen en attributen in het verzoeklichaam terug. Met Campagne v8, keert de reactie waarden terug die degenen in het verzoeklichaam in plaats daarvan aanpassen.
+* With Campaign Standard, a POST request returns empty fields for elements and attributes in the request body. With Campaign v8, the response returns values that match the ones in the request body instead.
 
-* Wanneer u een gebeurtenisconfiguratie publiceert, wordt in het voorvertoningsvenster van de API de REST-URL weergegeven naast de syntaxis van de hoofdtekst van de aanvraag.
+* When publishing an event configuration, the API preview panel displays the REST URL alongside the request body syntax.
 
-  Aangezien Campagne v8 geen ondersteuning biedt voor de definitie van gebeurtenisconfiguratievelden (het maken van gebeurtenissen voegt alleen een waarde toe aan de opsomming van eventType), is er geen voorvertoningsvenster voor de API wanneer u een gebeurtenistype toevoegt. De REST URL wordt getoond in het transactionele berichtgebruikersinterface zodra een bericht van de gebeurtenistransactie wordt gepubliceerd.
+    Since Campaign v8 does not support event configuration fields definition (event creation is just adding a value to eventType enumeration), there is no API preview panel when adding an event type. The REST URL is displayed  in the transactional message user interface once an event transactional message is published.-->
