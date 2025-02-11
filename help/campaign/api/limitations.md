@@ -1,34 +1,34 @@
 ---
-title: Recommendations en beperkingen
-description: Recommendations en beperkingen bij het migreren naar versie 8 REST-API's voor Campagne.
+title: Aanbevelingen en beperkingen
+description: Aanbevelingen en beperkingen bij het migreren naar de REST-API's voor Campagne v8.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 mini-toc-levels: 1
-badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
+badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde Campaign Standard-gebruikers"
 exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
-source-git-commit: 6e4e214731b9772014d01dde89b3f80e4c4e93a6
+source-git-commit: 952706ffafc1e7cd6a759bfbbb9c9200191544d9
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
 
-# Recommendations en beperkingen {#limitations}
+# Aanbevelingen en beperkingen {#limitations}
 
 ## Machtigingen en beveiliging {#permissions}
 
 ### Toewijzing van productprofielen
 
-In Campaign Standard, werd u verhoogde admin roltoegang tot APIs ongeacht uw toegewezen productprofiel verleend. Campagne v8 introduceert een andere set productprofielen, waardoor het nodig is deze toe te wijzen van Campaign Standard naar productprofielen van Campaign v8.
+In Campaign Standard hebt u toegang gekregen tot API&#39;s met een verhoogde beheerdersrol, ongeacht het toegewezen productprofiel. Campagne v8 introduceert een andere set productprofielen, waarvoor u Campaign Standard moet toewijzen aan productprofielen voor Campaign v8.
 
 Met de migratie worden twee productprofielen toegevoegd aan uw bestaande of vooraf gemaakte technische accounts: Beheerder en Berichtencentrum (voor toegang tot transactie-API&#39;s). Controleer de productprofieltoewijzing en wijs het vereiste productprofiel toe als u niet wilt dat het Admin-productprofiel aan uw technische account wordt toegewezen.
 
 ### Tenant-id
 
-Na migratie, voor om het even welke toekomstige integratie, wordt het geadviseerd om uw **20} huurdersidentiteitskaart van de Campagne v8** in REST URLs te gebruiken, die uw vorige huurdersidentiteitskaart van het Campaign Standard vervangen.
+Na migratie, voor om het even welke toekomstige integratie, wordt het geadviseerd om uw **24 huurdersidentiteitskaart van de Campagne v8** in REST URLs te gebruiken, die uw vorige Campaign Standard huurdersidentiteitskaart vervangen.
 
 ### Sleutelgebruik
 
@@ -42,6 +42,7 @@ Momenteel zijn de REST API&#39;s die hieronder worden vermeld, beschikbaar voor 
 * **de Diensten &amp; abonnementen**
 * **Aangepaste resources**
 * **Workflows**
+* **Transactionele berichten**
 
 >[!AVAILABILITY]
 >
@@ -90,20 +91,20 @@ Wanneer in Campaign v8 dezelfde structuur van de aanvraaginstantie wordt gebruik
 
 ## PATCH-bewerkingen
 
-* Campagne v8 ondersteunt geen PATCH met een lege aanvraaginstantie: er wordt een 204-status Geen inhoud geretourneerd.
-* Hoewel het Campaign Standard PATCH op elementen/attributen binnen een schema steunt, merk op dat de verrichtingen van de PATCH op plaats niet in Campagne v8 worden gesteund. Het proberen van een PATCH op plaats zal in een 500 Interne Fout van de Server met een foutenmelding resulteren erop wijzend dat het &quot;zipCode&quot;bezit niet geldig voor het &quot;profiel&quot;middel is.
+* Campagne v8 biedt geen ondersteuning voor PATCH met een lege aanvraaginstantie: er wordt een 204-status Geen inhoud geretourneerd.
+* Hoewel Campaign Standard PATCH op elementen/kenmerken in een schema ondersteunt, worden PATCH-bewerkingen op locatie niet ondersteund in Campagne v8. Als u een PATCH probeert te activeren op een locatie, wordt een 500 Interne serverfout gegenereerd met een foutbericht dat aangeeft dat de eigenschap &#39;zipCode&#39; niet geldig is voor de bron &#39;profile&#39;.
 
 ## REST-reacties
 
-In de onderstaande sectie worden kleine verschillen tussen Campaign Standard- en v8 REST-reacties weergegeven.
+In de onderstaande sectie worden kleine verschillen tussen Campaign Standard en v8 REST-antwoorden weergegeven.
 
-* Voor afzonderlijke GET-records bevat de reactie de href in de reactie.
+* Voor enkele GET-records bevat de reactie de href in de reactie.
 * Wanneer hierom wordt gevraagd met het kenmerk, biedt Campagne v8 Aantal en Paginering in de reactie.
-* Na de verrichtingen van de POST, zijn de waarden van verbonden middelen teruggekeerd in de reactie.
+* Na POST-bewerkingen worden waarden van gekoppelde bronnen geretourneerd in de reactie.
 
 ## Foutcodes en berichten
 
-In de onderstaande sectie ziet u de verschillen tussen foutcodes en berichten voor Campaign Standard en Campagne v8.
+In de onderstaande sectie ziet u de verschillen tussen foutcodes en berichten van Campaign Standard en Campagne v8.
 
 | Scenario | Campaign Standard | Campaign v8 |
 |  ---  |  ---  |  ---  |
@@ -124,9 +125,9 @@ Met Campagne v8, wordt timezone slechts getoond aan gebruiker als deel van **pro
 
 ## Workflows - externe signaalactivering
 
-De GET API van het Werkschema van het Campaign Standard keert parameternamen zoals de variabelen van de werkschemainstantie en hun gegevenstypes (boolean, koord, enz.) terug. Dit wordt gebruikt om geschikt geformatteerde JSON- verzoeklichaam tot stand te brengen wanneer het teweegbrengen van het signaal via een POST API vraag.
+Campaign Standard Workflow GET API retourneert parameternamen zoals de werkstroominstantievariabelen en hun gegevenstypen (boolean, string, etc.). Dit wordt gebruikt om correct geformatteerde JSON- verzoeklichaam tot stand te brengen wanneer het teweegbrengen van het signaal via een POST API vraag.
 
-Campaign v8 biedt geen ondersteuning voor instantievariabelen van advertentieworkflows, maar verwacht dat ontwikkelaars weten wat dat zijn. Als zodanig, post-migratie, zal parameterinformatie in de POST aanvraaginstantie moeten worden samengesteld zonder de beschikbaarheid van parameterinformatie in de reactie van de GET API.
+Campaign v8 biedt geen ondersteuning voor instantievariabelen van advertentieworkflows, maar verwacht dat ontwikkelaars weten wat dat zijn. Daarom moet na de migratie parameterinformatie in de instantie van de POST-aanvraag worden samengesteld zonder de beschikbaarheid van parameterinformatie in de GET API-respons.
 
 <!--## Transactional messages
 

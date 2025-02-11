@@ -6,11 +6,11 @@ content-type: reference
 topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
-badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
+badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde Campaign Standard-gebruikers"
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: ea8b978d8f71942c8d034804ca269957a09a52db
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '234'
 ht-degree: 48%
 
 ---
@@ -32,9 +32,10 @@ Met de Adobe Campaign REST API&#39;s hebt u toegang tot de volgende functies:
 <td valign="top"><a href="creating-a-service.md"><img width="60px" alt="voorwaarden" src="assets/icon_services.svg"/></a><p><a href="creating-a-service.md">Services en abonnementen</a></p></td>
 <td valign="top"><a href="interacting-with-custom-resources.md"><img width="60px" alt="voorwaarden" src="assets/icon_customresources.svg"/></a><p><a href="interacting-with-custom-resources.md">Aangepaste bronnen</a></p></td>
 <td valign="top"><a href="controlling-a-workflow.md"><img width="60px" alt="voorwaarden" src="assets/icon_workflows.svg"/></a><p><a href="controlling-a-workflow.md">Workflows</a></p></td>
+<td valign="top"><a href="managing-transactional-messages.md"><img width="60px" alt="voorwaarden" src="assets/icon_transactionalmessage.svg"/></a><p><a href="managing-transactional-messages.md">Transactionele berichten</a></p></td>
 </tr></table>
 
-U hebt een Adobe I/O-account nodig om de API&#39;s van de campagne REST te kunnen gebruiken. Dit is een verplichte eerste stap om verder te kunnen en de API-functies te ontdekken.
+U hebt een Adobe I/O-account nodig om de API&#39;s voor het maken van de campagne REST te gebruiken. Dit is een verplichte eerste stap om verder te kunnen en de API-functies te ontdekken.
 Raadpleeg [deze sectie](setting-up-api-access.md) voor meer informatie.
 
 De API’s die we bieden, gebruiken **standaardconcepten** met een REST-interface en JSON-payloads.
