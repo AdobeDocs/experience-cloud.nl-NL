@@ -8,9 +8,9 @@ role: Data Engineer
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde Campaign Standard-gebruikers"
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 6f9c9dd7dcac96980bbf5f7228e021471269d187
+source-git-commit: 110fcdcbefef53677cf213a39f45eb5d446807c2
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '752'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->Momenteel is het transactiemelding die REST APIs gebruikt slechts beschikbaar voor het e-mailkanaal en voor transactionele gebeurtenissen (de verrijkingsgegevens zijn beschikbaar via slechts nuttige lading, gelijkend op hoe Adobe Campaign V8 werkt).
+>Momenteel is het transactiemelding die REST APIs gebruikt beschikbaar voor de e-mail en de kanalen van SMS. Het is alleen beschikbaar voor transactionele gebeurtenissen (verrijkingsgegevens zijn alleen beschikbaar via een payload, vergelijkbaar met de werking van Adobe Campaign V8).
 
 Nadat u een transactiegebeurtenis hebt gemaakt en gepubliceerd, moet u het activeren van deze gebeurtenis integreren in uw website.
 
@@ -44,8 +44,6 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-  Het eindpunt van de API voor transactionele berichten is ook zichtbaar tijdens de API-voorvertoning.
-
 * **&lt;eventID>**: het type van gebeurtenis u wilt verzenden. Deze id wordt gegenereerd wanneer de gebeurtenisconfiguratie wordt gemaakt
 
 ### Koptekst POST-verzoek
@@ -65,7 +63,7 @@ U moet een charset, bijvoorbeeld **utf-8** toevoegen. Deze waarde is afhankelijk
 
 ### POST-aanvraaginstantie
 
-De gebeurtenisgegevens bevinden zich in de JSON POST-hoofdtekst. De gebeurtenisstructuur is afhankelijk van de definitie ervan. De API voorproefknoop in het scherm van de middeldefinitie verstrekt een verzoeksteekproef.
+De gebeurtenisgegevens bevinden zich in de JSON POST-hoofdtekst. De gebeurtenisstructuur is afhankelijk van de definitie ervan.
 
 De volgende optionele parameters kunnen aan de inhoud van de gebeurtenis worden toegevoegd om het verzenden van aan de gebeurtenis gekoppelde transactieberichten te beheren:
 
@@ -75,6 +73,40 @@ De volgende optionele parameters kunnen aan de inhoud van de gebeurtenis worden 
 >[!NOTE]
 >
 >De waarden van de parameters &quot;expiration&quot; en &quot;scheduled&quot; volgen de ISO 8601-indeling. ISO 8601 specificeert het gebruik van de hoofdletter &quot;T&quot; om de datum en de tijd van elkaar te scheiden. Deze kan echter wel uit de invoer of uitvoer worden verwijderd voor een betere leesbaarheid.
+
+### Parameters communicatiekanaal
+
+Afhankelijk van het te gebruiken kanaal, zou de lading de hieronder parameters moeten bevatten:
+
+* E-mailkanaal: &quot;mobilePhone&quot;
+* SMS-kanaal: &quot;email&quot;
+
+Als de payload alleen &quot;mobilePhone&quot; bevat, wordt het SMS-communicatiekanaal geactiveerd. Als de payload alleen &quot;email&quot; bevat, wordt het communicatiekanaal voor de e-mail geactiveerd.
+
+In het onderstaande voorbeeld ziet u een payload waarbij een SMS-communicatie wordt geactiveerd:
+
+```
+curl --location 'https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment' \
+--header 'Authorization: Bearer <ACCESS_TOKEN>' \
+--header 'Cache-Control: no-cache' \
+--header 'X-Api-Key: <API_KEY>' \
+--header 'Content-Type: application/json;charset=utf-8' \
+--header 'Content-Length: 79' \
+--data '
+{
+  "mobilePhone":"+9999999999",
+  "scheduled":"2017-12-01 08:00:00.768Z",
+  "expiration":"2017-12-31 08:00:00.768Z",
+  "ctx":
+  {
+    "cartAmount": "$ 125",
+    "lastProduct": "Leather motorbike jacket",
+    "firstName": "Jack"
+  }
+}'
+```
+
+Als de payload zowel &quot;email&quot; als &quot;mobilePhone&quot; bevat, is de standaardcommunicatiemethode e-mail. Als u een SMS wilt verzenden wanneer beide velden aanwezig zijn, moet u dit expliciet opgeven in de payload met de parameter &quot;wishedChannel&quot;.
 
 ### Antwoord op de POST-aanvraag
 
@@ -97,7 +129,10 @@ POST-verzoek om de gebeurtenis te verzenden.
 -H 'Content-Length:79'
 
 {
-  "email":"test@example.com",
+  "
+  
+  
+  ":"test@example.com",
   "scheduled":"2017-12-01 08:00:00.768Z",
   "expiration":"2017-12-31 08:00:00.768Z",
   "ctx":
