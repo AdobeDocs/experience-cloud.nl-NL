@@ -56,7 +56,7 @@ Als u op een weergegeven download tikt of erop klikt, wordt er een dialoogvenste
 
 ![ de details van de Download ](assets/details.png)
 
-U moet EULA goedkeuren door **te selecteren keurt de Termijnen van EULA** goed om de **3} knoop van de Download {toe te laten.**
+U moet EULA goedkeuren door **te selecteren keurt de Termijnen van EULA** goed om de **3&rbrace; knoop van de Download &lbrace;toe te laten.**
 
 U kunt een verbinding aan die bepaalde download ook delen door te tikken of **Aandeel** te klikken om URL te kopiëren.
 

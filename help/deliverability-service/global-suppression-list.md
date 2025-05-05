@@ -55,7 +55,7 @@ Hiervoor selecteert u de knop **[!UICONTROL Add email or domain]** en volgt u ee
 
    >[!NOTE]
    >
-   >Alle afdrukbare ASCII-tekens tussen 32 en 126 zijn toegestaan in dit veld. De volledige lijst kan op [ worden gevonden deze pagina ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters) {target="_blank"} bijvoorbeeld.
+   >Alle afdrukbare ASCII-tekens tussen 32 en 126 zijn toegestaan in dit veld. De volledige lijst kan op [ worden gevonden deze pagina ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}  bijvoorbeeld.
 
 1. Klik op **[!UICONTROL Submit]** om te bevestigen.
 
@@ -81,7 +81,7 @@ Hiervoor selecteert u de knop **[!UICONTROL Add email or domain]** en volgt u ee
 
    >[!NOTE]
    >
-   >Alle karakters ASCII die tussen 32 en 126 worden samengesteld worden toegestaan in de **1} kolom van de Commentaar {.** De volledige lijst kan op [ worden gevonden deze pagina ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters) {target="_blank"} bijvoorbeeld.
+   >Alle karakters ASCII die tussen 32 en 126 worden samengesteld worden toegestaan in de **1&rbrace; kolom van de Commentaar &lbrace;.** De volledige lijst kan op [ worden gevonden deze pagina ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}  bijvoorbeeld.
 
 1. Als u klaar bent, sleept u het CSV-bestand en klikt u op **[!UICONTROL Submit]** om het bestand te bevestigen.
 

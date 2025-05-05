@@ -21,7 +21,7 @@ Het **Visualisaties** lusje laat u visualiseringspunten, zoals gebied, donut en 
    ![](assets/dynamic_report_visualization_1.png)
 
 1. Nadat het toevoegen van een visualisatie aan uw paneel, ontdekt de Dynamische rapporten automatisch de gegevens in uw vrije vormlijst. Selecteer de instellingen voor uw visualisatie.
-1. Als u meer dan één vrije lijst hebt, kies de beschikbare gegevensbron om in uw grafiek in het **venster van de Montages van Source van 0} Gegevens toe te voegen**. Dit venster is ook beschikbaar als u op de gekleurde stip naast de titel voor visualisatie klikt.
+1. Als u meer dan één vrije lijst hebt, kies de beschikbare gegevensbron om in uw grafiek in het **venster van de Montages van Source van 0&rbrace; Gegevens toe te voegen**. Dit venster is ook beschikbaar als u op de gekleurde stip naast de titel voor visualisatie klikt.
 
    ![](assets/dynamic_report_visualization_2.png)
 

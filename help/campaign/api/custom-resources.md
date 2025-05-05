@@ -31,7 +31,7 @@ U kunt elke gewenste bewerking uitvoeren met aangepaste bronnen, mits deze zijn 
 
 ![ alt tekst ](assets/cusresources.png)
 
-In dat geval, zijn alle middelen van de **Transactie**, **TransactionDetails** en **de lijsten van het Product** beschikbaar zolang zij met de **7} lijst van het Profiel {verbonden zijn.**
+In dat geval, zijn alle middelen van de **Transactie**, **TransactionDetails** en **de lijsten van het Product** beschikbaar zolang zij met de **7&rbrace; lijst van het Profiel &lbrace;verbonden zijn.**
 
 <br/>
 

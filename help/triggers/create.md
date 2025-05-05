@@ -41,11 +41,11 @@ Maak een trigger en configureer de voorwaarden voor de trigger. U kunt bijvoorbe
 
 1. Selecteer de Analytics **[!UICONTROL Report Suite]** die voor deze trigger wordt gebruikt. Deze instelling identificeert de te gebruiken rapportgegevens.
 
-   [ Leer meer op de Reeks van het Rapport ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html) {target="_blank"}.
+   [ Leer meer op de Reeks van het Rapport ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html){target="_blank"} .
 
 1. Kies de geldigheidsperiode **[!UICONTROL Trigger after no action for]** .
 
-1. In de categorieën **[!UICONTROL Visit must include]** en **[!UICONTROL Visit must not include]** kunt u criteria of gedrag van bezoekers definiëren die u wilt of niet wilt gebruiken. U kunt **specificeren en** of **** logica binnen of tussen voorwaarden, afhankelijk van de criteria u bepaalt.
+1. In de categorieën **[!UICONTROL Visit must include]** en **[!UICONTROL Visit must not include]** kunt u criteria of gedrag van bezoekers definiëren die u wilt of niet wilt gebruiken. U kunt **specificeren en** of **&#x200B;**&#x200B;logica binnen of tussen voorwaarden, afhankelijk van de criteria u bepaalt.
 
    De regels voor een eenvoudige trigger voor het verlaten van een winkelwagentje kunnen bijvoorbeeld zijn:
 

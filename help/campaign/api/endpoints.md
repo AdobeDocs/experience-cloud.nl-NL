@@ -31,4 +31,4 @@ Door gebrek, zijn de belangrijkste middelen beschikbaar voor **profileAndService
 
 >[!NOTE]
 >
->Alle andere middelen die zijn uitgebreid of gecreeerd zijn beschikbaar via **ProfileAndServicesExt** slechts API. Zij moeten met het **1} middel van het Profiel {worden verbonden om toegankelijk te zijn.**
+>Alle andere middelen die zijn uitgebreid of gecreeerd zijn beschikbaar via **ProfileAndServicesExt** slechts API. Zij moeten met het **1&rbrace; middel van het Profiel &lbrace;worden verbonden om toegankelijk te zijn.**
