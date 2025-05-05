@@ -17,6 +17,6 @@ U kunt Experience Cloud Triggers gebruiken om gegevens tussen Adobe Campaign en 
 
 **Nuttige verbindingen:**
 
-* [ Adobe Campaign Standard + de documentatie van Triggers van het Experience Cloud ](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)
-* [ Adobe Campaign Classic v7 + de documentatie van Triggers van het Experience Cloud ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html)
-* [ Adobe Campaign v8 + de documentatie van Triggers van het Experience Cloud ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-triggers.html)
+* [ Adobe Campaign Standard + de documentatie van Triggers van het Experience Cloud ](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=nl-NL)
+* [ Adobe Campaign Classic v7 + de documentatie van Triggers van het Experience Cloud ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=nl-NL)
+* [ Adobe Campaign v8 + de documentatie van Triggers van het Experience Cloud ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-triggers.html?lang=nl-NL)

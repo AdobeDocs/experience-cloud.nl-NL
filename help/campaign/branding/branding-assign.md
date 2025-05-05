@@ -26,7 +26,7 @@ Je template wordt gekoppeld aan het merk. In de e-maileditor maken de elementen 
 
 >[!TAB  Adobe Campaign V8 ]
 
-Om een leveringsmalplaatje tot stand te brengen, kunt u een ingebouwde malplaatje dupliceren, een bestaande levering in een malplaatje omzetten of een leveringsmalplaatje van kras tot stand brengen. [Meer informatie](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates)
+Om een leveringsmalplaatje tot stand te brengen, kunt u een ingebouwde malplaatje dupliceren, een bestaande levering in een malplaatje omzetten of een leveringsmalplaatje van kras tot stand brengen. [Meer informatie](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/create-templates)
 
 Nadat u de sjabloon hebt gemaakt, kunt u deze koppelen aan een merk. Dit doet u als volgt:
 
@@ -50,7 +50,7 @@ U kunt deze sjabloon nu gebruiken om uw leveringen te verzenden.
 
 >[!TAB  het Web van Adobe Campaign ]
 
-Om een leveringsmalplaatje tot stand te brengen, kunt u een ingebouwde malplaatje dupliceren, een bestaande levering in een malplaatje omzetten of een leveringsmalplaatje van kras tot stand brengen. [Meer informatie](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-template)
+Om een leveringsmalplaatje tot stand te brengen, kunt u een ingebouwde malplaatje dupliceren, een bestaande levering in een malplaatje omzetten of een leveringsmalplaatje van kras tot stand brengen. [Meer informatie](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/delivery-template)
 
 Nadat u de sjabloon hebt gemaakt, kunt u deze koppelen aan een merk. Dit doet u als volgt:
 
@@ -98,7 +98,7 @@ Volg de onderstaande stappen om een nieuwe, zelfstandige levering te maken.
 
 1. Zodra gevormd, uitgezochte **O.K.**.
 
-1. Pas uw leveringen verder aan. Voor meer informatie over het creëren van een e-mail verwijs naar het [ Ontwerp en verzend e-mails ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) sectie.
+1. Pas uw leveringen verder aan. Voor meer informatie over het creëren van een e-mail verwijs naar het [ Ontwerp en verzend e-mails ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/email/create-email) sectie.
 
 >[!TAB  het Web van Adobe Campaign ]
 
@@ -124,6 +124,6 @@ Volg de onderstaande stappen om een nieuwe, zelfstandige levering te maken.
 
    ![](assets/branding_assign_web_7.png)
 
-1. Pas uw leveringen verder aan. Voor meer informatie over het creëren van een e-mail verwijs naar [ creeer uw eerste e-mail ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) sectie.
+1. Pas uw leveringen verder aan. Voor meer informatie over het creëren van een e-mail verwijs naar [ creeer uw eerste e-mail ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/email/create-email) sectie.
 
 >[!ENDTABS]

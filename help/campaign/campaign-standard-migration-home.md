@@ -21,11 +21,11 @@ Bovendien zal deze overgang veel voordelen opleveren:
 * Integratie met Adobe Experience Platform
 * Consistente gebruikersinterface en ervaring
 
-Voor meer informatie over zeer belangrijke mogelijkheden en conceptafwijkingen, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration).
+Voor meer informatie over zeer belangrijke mogelijkheden en conceptafwijkingen, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/acs-migration).
 
 ## Nieuwe functies
 
-Krijg een glimp van alle eigenschappen en vermogen dat door [ wordt aangeboden het Gebruikersinterface van het Web van de Campagne ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home) en [ Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home).
+Krijg een glimp van alle eigenschappen en vermogen dat door [ wordt aangeboden het Gebruikersinterface van het Web van de Campagne ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home) en [ Campagne v8 ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home).
 
 Om naadloos over te kunnen schakelen, hebben wij zeer belangrijke mogelijkheden van Campaign Standard aan v8 toegevoegd:
 
@@ -56,27 +56,27 @@ U kunt Rest APIs gebruiken om integratie voor Adobe Campaign tot stand te brenge
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/user-interface"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
+    <a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/user-interface"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
     <div><strong> ontdekt het nieuwe gebruikersinterface </strong><br/></div>
     </td>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
+    <a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/wf/gs-workflows"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
     <div><strong> Beeld werkschemacanvas </strong><br/></div><br/>
     </td>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/content/start-design/get-started-email-designer"><img src="assets/do-not-localize/menu-email.png"></a>
+    <a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/email/content/start-design/get-started-email-designer"><img src="assets/do-not-localize/menu-email.png"></a>
     <div><strong> ontmoet de E-mail Designer </strong><br/>
     </div></td>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/dynamic-content/gs-personalization"><img src="assets/do-not-localize/menu-dynamic.png"></a>
+    <a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/dynamic-content/gs-personalization"><img src="assets/do-not-localize/menu-dynamic.png"></a>
     <div><strong> maak uw inhoud dynamisch </strong><br/></div>
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/user-interface"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/content/start-design/get-started-email-designer"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/dynamic-content/gs-personalization"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/user-interface"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/wf/gs-workflows"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/email/content/start-design/get-started-email-designer"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/dynamic-content/gs-personalization"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
 

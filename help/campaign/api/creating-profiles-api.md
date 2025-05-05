@@ -23,7 +23,7 @@ Het creëren van profielen wordt uitgevoerd met het verzoek van de a **POST** op
 >
 >Als u een <b> orgUnit </b> aan het gecreeerde profiel wilt associëren, moet u het profielmiddel met dit gebied uitbreiden en, na de publicatie van de uitbreiding, een verzoek van de POST op het <b> ProfileAndServicesExt </b> eindpunt uitvoeren.
 >
->Voor meer op de het middeluitbreiding van het profiel, verwijs naar de <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles"> documentatie van de Campagne </a>.
+>Voor meer op de het middeluitbreiding van het profiel, verwijs naar de <a href="https://helpx.adobe.com/nl/campaign/standard/administration/using/organizational-units.html#partitioning-profiles"> documentatie van de Campagne </a>.
 
 <br/>
 
