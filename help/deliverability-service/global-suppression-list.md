@@ -3,16 +3,16 @@ title: Algemene suppressielijst
 description: De algemene suppressielijst detecteren
 hide: true
 exl-id: 40aef987-52a3-470b-88ca-c716a116bdfc
-source-git-commit: b66e2525694c771ebb7ac5190b7259ef5658d81a
+source-git-commit: 9d12eece2ca9f8f36951f8575bb0ac42bc10a728
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Algemene suppressielijst {#global-suppression-list}
 
-Een suppressielijst bestaat uit e-mailadressen die klanten van hun leveringen willen uitsluiten, omdat het verzenden naar deze contacten hun verzendende reputatie en leveringspercentages zou kunnen beschadigen. Momenteel houdt de Adobe een bijgewerkte lijst bij van bekende slechte e-mailadressen waarvan is aangetoond dat deze schadelijk zijn voor de service en de reputatie bij het verzenden van berichten, en zorgt deze ervoor dat er geen e-mailberichten aan hen worden bezorgd. Deze lijst wordt beheerd in een globale suppressielijst die over alle klanten van de Adobe gemeenschappelijk is. De adressen en domeinnamen in de globale suppressielijst worden verborgen. Alleen het aantal uitgesloten ontvangers wordt vermeld in de leveringsverslagen.
+Een suppressielijst bestaat uit e-mailadressen die klanten van hun leveringen willen uitsluiten, omdat het verzenden naar deze contacten hun verzendende reputatie en leveringspercentages zou kunnen beschadigen. Adobe houdt momenteel een bijgewerkte lijst bij van bekende slechte e-mailadressen waarvan is aangetoond dat ze schadelijk zijn voor de service en de reputatie van mails, en zorgt ervoor dat er geen e-mailberichten aan hen worden bezorgd. Deze lijst wordt beheerd in een algemene suppressielijst die door alle Adobe-klanten wordt gebruikt. De adressen en domeinnamen in de globale suppressielijst worden verborgen. Alleen het aantal uitgesloten ontvangers wordt vermeld in de leveringsverslagen.
 
 Het is nu mogelijk om de globale suppressielijst van een interface te beheren die intern beschikbaar is. Deze lijst wordt alleen door de consultants van de leveringszekerheid bijgehouden. De algemene suppressielijst kan e-mail- of domeinadressen bevatten.
 
@@ -55,7 +55,7 @@ Hiervoor selecteert u de knop **[!UICONTROL Add email or domain]** en volgt u ee
 
    >[!NOTE]
    >
-   >Alle afdrukbare ASCII-tekens tussen 32 en 126 zijn toegestaan in dit veld. De volledige lijst kan op [ worden gevonden deze pagina ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}  bijvoorbeeld.
+   >Alle afdrukbare ASCII-tekens tussen 32 en 126 zijn toegestaan in dit veld. De volledige lijst kan op [ worden gevonden deze pagina ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} bijvoorbeeld.
 
 1. Klik op **[!UICONTROL Submit]** om te bevestigen.
 
@@ -81,7 +81,7 @@ Hiervoor selecteert u de knop **[!UICONTROL Add email or domain]** en volgt u ee
 
    >[!NOTE]
    >
-   >Alle karakters ASCII die tussen 32 en 126 worden samengesteld worden toegestaan in de **1&rbrace; kolom van de Commentaar &lbrace;.** De volledige lijst kan op [ worden gevonden deze pagina ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}  bijvoorbeeld.
+   >Alle karakters ASCII die tussen 32 en 126 worden samengesteld worden toegestaan in de **1} kolom van de Commentaar {.** De volledige lijst kan op [ worden gevonden deze pagina ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} bijvoorbeeld.
 
 1. Als u klaar bent, sleept u het CSV-bestand en klikt u op **[!UICONTROL Submit]** om het bestand te bevestigen.
 
