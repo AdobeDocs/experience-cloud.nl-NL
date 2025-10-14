@@ -28,7 +28,7 @@ Voer de onderstaande stappen uit om een nieuw profielveld toe te voegen.
 
    ![](assets/custom_field_1.png)
 
-1. Identificeer uw douane ontvankelijk schema en selecteer het. Als u nog niet ingebouwde nms hebt uitgebreid:ontvankelijk schema, verwijs naar [ deze procedure ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
+1. Identificeer uw douane ontvankelijk schema en selecteer het. Als u nog niet ingebouwde nms hebt uitgebreid:ontvankelijk schema, verwijs naar [&#x200B; deze procedure &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
 
 1. Voeg uw douanegebied aan de schemaredacteur toe.
 
@@ -42,7 +42,7 @@ Voer de onderstaande stappen uit om een nieuw profielveld toe te voegen.
 
 1. Klik op **[!UICONTROL Save]**.
 
-1. Vervolgens identificeert u het aangepaste bredeLogRcp-schema en selecteert u dit. Als u nog niet het ingebouwde het logboekschema van de Levering hebt uitgebreid, verwijs naar [ deze procedure ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
+1. Vervolgens identificeert u het aangepaste bredeLogRcp-schema en selecteert u dit. Als u nog niet het ingebouwde het logboekschema van de Levering hebt uitgebreid, verwijs naar [&#x200B; deze procedure &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
 
 1. Voeg hetzelfde aangepaste veld als het schema Ontvanger toe aan de schema-editor.
 

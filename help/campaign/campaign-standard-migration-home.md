@@ -21,11 +21,11 @@ Bovendien zal deze overgang veel voordelen opleveren:
 * Integratie met Adobe Experience Platform
 * Consistente gebruikersinterface en ervaring
 
-Voor meer informatie over zeer belangrijke mogelijkheden en conceptafwijkingen, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/acs-migration).
+Voor meer informatie over zeer belangrijke mogelijkheden en conceptafwijkingen, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/acs-migration).
 
 ## Nieuwe functies
 
-Krijg een glimp van alle eigenschappen en vermogen dat door [ wordt aangeboden het Gebruikersinterface van het Web van de Campagne ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home) en [ Campagne v8 ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home).
+Krijg een glimp van alle eigenschappen en vermogen dat door [&#x200B; wordt aangeboden het Gebruikersinterface van het Web van de Campagne &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home) en [&#x200B; Campagne v8 &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home).
 
 Om naadloos over te kunnen schakelen, hebben wij zeer belangrijke mogelijkheden van Campaign Standard aan v8 toegevoegd:
 

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## Metagegevens van filters ophalen
 
-Filters zijn beschikbaar voor elke bron. Om de filters te identificeren verbonden aan een middel, moet u een verzoek van de GET op de middelmeta-gegevens uitvoeren. Dit verzoek retourneert de URL waar alle filters zijn gedefinieerd voor een bepaalde bron. Voor meer op meta-gegevens, verwijs naar [ deze sectie ](metadata-mechanism.md).
+Filters zijn beschikbaar voor elke bron. Om de filters te identificeren verbonden aan een middel, moet u een verzoek van de GET op de middelmeta-gegevens uitvoeren. Dit verzoek retourneert de URL waar alle filters zijn gedefinieerd voor een bepaalde bron. Voor meer op meta-gegevens, verwijs naar [&#x200B; deze sectie &#x200B;](metadata-mechanism.md).
 
 Om de meta-gegevens van een filter te identificeren en te bepalen hoe te om het te gebruiken, moet u een verzoek van de GET op eerder teruggekeerde URL uitvoeren.
 
@@ -202,8 +202,8 @@ Als u een aangepast filter wilt gebruiken, moet u het maken en aanpassen in de A
 
 Raadpleeg de documentatie bij het Campaign Standard voor meer informatie hierover:
 
-* [ Vormend filterdefinitie ](https://helpx.adobe.com/nl/campaign/standard/developing/using/configuring-filter-definition.html).
-* [ geval van het Gebruik: Het roepen van een middel gebruikend een samengestelde identiteitskaart ](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=nl-NL).
+* [&#x200B; Vormend filterdefinitie &#x200B;](https://helpx.adobe.com/nl/campaign/standard/developing/using/configuring-filter-definition.html).
+* [&#x200B; geval van het Gebruik: Het roepen van een middel gebruikend een samengestelde identiteitskaart &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=nl-NL).
 
 <br/>
 

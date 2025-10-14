@@ -83,7 +83,7 @@ Uw token is ongeldig (onjuiste IMS-aanroep die wordt gebruikt om een token te ge
 
 * **ik zie mijn profiel na verwezenlijking niet**
 
-Afhankelijk van de instantieconfiguratie, moet het gecreeerde profiel aan een **orgUnit** worden geassocieerd. Om te begrijpen hoe te om dit gebied in uw verwezenlijking toe te voegen, raadpleeg [ deze sectie ](creating-profiles-api.md).
+Afhankelijk van de instantieconfiguratie, moet het gecreeerde profiel aan een **orgUnit** worden geassocieerd. Om te begrijpen hoe te om dit gebied in uw verwezenlijking toe te voegen, raadpleeg [&#x200B; deze sectie &#x200B;](creating-profiles-api.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
 

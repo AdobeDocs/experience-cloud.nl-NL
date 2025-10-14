@@ -41,7 +41,7 @@ Maak een trigger en configureer de voorwaarden voor de trigger. U kunt bijvoorbe
 
 1. Selecteer de Analytics **[!UICONTROL Report Suite]** die voor deze trigger wordt gebruikt. Deze instelling identificeert de te gebruiken rapportgegevens.
 
-   [ Leer meer op de Reeks van het Rapport ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=nl-NL){target="_blank"} .
+   [&#x200B; Leer meer op de Reeks van het Rapport &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=nl-NL){target="_blank"} .
 
 1. Kies de geldigheidsperiode **[!UICONTROL Trigger after no action for]** .
 

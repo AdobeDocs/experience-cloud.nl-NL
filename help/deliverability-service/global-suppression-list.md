@@ -35,7 +35,7 @@ Er zijn momenteel twee manieren waarop adressen aan de algemene suppressielijst 
 * Lijst beheerd door het leveringsteam.
 * Lijst verstrekt door de derde dienstverlener Blackbox.
 
-U kunt e-mailadressen of domeinen [ tegelijkertijd ](#add-one-address-or-domain), of [ op bulkwijze ](#upload-csv-file) door een Csv- dossierupload toevoegen.
+U kunt e-mailadressen of domeinen [&#x200B; tegelijkertijd &#x200B;](#add-one-address-or-domain), of [&#x200B; op bulkwijze &#x200B;](#upload-csv-file) door een Csv- dossierupload toevoegen.
 
 Hiervoor selecteert u de knop **[!UICONTROL Add email or domain]** en volgt u een van de onderstaande methoden.
 
@@ -55,7 +55,7 @@ Hiervoor selecteert u de knop **[!UICONTROL Add email or domain]** en volgt u ee
 
    >[!NOTE]
    >
-   >Alle afdrukbare ASCII-tekens tussen 32 en 126 zijn toegestaan in dit veld. De volledige lijst kan op [ worden gevonden deze pagina ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} bijvoorbeeld.
+   >Alle afdrukbare ASCII-tekens tussen 32 en 126 zijn toegestaan in dit veld. De volledige lijst kan op [&#x200B; worden gevonden deze pagina &#x200B;](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} bijvoorbeeld.
 
 1. Klik op **[!UICONTROL Submit]** om te bevestigen.
 
@@ -81,13 +81,13 @@ Hiervoor selecteert u de knop **[!UICONTROL Add email or domain]** en volgt u ee
 
    >[!NOTE]
    >
-   >Alle karakters ASCII die tussen 32 en 126 worden samengesteld worden toegestaan in de **1&rbrace; kolom van de Commentaar &lbrace;.** De volledige lijst kan op [ worden gevonden deze pagina ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} bijvoorbeeld.
+   >Alle karakters ASCII die tussen 32 en 126 worden samengesteld worden toegestaan in de **1&rbrace; kolom van de Commentaar &lbrace;.** De volledige lijst kan op [&#x200B; worden gevonden deze pagina &#x200B;](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} bijvoorbeeld.
 
 1. Als u klaar bent, sleept u het CSV-bestand en klikt u op **[!UICONTROL Submit]** om het bestand te bevestigen.
 
 >[!NOTE]
 >
->Zodra uploaden wordt gedaan, zorg ervoor het door zijn status van de interface te controleren succesvol was. [ leer hoe ](#recent-uploads)
+>Zodra uploaden wordt gedaan, zorg ervoor het door zijn status van de interface te controleren succesvol was. [&#x200B; leer hoe &#x200B;](#recent-uploads)
 
 ### Status van recente uploads controleren {#recent-uploads}
 

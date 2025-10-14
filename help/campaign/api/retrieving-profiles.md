@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Het terugwinnen van profielen wordt uitgevoerd met a **GET** verzoek.
 
-Vervolgens kunt u de zoekopdracht verfijnen door filters, volgorde en paginering te gebruiken. Voor meer op dit, verwijs naar de [ Aanvullende verrichtingen ](sorting.md) sectie.
+Vervolgens kunt u de zoekopdracht verfijnen door filters, volgorde en paginering te gebruiken. Voor meer op dit, verwijs naar de [&#x200B; Aanvullende verrichtingen &#x200B;](sorting.md) sectie.
 
 Bovendien kunt u met Campaign Standard-API&#39;s zoeken naar profielen op basis van een van deze velden: e-mail, voornaam, achternaam of een aangepast veld. Raadpleeg [deze sectie](#searching-field) voor meer informatie.
 

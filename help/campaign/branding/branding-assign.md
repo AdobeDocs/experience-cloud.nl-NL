@@ -98,7 +98,7 @@ Volg de onderstaande stappen om een nieuwe, zelfstandige levering te maken.
 
 1. Zodra gevormd, uitgezochte **O.K.**.
 
-1. Pas uw leveringen verder aan. Voor meer informatie over het creëren van een e-mail verwijs naar het [ Ontwerp en verzend e-mails ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/email/create-email) sectie.
+1. Pas uw leveringen verder aan. Voor meer informatie over het creëren van een e-mail verwijs naar het [&#x200B; Ontwerp en verzend e-mails &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/email/create-email) sectie.
 
 >[!TAB  het Web van Adobe Campaign ]
 
@@ -124,6 +124,6 @@ Volg de onderstaande stappen om een nieuwe, zelfstandige levering te maken.
 
    ![](assets/branding_assign_web_7.png)
 
-1. Pas uw leveringen verder aan. Voor meer informatie over het creëren van een e-mail verwijs naar [ creeer uw eerste e-mail ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/email/create-email) sectie.
+1. Pas uw leveringen verder aan. Voor meer informatie over het creëren van een e-mail verwijs naar [&#x200B; creeer uw eerste e-mail &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/email/create-email) sectie.
 
 >[!ENDTABS]

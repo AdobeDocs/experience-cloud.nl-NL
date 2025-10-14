@@ -29,7 +29,7 @@ De middelen van de douane zijn toegankelijk door APIs gebruikend het **/profileA
 
 U kunt elke gewenste bewerking uitvoeren met aangepaste bronnen, mits deze zijn gekoppeld aan de tabel Profiel. Neem bijvoorbeeld de onderstaande tabelstructuur:
 
-![ alt tekst ](assets/cusresources.png)
+![&#x200B; alt tekst &#x200B;](assets/cusresources.png)
 
 In dat geval, zijn alle middelen van de **Transactie**, **TransactionDetails** en **de lijsten van het Product** beschikbaar zolang zij met de **7&rbrace; lijst van het Profiel &lbrace;verbonden zijn.**
 

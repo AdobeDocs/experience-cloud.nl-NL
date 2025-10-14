@@ -26,7 +26,7 @@ Technische beheerders kunnen meerdere merken binnen Adobe Campaign maken en behe
 
 U kunt nieuwe entiteiten van uw organisatie toevoegen in Campagne, of een nieuw type van e-mail tot stand brengen dat u onder een verschillend subdomain moet verzenden. Volg onderstaande stappen om dit te doen:
 
-1. **vorm een nieuw subdomain** - voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap het vormen zijn. U kunt dit door [ het Controlebord van de Campagne ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl) uitvoeren of uit naar uw Adobe technisch contact reiken. Leer meer over subdomeinconfiguratie [ in deze pagina ](https://experienceleague.adobe.com/nl/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
+1. **vorm een nieuw subdomain** - voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap het vormen zijn. U kunt dit door [&#x200B; het Controlebord van de Campagne &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl) uitvoeren of uit naar uw Adobe technisch contact reiken. Leer meer over subdomeinconfiguratie [&#x200B; in deze pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
 
    >[!NOTE]
    >
