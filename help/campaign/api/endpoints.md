@@ -26,8 +26,8 @@ De beschikbare eindpunten voor de Adobe Campaign REST API:
 
 Door gebrek, zijn de belangrijkste middelen beschikbaar voor **profileAndServices** en **profileAndServicesExt** APIs:
 
-* **/profile**: interactie met profielen van het gegevensbestand van de Campagne. Om profielen aan de dienst toe te voegen, gebruik het **/dienst** eindpunt. Voor meer op profielen in Campagne, verwijs naar de [&#x200B; documentatie van de Campagne &#x200B;](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html).
-* **/service**: beheer abonnementsservices. Voor meer op de diensten in Campagne, verwijs naar de [&#x200B; documentatie van de Campagne &#x200B;](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html).
+* **/profile**: interactie met profielen van het gegevensbestand van de Campagne. Om profielen aan de dienst toe te voegen, gebruik het **/dienst** eindpunt. Voor meer op profielen in Campagne, verwijs naar de [&#x200B; documentatie van de Campagne &#x200B;](https://helpx.adobe.com/nl/campaign/standard/audiences/using/about-profiles.html).
+* **/service**: beheer abonnementsservices. Voor meer op de diensten in Campagne, verwijs naar de [&#x200B; documentatie van de Campagne &#x200B;](https://helpx.adobe.com/nl/campaign/standard/audiences/using/creating-a-service.html).
 
 >[!NOTE]
 >
