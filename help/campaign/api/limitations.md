@@ -4,14 +4,14 @@ description: Aanbevelingen en beperkingen bij het migreren naar de REST-API's vo
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 mini-toc-levels: 1
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde Campaign Standard-gebruikers"
 exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
-source-git-commit: 952706ffafc1e7cd6a759bfbbb9c9200191544d9
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1055'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ Sommige velden uit de database worden tijdens de migratie verwijderd. Als u een 
 
 ## POST met gekoppelde bronnen
 
-Bij gebruik van de volgende indeling van de aanvraaginstantie, met &quot;VehicleOwner&quot; die de koppeling naar &quot;nms:receiner&quot; vertegenwoordigt:
+Wanneer het gebruiken van het volgende formaat van het verzoeklichaam, met &quot;VehicleOwner&quot;die de verbinding aan &quot;nms :recipient&quot;vertegenwoordigen:
 
 ```
 {
@@ -108,11 +108,11 @@ In de onderstaande sectie ziet u de verschillen tussen foutcodes en berichten va
 
 | Scenario | Campaign Standard | Campaign v8 |
 |  ---  |  ---  |  ---  |
-| Een ongeldige PKey in request Body gebruiken | 500 - attribuut &#39;O5iRp40EGA&#39; onbekend (zie definitie van &#39;Profielen (nms:ontvanger)&#39; schema). XTK-170036 Kan expressie &#39;@id = @O5iRp40EGA&#39; niet parseren. | 404 - Kan PKey niet decoderen. (PKey=@jksad) |
-| Een ongeldige PKey gebruiken in URI | 500 - attribuut &#39;O5iRp40EGA&#39; onbekend (zie definitie van &#39;Profielen (nms:ontvanger)&#39; schema). XTK-170036 Kan expressie &#39;@id = @O5iRp40EGA&#39; niet parseren. | 404 - Kan PKey niet decoderen. (PKey=@jksad) Niet-ondersteund eindpunt. (eindpunt=rest/profielAndServices/profiel/@jksad) |
+| Een ongeldige PKey in request Body gebruiken | 500 - het attribuut &quot;O5iRp40EGA&quot;onbekend (zie definitie van &quot;Profielen (nms :recipient)&quot;schema). XTK-170036 Kan expressie &#39;@id = @O5iRp40EGA&#39; niet parseren. | 404 - Kan PKey niet decoderen. (PKey=@jksad) |
+| Een ongeldige PKey gebruiken in URI | 500 - het attribuut &quot;O5iRp40EGA&quot;onbekend (zie definitie van &quot;Profielen (nms :recipient)&quot;schema). XTK-170036 Kan expressie &#39;@id = @O5iRp40EGA&#39; niet parseren. | 404 - Kan PKey niet decoderen. (PKey=@jksad) Niet-ondersteund eindpunt. (eindpunt=rest/profielAndServices/profiel/@jksad) |
 | Twee verschillende onbewerkte sleutels in URI gebruiken en verzoek lichaam | 500 - RST-360011 Er is een fout opgetreden. Neem contact op met de beheerder. RST-360012 Inconsistente verrichting op middel &quot;dienst&quot; - kan sleutel &quot;SVC3&quot;aan &quot;SVC4&quot;niet bijwerken. | 500 - Er is een fout opgetreden. Neem contact op met de beheerder. |
 | PKey gebruiken in URI en een verschillende ruwe PKey in het verzoeklichaam | 500 - Er bestaat al een &#39;service&#39; met dezelfde sleutel &#39;SVC4&#39;. PGS-220000 PostgreSQL-fout: FOUT: dubbele sleutelwaarde schendt unieke beperking &quot;nmsservice_name&quot; DETAIL: Sleutel (naam)=(SVC4) bestaat al. | 500 - Er is een fout opgetreden. Neem contact op met de beheerder. |
-| Niet-bestaande raw-id gebruiken in URI | 404 - RST-360011 Er is een fout opgetreden. Neem contact op met de beheerder. Kan document met pad &#39;Service&#39; van sleutel &#39;adobe_nl:0&#39; (document met schema&#39;service&#39; en naam &#39;adobe_nl&#39;) niet vinden. | 404 - Kan document met pad &#39;Service&#39; van sleutel &#39;adobe_nl&#39; niet vinden (document met schema&#39;service&#39; en naam &#39;adobe_nl&#39;) |
+| Niet-bestaande raw-id gebruiken in URI | 404 - RST-360011 Er is een fout opgetreden. Neem contact op met de beheerder. Kan document met pad &#39;Service&#39; van sleutel &#39;adobe_nl :0&#39; (document met schema&#39;service&#39; en naam &#39;adobe_nl&#39;) niet vinden. | 404 - Kan document met pad &#39;Service&#39; van sleutel &#39;adobe_nl&#39; niet vinden (document met schema&#39;service&#39; en naam &#39;adobe_nl&#39;) |
 | Niet-bestaande raw-id gebruiken in aanvraagbody | 404 - RST-360011 Er is een fout opgetreden. Neem contact op met de beheerder. Document met pad &#39;Service&#39; van sleutel &#39;adobe_nl&#39; kan niet worden gevonden (document met schema&#39;service&#39; en naam &#39;adobe_nl&#39;) | 404 - Kan document met pad &#39;Service&#39; van sleutel &#39;adobe_nl&#39; niet vinden (document met schema&#39;service&#39; en naam &#39;adobe_nl&#39;) |
 | - | 500 - RST-360011 Er is een fout opgetreden. Neem contact op met de beheerder. | 500 - Er is een fout opgetreden. Neem contact op met de beheerder. |
 | Een profiel/service met een ongeldige waarde voor het geslacht (of iets anders) invoegen | 500 - RST-360011 Er is een fout opgetreden. Neem contact op met de beheerder. De waarde &quot;ongeldig&quot;is ongeldig voor de &quot;nms :recipient: gender&quot;opsomming van het &quot;@gender&quot;gebied | 500 -Er is een fout opgetreden. Neem contact op met de beheerder. |

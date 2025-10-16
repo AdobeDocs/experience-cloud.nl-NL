@@ -1,11 +1,11 @@
 ---
 title: Lidmaatschappen verwijderen
 description: Leer hoe u abonnementen met API's kunt verwijderen
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
+badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde Campaign Standard-gebruikers"
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Dit is een procedure in drie stappen.
 
 1. Haal de abonnements-URL voor het gewenste profiel op.
 1. Voer een GET-aanvraag uit op de abonnements-URL.
-1. Voer een verzoek van de DELETE op de gewenste dienst URL uit.
+1. Voer een DELETE-verzoek uit op de gewenste service-URL.
 
 Als het verwijderingsverzoek is gelukt, is de status van het antwoord 204 Geen inhoud.
 
@@ -77,7 +77,7 @@ Het keert de lijst van abonnementen voor het geselecteerde profiel, met een URL 
 ...
 ```
 
-Voer een verzoek van de DELETE op de gewenste dienst URL uit.
+Voer een DELETE-verzoek uit op de gewenste service-URL.
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -94,7 +94,7 @@ Voer een verzoek van de DELETE op de gewenste dienst URL uit.
 Dit is een procedure in drie stappen.
 
 1. Haal de gewenste service en de abonnements-URL op.
-1. Voer op de abonnements-URL een aanvraag voor GET uit om alle abonnementen op profielen op te halen.
+1. Voer een GET-aanvraag uit op de abonnements-URL om alle abonnementen op profielen op te halen.
 1. Voer een DELETE-aanvraag uit op de gewenste profielabonnements-URL.
 
 Als het verwijderingsverzoek is gelukt, is de status van het antwoord 204 Geen inhoud.

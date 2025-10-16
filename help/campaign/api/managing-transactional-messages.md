@@ -4,11 +4,11 @@ description: Leer hoe u transactieberichten beheert met API's.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde Campaign Standard-gebruikers"
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 110fcdcbefef53677cf213a39f45eb5d446807c2
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 1%
@@ -25,8 +25,8 @@ Nadat u een transactiegebeurtenis hebt gemaakt en gepubliceerd, moet u het activ
 
 U wilt bijvoorbeeld dat de gebeurtenis &#39;Afkappen met winkelwagentje&#39; wordt geactiveerd wanneer een van uw klanten uw website verlaat voordat ze de producten in hun winkelwagentje kopen. Om dit te doen, als Webontwikkelaar, moet u de REST Transactionele Berichten API gebruiken.
 
-1. Verzend een verzoek volgens de methode van de POST, die het [&#x200B; verzenden van de transactionele gebeurtenis &#x200B;](#sending-a-transactional-event) teweegbrengt.
-1. Het antwoord op het POST-verzoek bevat een primaire sleutel, waarmee u een of meerdere verzoeken via een GET-aanvraag kunt verzenden. U kunt dan de [&#x200B; gebeurtenisstatus &#x200B;](#transactional-event-status) verkrijgen.
+1. Verzend een verzoek volgens de methode van de POST, die het [ verzenden van de transactionele gebeurtenis ](#sending-a-transactional-event) teweegbrengt.
+1. Het antwoord op het POST-verzoek bevat een primaire sleutel, waarmee u een of meerdere verzoeken via een GET-aanvraag kunt verzenden. U kunt dan de [ gebeurtenisstatus ](#transactional-event-status) verkrijgen.
 
 ## Een transactiegebeurtenis verzenden {#sending-a-transactional-event}
 

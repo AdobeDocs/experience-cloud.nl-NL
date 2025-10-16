@@ -4,11 +4,11 @@ description: Maak integraties en bouw uw eigen ecosysteem door een interface tus
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde Campaign Standard-gebruikers"
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: ea8b978d8f71942c8d034804ca269957a09a52db
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 48%

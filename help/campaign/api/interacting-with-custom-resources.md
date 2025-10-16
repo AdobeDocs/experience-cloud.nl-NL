@@ -4,11 +4,11 @@ description: Meer informatie over het beheer van aangepaste bronnen met API's/
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
+badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde Campaign Standard-gebruikers"
 exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Hier volgt een voorbeeld om de metagegevens op te halen uit een aangepaste bron:
 GET /customResources/resourceType/<customResourceName>
 ```
 
-Voor het maken, bijwerken of verwijderen worden de GET, POST, PATCH, DELETE gebruikt.
+Voor het maken, bijwerken of verwijderen worden de GET, POST, PATCH en DELETE gebruikt.
 
 ```
 POST /customResources/<customResourceName>

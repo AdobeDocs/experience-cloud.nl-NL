@@ -4,11 +4,11 @@ description: Leer hoe u een signaalactiviteit activeert met API's.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
+badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde Campaign Standard-gebruikers"
 exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 2%
@@ -31,7 +31,7 @@ Volg onderstaande stappen om een workflow te activeren:
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. Voer het verzoek van de a **POST** op teruggekeerde URL uit om de signaalactiviteit, met de **&quot;bron&quot;** parameter in de nuttige lading teweeg te brengen. Dit kenmerk is verplicht, zodat u de activerende aanvraagbron kunt aangeven.
+1. Voer a **POST** verzoek op teruggekeerde URL uit om de signaalactiviteit, met de **&quot;bron&quot;** parameter in de nuttige lading teweeg te brengen. Dit kenmerk is verplicht, zodat u de activerende aanvraagbron kunt aangeven.
 
 Als u het werkschema met parameters wilt roepen, voeg hen in de nuttige lading met **&quot;parameters&quot;** attributen toe. De syntaxis bestaat uit de naam van de parameter die door zijn waarde wordt gevolgd (de volgende types worden gesteund: **koord**, **aantal**, **boolean** en **datum/tijd**).
 
@@ -62,7 +62,7 @@ Als u het werkschema met parameters wilt roepen, voeg hen in de nuttige lading m
 
 ***verzoek van de Steekproef***
 
-Voer een verzoek van de GET uit op het werkschema.
+Voer een GET-aanvraag uit voor de workflow.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
@@ -91,7 +91,7 @@ Het retourneert de activiteit van het workflowsignaal en de bijbehorende trigger
 }
 ```
 
-Om een signaalactiviteit teweeg te brengen, voer een verzoek van de POST op trekkerURL met &quot;bron&quot;uit. Voeg de kenmerken &quot;parameters&quot; toe als u de workflow met parameters wilt aanroepen.
+Om een signaalactiviteit teweeg te brengen, voer een verzoek van POST op de trekkerURL met &quot;bron&quot;uit. Voeg de kenmerken &quot;parameters&quot; toe als u de workflow met parameters wilt aanroepen.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
@@ -115,7 +115,7 @@ Om een signaalactiviteit teweeg te brengen, voer een verzoek van de POST op trek
 
 <!-- + réponse -->
 
-Als een van de parameters niet wordt gedeclareerd in de externe signaalactiviteit, retourneert de aanvraag van de POST de onderstaande fout die aangeeft welke parameter ontbreekt.
+Als een van de parameters niet wordt gedeclareerd in de externe signaalactiviteit, retourneert de POST-aanvraag de onderstaande fout die aangeeft welke parameter ontbreekt.
 
 ```
 RST-360011 An error has occurred - please contact your administrator.

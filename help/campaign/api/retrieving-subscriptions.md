@@ -1,11 +1,11 @@
 ---
 title: Lidmaatschappen ophalen
 description: Leer hoe u abonnementen ophaalt met API's
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
+badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde Campaign Standard-gebruikers"
 exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Dit is een procedure in twee stappen.
 
 ***verzoek van de Steekproef***
 
-Voer een verzoek van de GET uit om de dienst terug te winnen.
+Voer een GET-verzoek uit om de service op te halen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -85,13 +85,13 @@ De lijst met abonnementen voor de service wordt weergegeven met elk gekoppeld pr
 Dit is een procedure in twee stappen.
 
 1. Haal de abonnements-URL voor een bepaald profiel op.
-1. Voer een verzoek van de GET op URL uit. Het keert de lijst van abonnementen voor het profiel, met elke bijbehorende dienst terug.
+1. Voer een GET-aanvraag uit op de URL. Het keert de lijst van abonnementen voor het profiel, met elke bijbehorende dienst terug.
 
 <br/>
 
 ***verzoek van de Steekproef***
 
-Voer een verzoek van de GET uit om het profiel terug te winnen.
+Voer een GET-aanvraag uit om het profiel op te halen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \

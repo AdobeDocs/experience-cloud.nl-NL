@@ -1,11 +1,11 @@
 ---
 title: Abonnementen uitvoeren
 description: Leer hoe u abonnementen uitvoert met API's
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
+badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde Campaign Standard-gebruikers"
 exl-id: 64f321a3-436a-4b7c-99d8-0c006203012e
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Methode 1: Een profiel abonneren op een service
 
-Voer een verzoek van de GET uit om het profiel terug te winnen.
+Voer een GET-aanvraag uit om het profiel op te halen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -40,7 +40,7 @@ De abonnements-URL voor het profiel wordt geretourneerd.
   }
 ```
 
-Voer een verzoek van de POST op abonnementen URL met de gewenste dienst Primaire Sleutel binnen de lading uit.
+Voer een POST- verzoek op abonnementen URL met de gewenste dienst Primaire Sleutel binnen de lading uit.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -69,7 +69,7 @@ Het keert het bijgewerkte profiel met de voltooide de dienstknoop terug.
 
 ## Methode 2: Een profiel toevoegen aan abonnees van de dienst
 
-Voer een verzoek van de GET uit om de dienst terug te winnen.
+Voer een GET-verzoek uit om de service op te halen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -93,7 +93,7 @@ De abonnements-URL voor de service wordt geretourneerd.
   },
 ```
 
-Breng een verzoek van de POST op abonnementen URL met de gewenste profiel Primaire Sleutel binnen de lading.
+Voer een POST-aanvraag in op de abonnements-URL met het gewenste profiel Primaire sleutel in de payload.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \

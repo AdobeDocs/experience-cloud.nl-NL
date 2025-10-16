@@ -4,11 +4,11 @@ description: Leer hoe u filterbewerkingen kunt uitvoeren.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
+badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde Campaign Standard-gebruikers"
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 ## Metagegevens van filters ophalen
 
-Filters zijn beschikbaar voor elke bron. Om de filters te identificeren verbonden aan een middel, moet u een verzoek van de GET op de middelmeta-gegevens uitvoeren. Dit verzoek retourneert de URL waar alle filters zijn gedefinieerd voor een bepaalde bron. Voor meer op meta-gegevens, verwijs naar [&#x200B; deze sectie &#x200B;](metadata-mechanism.md).
+Filters zijn beschikbaar voor elke bron. Om de filters te identificeren verbonden aan een middel, moet u een verzoek van GET op de middelmeta-gegevens uitvoeren. Dit verzoek retourneert de URL waar alle filters zijn gedefinieerd voor een bepaalde bron. Voor meer op meta-gegevens, verwijs naar [ deze sectie ](metadata-mechanism.md).
 
-Om de meta-gegevens van een filter te identificeren en te bepalen hoe te om het te gebruiken, moet u een verzoek van de GET op eerder teruggekeerde URL uitvoeren.
+Om de meta-gegevens van een filter te identificeren en te bepalen hoe te om het te gebruiken, moet u een GET verzoek op eerder teruggekeerde URL uitvoeren.
 
 <br/>
 
 ***verzoek van de Steekproef***
 
-In de onderstaande voorbeeldladingen ziet u hoe u de metagegevens van de &quot;byText&quot;-filter voor de &quot;profile&quot;-bron ophaalt. Voer eerst een verzoek van de GET op &quot;profiel&quot;middelmetada uit.
+In de onderstaande voorbeeldladingen ziet u hoe u de metagegevens van de &quot;byText&quot;-filter voor de &quot;profile&quot;-bron ophaalt. Voer eerst een GET-aanvraag uit op de metada van de resource &quot;profile&quot;.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -47,7 +47,7 @@ De URL waar de filters worden beschreven, wordt geretourneerd.
   }
 ```
 
-Voer een verzoek van de GET op URL uit. De lijst met filters voor de profielbron wordt geretourneerd, met de metagegevens die aan elk filter zijn gekoppeld.
+Voer een GET-aanvraag uit op de URL. De lijst met filters voor de profielbron wordt geretourneerd, met de metagegevens die aan elk filter zijn gekoppeld.
 
 ```
 {
@@ -133,7 +133,7 @@ Het is mogelijk meerdere filters te combineren in één aanvraag:
   }
   ```
 
-* Voorbeeld van een GET-verzoek om de &quot;profiel&quot;-bronnen met &quot;Doe&quot; op te halen in
+* Voorbeeld van een GET-aanvraag om de &quot;profiel&quot;-bronnen met &quot;Doe&quot; op te halen in
 de velden voor e-mail- of achternaam (het filter ByText zoekt zowel naar de velden voor e-mail- als achternaam).
 
   ```
@@ -162,7 +162,7 @@ de velden voor e-mail- of achternaam (het filter ByText zoekt zowel naar de veld
   }
   ```
 
-* Voorbeeld van een GET-verzoek om de servicemiddelen op te halen met het type &quot;email&quot; en het label &quot;sport&quot;.
+* Voorbeeld van een GET-aanvraag om de servicemiddelen op te halen met het type &quot;email&quot; en het label &quot;sport&quot;.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -200,16 +200,16 @@ Als u een aangepast filter wilt gebruiken, moet u het maken en aanpassen in de A
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-Raadpleeg de documentatie bij het Campaign Standard voor meer informatie hierover:
+Raadpleeg de documentatie bij Campaign Standard voor meer informatie:
 
-* [&#x200B; Vormend filterdefinitie &#x200B;](https://helpx.adobe.com/nl/campaign/standard/developing/using/configuring-filter-definition.html).
-* [&#x200B; geval van het Gebruik: Het roepen van een middel gebruikend een samengestelde identiteitskaart &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=nl-NL).
+* [ Vormend filterdefinitie ](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
+* [ geval van het Gebruik: Het roepen van een middel gebruikend een samengestelde identiteitskaart ](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
 ***verzoek van de Steekproef***
 
-Voorbeeld-GET-verzoek om de &quot;profiel&quot;-bronnen op te halen met transactiebedragen van 100$ of meer. Het filter &quot;byAmount&quot; is eerst gedefinieerd in de Adobe Campaign Standard-interface en gekoppeld aan de aangepaste tabel &quot;Transaction&quot;.
+Voorbeeld van een GET-aanvraag om de &quot;profile&quot;-bronnen op te halen met transactiebedragen van 100$ of meer. Het filter &quot;byAmount&quot; is eerst gedefinieerd in de Adobe Campaign Standard-interface en gekoppeld aan de aangepaste tabel &quot;Transaction&quot;.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \

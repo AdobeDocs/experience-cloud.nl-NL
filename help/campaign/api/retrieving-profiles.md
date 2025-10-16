@@ -1,11 +1,11 @@
 ---
 title: Profielen ophalen
 description: Meer informatie over het ophalen van profielen met API's
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
+badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde Campaign Standard-gebruikers"
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 4%
@@ -16,15 +16,15 @@ ht-degree: 4%
 
 Het terugwinnen van profielen wordt uitgevoerd met a **GET** verzoek.
 
-Vervolgens kunt u de zoekopdracht verfijnen door filters, volgorde en paginering te gebruiken. Voor meer op dit, verwijs naar de [&#x200B; Aanvullende verrichtingen &#x200B;](sorting.md) sectie.
+Vervolgens kunt u de zoekopdracht verfijnen door filters, volgorde en paginering te gebruiken. Voor meer op dit, verwijs naar de [ Aanvullende verrichtingen ](sorting.md) sectie.
 
-Bovendien kunt u met Campaign Standard-API&#39;s zoeken naar profielen op basis van een van deze velden: e-mail, voornaam, achternaam of een aangepast veld. Raadpleeg [deze sectie](#searching-field) voor meer informatie.
+Bovendien kunt u met Campaign Standard API&#39;s zoeken naar profielen op basis van een van deze velden: e-mail, voornaam, achternaam of een aangepast veld. Raadpleeg [deze sectie](#searching-field) voor meer informatie.
 
 <br/>
 
 ***verzoeken van de Steekproef***
 
-* Voorbeeld van GET-aanvraag om alle profielen op te halen.
+* Voorbeeld van een GET-aanvraag om alle profielen op te halen.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \

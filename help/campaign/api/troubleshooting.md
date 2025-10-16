@@ -1,19 +1,19 @@
 ---
 title: API-probleemoplossing
-description: Meer informatie over algemene problemen met API's voor Campaigns Standard
-role: Data Engineer
+description: Meer informatie over algemene problemen met betrekking tot Campaign Standard API's
+role: Developer
 level: Experienced
-badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde Campaign Standard-gebruikers"
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
 
 # API-problemen {#troubleshooting}
 
-* **wanneer het gaan naar de Console Adobe.io krijgt u de volgende fout: &quot;De console van de Adobe I/O is slechts beschikbaar om leden van ondernemingsrekeningen te selecteren. Als u gelooft u toegang zou moeten hebben, gelieve uw Beheerder van het Systeem te contacteren.&quot;**
+* **wanneer het gaan naar de Console Adobe.io krijgt u de volgende fout: &quot;De console van Adobe I/O is slechts beschikbaar om leden van ondernemingsrekeningen te selecteren. Als u gelooft u toegang zou moeten hebben, gelieve uw Beheerder van het Systeem te contacteren.&quot;**
 
 U kunt alleen API-sleutels maken voor de organisaties waarvan u de beheerder bent. Als dit bericht wordt weergegeven en u API-sleutels wilt maken, vraagt u een van de beheerders van de organisatie.
 
@@ -21,7 +21,7 @@ U kunt alleen API-sleutels maken voor de organisaties waarvan u de beheerder ben
 
 Dit betekent dat er een probleem is met de IMS-provisioning van uw specifieke campagneproduct: het IMS-team moet dit probleem oplossen.
 
-Als u meer details wilt, kunt u de IMS API met uw token aanroepen om te zien hoe uw IMS-profiel eruitziet: u moet een prodCtx hebben waarbij de organisatie_id dezelfde is als de id die u in uw URL voor Adobe.io plaatst om uw aanvraag te kunnen doorsturen.
+Als u meer details wilt, kunt u de IMS API met uw token aanroepen om te zien hoe uw IMS-profiel eruitziet: u moet een prodCtx hebben waarbij de organisatie_id dezelfde is als de id die u in uw URL plaatst voor Adobe.io om uw aanvraag te kunnen doorsturen.
 Als de IMS-voorziening ontbreekt, moet deze worden hersteld.
 
 ```
@@ -48,7 +48,7 @@ Controleer uw IMS-profiel met deze aanvraag.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-In de reactie, moet de waarde ORGANIZATION_ID het zelfde in uw eerste verzoek van de GET zijn.
+In de reactie, moet de waarde ORGANIZATION_ID het zelfde in uw eerste GET verzoek zijn.
 
 ```
 {
@@ -75,15 +75,15 @@ In de reactie, moet de waarde ORGANIZATION_ID het zelfde in uw eerste verzoek va
 
 * **wanneer het doen van een verzoek aan Adobe.io krijgt u {&quot;code&quot;:500, &quot;bericht&quot;:&quot;Oeps. Er is iets misgegaan. Controleer uw URI en probeer opnieuw.&quot;}**
 
-Adobe.io declareert uw ongeldige URI: de URI die u aanvraagt, is naar alle waarschijnlijkheid ongeldig. Op Adobe.io wanneer u de dienst van de Campagne selecteert, krijgt u een plukker met een lijst van mogelijke organisatie_ids. U moet controleren dat u kiest u in uw URL plaatst.
+Adobe.io declareert uw ongeldige URI: de URI die u aanvraagt, is naar alle waarschijnlijkheid ongeldig. Op Adobe.io wordt een kiezer weergegeven met een lijst met mogelijke organisatie_id&#39;s wanneer u de Campagneservice selecteert. U moet controleren dat u kiest u in uw URL plaatst.
 
-* **wanneer het doen van een verzoek aan Adobe.io krijgt u {&quot;error_code&quot;:&quot;401013&quot;, &quot;bericht&quot;:&quot;Het oautetoken is niet geldig&quot;}**
+* **wanneer het doen van een verzoek aan Adobe.io krijgt u {&quot;error_code&quot;:&quot;401013&quot;, &quot;bericht&quot;:&quot;Het oauth teken is ongeldig&quot;}**
 
 Uw token is ongeldig (onjuiste IMS-aanroep die wordt gebruikt om een token te genereren) of uw token is verlopen.
 
 * **ik zie mijn profiel na verwezenlijking niet**
 
-Afhankelijk van de instantieconfiguratie, moet het gecreeerde profiel aan een **orgUnit** worden geassocieerd. Om te begrijpen hoe te om dit gebied in uw verwezenlijking toe te voegen, raadpleeg [&#x200B; deze sectie &#x200B;](creating-profiles-api.md).
+Afhankelijk van de instantieconfiguratie, moet het gecreeerde profiel aan een **orgUnit** worden geassocieerd. Om te begrijpen hoe te om dit gebied in uw verwezenlijking toe te voegen, raadpleeg [ deze sectie ](creating-profiles-api.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
 

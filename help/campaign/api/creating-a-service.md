@@ -1,11 +1,11 @@
 ---
 title: Een service met API's maken
 description: Leer hoe u een service maakt met API's
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde gebruikers in Campaign Standard"
+badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde Campaign Standard-gebruikers"
 exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Een service met API&#39;s maken{#creating-a-service-api}
 
-De verwezenlijking van de diensten wordt uitgevoerd met a **verzoek van de POST** op het de dienstmiddel.
+De verwezenlijking van de diensten wordt uitgevoerd met a **POST** verzoek op het de dienstmiddel.
 
 Als u de dienst met specifieke attributen wilt tot stand brengen, voeg hen in de lading toe. Anders, zal de nieuwe dienst met standaarddegenen worden gecreeerd.
 
@@ -22,7 +22,7 @@ Als u de dienst met specifieke attributen wilt tot stand brengen, voeg hen in de
 
 ***verzoek van de Steekproef***
 
-De vraag van de POST van de steekproef om de dienst met specifieke attributen tot stand te brengen.
+Voorbeeld van POST-aanvraag om een service met specifieke kenmerken te maken.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \
