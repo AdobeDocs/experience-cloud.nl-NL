@@ -34,7 +34,7 @@ De reactie retourneert de hoofdmetagegevens van de bron (alle andere velden zijn
      Als &quot;type&quot;met de waarde &quot;verbinding&quot;of &quot;inzameling&quot;wordt voltooid, is de resTarget waarde de naam van het middel dat door de verbinding wordt gericht.
 Als het &quot;type&quot;met de waarde &quot;opsomming&quot;wordt voltooid, wordt een &quot;waarden&quot;gebied toegevoegd en elke opsommingswaarde is gedetailleerd in de **waarden** knoop.
 
-* De **Filters** knoop keert URL terug om de bijbehorende filters terug te winnen. Voor meer op filters, verwijs naar [ deze sectie ](filtering.md) sectie.
+* De **Filters** knoop keert URL terug om de bijbehorende filters terug te winnen. Voor meer op filters, verwijs naar [&#x200B; deze sectie &#x200B;](filtering.md) sectie.
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N

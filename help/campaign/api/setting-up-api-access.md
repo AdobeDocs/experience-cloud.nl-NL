@@ -17,22 +17,22 @@ ht-degree: 27%
 
 # API-toegang instellen {#setting-up-api-access}
 
-Adobe Campaign Standard API-toegang wordt ingesteld via de onderstaande stappen. Elk van deze stappen wordt gedetailleerd in de [ documentatie van Adobe Developer ](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+Adobe Campaign Standard API-toegang wordt ingesteld via de onderstaande stappen. Elk van deze stappen wordt gedetailleerd in de [&#x200B; documentatie van Adobe Developer &#x200B;](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!IMPORTANT]
 >
->Om certificaten in [ Adobe Developer ](https://developer.adobe.com/) te beheren, zorg ervoor u **de beheerderrechten van het Systeem** op de organisatie of a [ ontwikkelaarrekening ](https://helpx.adobe.com/nl/enterprise/using/manage-developers.html) in Admin Console hebt.
+>Om certificaten in [&#x200B; Adobe Developer &#x200B;](https://developer.adobe.com/) te beheren, zorg ervoor u **de beheerderrechten van het Systeem** op de organisatie of a [&#x200B; ontwikkelaarrekening &#x200B;](https://helpx.adobe.com/nl/enterprise/using/manage-developers.html) in Admin Console hebt.
 
 1. **Controleer of u een digitaal certificaat hebt**, of maak er zo nodig een. De bij het certificaat geleverde openbare en privésleutels zijn nodig bij de volgende stappen.
-1. **creeer een nieuwe integratie aan de Dienst van Adobe Campaign** in [ Adobe Developer ](https://developer.adobe.com/) en vorm het. Uw referenties worden dan gegenereerd (API-sleutel, klantgeheim...).
-1. **creeer een OAuth Server-aan-Server** credential door deze [ implementatiestappen te volgen ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
+1. **creeer een nieuwe integratie aan de Dienst van Adobe Campaign** in [&#x200B; Adobe Developer &#x200B;](https://developer.adobe.com/) en vorm het. Uw referenties worden dan gegenereerd (API-sleutel, klantgeheim...).
+1. **creeer een OAuth Server-aan-Server** credential door deze [&#x200B; implementatiestappen te volgen &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
 
    >[!IMPORTANT]
    >
    >JWT (JSON Web Tokens) wordt momenteel uitgefaseerd en wordt vervangen door OAuth. De overgang wordt geleidelijk uitgevoerd in de komende releases van Campagne. De referenties van de serviceaccount (JWT) zijn gemarkeerd als afgekeurd. Ze blijven werken tot 27 januari 2025. Daarom moet u uw toepassing of integratie migreren om de nieuwe server-aan-server referentie OAuth vóór 27 jan. 2025 te gebruiken. OAuth-verificatie verdient de voorkeur. U zult alle elementen vinden om van authentificatie JWT aan authentificatie OAuth op deze pagina&#39;s te migreren:
-   >* [ Migratie ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
-   >* [ Implementatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
-   >* [ Veelgestelde Veelgestelde vragen van de Verdringing JWT ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
+   >* [&#x200B; Migratie &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
+   >* [&#x200B; Implementatie &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
+   >* [&#x200B; Veelgestelde Veelgestelde vragen van de Verdringing JWT &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
 
 Om een veilige Adobe I/O API-sessie tussen services tot stand te brengen moet elk verzoek aan een Adobe-service de onderstaande informatie bevatten in de autorisatieheader.
 
@@ -55,7 +55,7 @@ Om een veilige Adobe I/O API-sessie tussen services tot stand te brengen moet el
 
 * **&lt;API_KEY>**: uw persoonlijke API-sleutel. Het wordt geleverd in Adobe I/O na het creëren van een nieuwe integratie aan de Dienst van Adobe Campaign.
 
-  ![ alt tekst ](assets/tenant.png)
+  ![&#x200B; alt tekst &#x200B;](assets/tenant.png)
 
 ## Problemen oplossen
 
