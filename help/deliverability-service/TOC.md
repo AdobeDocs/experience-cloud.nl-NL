@@ -1,16 +1,17 @@
 ---
-user-guide-title: Servicebeheer voor levering van Adobe
-user-guide-description: Leverbaarheidsservice Adobe
-breadcrumb-title: Leverbaarheidsservice Adobe
+user-guide-title: Adobe Deliberability Service Management
+user-guide-description: Adobe-leveringsservice
+breadcrumb-title: Adobe-leveringsservice
 hide: true
-source-git-commit: e52b82bd3f81fb68831ccbd1038e0187d1672595
+source-git-commit: cfdca7ed165ac603341373eaeea7397dc76d8630
 workflow-type: tm+mt
-source-wordcount: '17'
-ht-degree: 0%
+source-wordcount: '20'
+ht-degree: 5%
 
 ---
 
-# Leverbaarheidsservice Adobe {#deliverability-server}
+# Adobe-leveringsservice {#deliverability-server}
 
-* [Home](home.md)
+* [Startpagina](home.md)
 * [Algemene suppressielijst](global-suppression-list.md)
+* [Verborgen testartikel](hidden-test.md)
