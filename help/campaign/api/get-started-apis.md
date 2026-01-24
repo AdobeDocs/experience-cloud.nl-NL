@@ -42,4 +42,4 @@ De API’s die we bieden, gebruiken **standaardconcepten** met een REST-interfac
 
 Alle eindpunten worden uitgebreid beschreven in deze documentatie met de algemene begrippen die u moet kennen voor het manipuleren van de API, de volledige API-referentie, codevoorbeelden en snelstarthandleidingen. Alle voorbeelden werken met Postman, maar u kunt gerust uw favoriete REST-client gebruiken.
 
-Als er iets ontbreekt of onjuist lijkt, kunt u informeren bij de [community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community).
+Als er iets ontbreekt of onjuist lijkt, kunt u informeren bij de [community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=nl).
