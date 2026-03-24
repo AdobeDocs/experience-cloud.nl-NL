@@ -21,15 +21,15 @@ Met de API&#39;s voor het beheer van Experience Rollouts kunt u functiemarkering
 
 De volgende beheer-API&#39;s zijn beschikbaar:
 
-* [ de vlaggen van de Eigenschap beheer API ](feature-flags-management-api.md) - creeer, lees, werk, en schrap eigenschapvlaggen voor een toepassing bij.
-* [ het groepsbeheer API van de Eigenschap ](feature-group-management-api.md) - creeer, lees, werk, en schrap eigenschapgroepen bij.
-* [ beheer APIs van de Versie ](release-management-apis.md) - creeer en geef de groepen en versies van de dwars-teameigenschap uit.
+* [&#x200B; de vlaggen van de Eigenschap beheer API &#x200B;](feature-flags-management-api.md) - creeer, lees, werk, en schrap eigenschapvlaggen voor een toepassing bij.
+* [&#x200B; het groepsbeheer API van de Eigenschap &#x200B;](feature-group-management-api.md) - creeer, lees, werk, en schrap eigenschapgroepen bij.
+* [&#x200B; beheer APIs van de Versie &#x200B;](release-management-apis.md) - creeer en geef de groepen en versies van de dwars-teameigenschap uit.
 
 ## Algemene eisen {#common-requirements}
 
 Voor alle API-aanroepen voor beheer is het volgende vereist:
 
-* Een **API sleutel** van Adobe Developer Console - zie [ aan de API toepassing ](../guides/integrate/subscribe-to-api-application.md) intekenen.
+* Een **API sleutel** van Adobe Developer Console - zie [&#x200B; aan de API toepassing &#x200B;](../guides/integrate/subscribe-to-api-application.md) intekenen.
 * Een **IMS toegangstoken van de gebruikerstoegang** of **de dienstteken**, die als `Bearer <token>` in de `Authorization` kopbal wordt overgegaan.
 * A `Content-Type: application/json` header.
 
@@ -39,9 +39,9 @@ API-sleutels en tokens moeten afzonderlijk worden ingericht voor werkgebied- en 
 
 De volgende hulplijnen helpen u bij het maken van correcte API-ladingen:
 
-* [ krijgt cliëntidentiteitskaart voor een toepassing ](get-client-id.md) - bekijk omhoog numerieke cliëntidentiteitskaart die door de eigenschapvlaggen en het beheer APIs van de eigenschapgroep wordt vereist.
-* [ krijgt gewenste publiekscriteria ](get-audience-criteria.md) - gebruik de console en GET API om de correcte publiekscriteria JSON structuur te produceren.
-* [ het flardAPI van het Beheer ](management-patch-api.md) — Werk individuele gebieden van een eigenschapvlag, eigenschapgroep, of dwars-teameigenschapgroep bij zonder het volledige voorwerp over te gaan.
+* [&#x200B; krijgt cliëntidentiteitskaart voor een toepassing &#x200B;](get-client-id.md) - bekijk omhoog numerieke cliëntidentiteitskaart die door de eigenschapvlaggen en het beheer APIs van de eigenschapgroep wordt vereist.
+* [&#x200B; krijgt gewenste publiekscriteria &#x200B;](get-audience-criteria.md) - gebruik de console en GET API om de correcte publiekscriteria JSON structuur te produceren.
+* [&#x200B; het flardAPI van het Beheer &#x200B;](management-patch-api.md) — Werk individuele gebieden van een eigenschapvlag, eigenschapgroep, of dwars-teameigenschapgroep bij zonder het volledige voorwerp over te gaan.
 
 ## Zie ook {#see-also}
 
