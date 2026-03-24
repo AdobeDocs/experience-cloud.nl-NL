@@ -2,9 +2,9 @@
 audience: user
 user-guide-title: Adobe Experience Rollouts
 user-guide-description: Leer hoe u Adobe Experience Rollouts kunt gebruiken om functiemarkeringen, gecontroleerde rollouts en doelgerichte releases in uw toepassingen te beheren.
-source-git-commit: cd1d882942705f51440ae99f4ce6daf467d3283c
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '340'
 ht-degree: 1%
 
 ---
@@ -77,10 +77,6 @@ ht-degree: 1%
       + [Omgevingen koppelen aan een toepassing](guides/cross-environment/associate-environments.md)
       + [Functievlaggen weergeven in verschillende omgevingen](guides/cross-environment/view-feature-flags-across-environments.md)
       + [Markeringen voor importfuncties](guides/cross-environment/import-feature-flags.md)
-   + Automatische rollouts {#automated-rollouts}
-      + [Een automatische rollout maken](guides/automated-rollouts/create-automated-rollout.md)
-      + [Geautomatiseerd rollout-concept](guides/automated-rollouts/automated-rollout-concept.md)
-      + [Een rollout-abonnement controleren en bewerken](guides/automated-rollouts/monitor-edit-rollout-plan.md)
    + Ondersteuning {#support}
       + [Problemen oplossen](guides/support/troubleshooting.md)
       + [Ondersteuning](guides/support/get-support.md)
@@ -93,14 +89,14 @@ ht-degree: 1%
          + [Node.js SDK Integration guide](guides/sdk-releases/nodejs/nodejs-sdk-integration-guide.md)
          + [Opmerkingen bij de release Node.js SDK](guides/sdk-releases/nodejs/nodejs-sdk-release-notes.md)
       + [SDK-benchmarking](guides/sdk-releases/java-sdk-benchmarking.md)
-<!--+ Feature API {#feature-api}
-  + [GET Feature API V3](feature-api/get-feature-api-v3.md)
-  + [GET Feature API V2](feature-api/get-feature-api-v2.md)
-+ Management API {#management-api}
-  + [Feature management APIs overview](management-api/feature-management-apis-overview.md)
-  + [Feature flags management API](management-api/feature-flags-management-api.md)
-  + [Feature group management API](management-api/feature-group-management-api.md)
-  + [Release management APIs](management-api/release-management-apis.md)
-  + [Get client ID for an application](management-api/get-client-id.md)
-  + [Get desired audience criteria](management-api/get-audience-criteria.md)
-  + [Management patch API](management-api/management-patch-api.md)-->
++ Functie-API {#feature-api}
+   + [GET Feature API V3](feature-api/get-feature-api-v3.md)
+   + [GET Feature API V2](feature-api/get-feature-api-v2.md)
++ Beheer-API {#management-api}
+   + [Overzicht van API&#39;s voor functiebeheer](management-api/feature-management-apis-overview.md)
+   + [API voor kenmerkvlaggen](management-api/feature-flags-management-api.md)
+   + [API voor beheer van functiegroepen](management-api/feature-group-management-api.md)
+   + [Beheer-API&#39;s vrijgeven](management-api/release-management-apis.md)
+   + [Client-id voor een toepassing ophalen](management-api/get-client-id.md)
+   + [Kies de gewenste publiekscriteria](management-api/get-audience-criteria.md)
+   + [Beheer van patch-API](management-api/management-patch-api.md)

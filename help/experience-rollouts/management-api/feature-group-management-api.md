@@ -1,9 +1,9 @@
 ---
 title: API voor beheer van functiegroepen
 description: API-naslaggids voor de API voor het beheer van de functiegroep Experience, inclusief eindpunten voor het ophalen, maken, bijwerken, verwijderen en beheren van implementatieplannen voor functiegroepen.
-source-git-commit: 8a92b7a3e8c52da8bb2474f52c831e159420b878
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '575'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ Met de API voor het beheer van functiegroepen kunt u programmatisch functiegroep
 
 **De weg van de Basis:** `/m/api/v1/mgmt/group`
 
-Alle verzoeken vereisen de kopballen die in de [&#x200B; worden beschreven gemeenschappelijke vereisten &#x200B;](feature-management-apis-overview.md#common-requirements).
+Alle verzoeken vereisen de kopballen die in de [ worden beschreven gemeenschappelijke vereisten ](feature-management-apis-overview.md#common-requirements).
 
 ## Alle functiegroepen ophalen {#get-all-groups}
 
@@ -67,7 +67,7 @@ Hiermee maakt u een nieuwe functiegroep met een handmatig, automatisch of A/B-te
 
 ### Aanvragingsinstantie {#create-request-body}
 
-Het verzoeklichaam gebruikt het [&#x200B; voorwerp van de eigenschapgroep &#x200B;](#feature-group-object). `rolloutType` inside `params` is verplicht en bepaalt de structuur van de lading.
+Het verzoeklichaam gebruikt het [ voorwerp van de eigenschapgroep ](#feature-group-object). `rolloutType` inside `params` is verplicht en bepaalt de structuur van de lading.
 
 **Steekproef — handuitrol:**
 
@@ -90,34 +90,12 @@ Het verzoeklichaam gebruikt het [&#x200B; voorwerp van de eigenschapgroep &#x200
 }
 ```
 
-**Steekproef — geautomatiseerde uitloop:**
-
-```json
-{
-  "params": { "rolloutType": "automated", "label": "my-automated-group", "tags": [] },
-  "status": "SAVED",
-  "type": "group",
-  "name": "my.automated.group",
-  "variations": [{ "variantPercentage": 100, "variantName": "Variant 1", "features": [] }],
-  "phaseRollOutPlan": {
-    "phaseRollOutBlocks": [
-      { "isPhaseBlock": true, "phaseRule": { "audience": [] }, "waitRule": null, "blockId": 1, "blockName": "", "isBlockActivated": false },
-      { "isPhaseBlock": false, "phaseRule": null, "waitRule": { "waitDuration": { "val": "2", "unit": "HOURS" } }, "blockId": 2, "blockName": "", "isBlockActivated": false },
-      { "isPhaseBlock": true, "phaseRule": { "audience": [] }, "waitRule": null, "blockId": 3, "blockName": "", "isBlockActivated": false }
-    ],
-    "rollOutPlanState": "DRAFT"
-  },
-  "clients": [],
-  "org": { "id": 95 }
-}
-```
-
 ### Antwoord {#create-response}
 
 | Status | Beschrijving |
 |---|---|
 | `200` | Geslaagd. De hoofdtekst van de reactie is het gecreeerde voorwerp van de eigenschapgroep. |
-| `400` | Ongeldige nuttige lading — zie [&#x200B; foutenmeldingen &#x200B;](#error-messages) voor details. |
+| `400` | Ongeldige nuttige lading — zie [ foutenmeldingen ](#error-messages) voor details. |
 | `403` | Onvoldoende machtigingen. |
 
 ## Functiegroep bijwerken {#update-group}
@@ -136,29 +114,6 @@ Werkt een bestaande functiegroep bij. Geef dezelfde structuur door als de hoofdt
 | `200` | Geslaagd. De hoofdtekst van de reactie is het bijgewerkte voorwerp van de eigenschapgroep. |
 | `400` | Ongeldige lading. |
 | `403` | Onvoldoende machtigingen. |
-
-## Een implementatieplan onderbreken, hervatten of afbreken {#pause-resume-abort}
-
-Hiermee wordt de uitvoering van een geautomatiseerd implementatieplan of een implementatieplan voor A/B-tests tijdens de uitvoering bepaald.
-
-| Actie | Endpoint |
-|---|---|
-| **Hervatten** | `POST /m/api/v1/mgmt/phaserollout/resume` |
-| **Pauze** | `POST /m/api/v1/mgmt/phaserollout/pause` |
-| **afbreken** | `POST /m/api/v1/mgmt/phaserollout/abort` |
-
-### Aanvragingsinstantie {#control-request-body}
-
-```json
-{
-  "entityId": 10282,
-  "fgEntityType": "GROUP"
-}
-```
-
-### Antwoord {#control-response}
-
-Retourneert `true` als de bewerking is geslaagd.
 
 ## Functiegroep verwijderen {#delete-group}
 
@@ -188,8 +143,8 @@ Verwijdert een functiegroep met zijn numerieke id.
 | `org` | Object | Organisatie-details. Moet `id` bevatten. | Ja |
 | `params` | Object | Groepsparameters `rolloutType` is verplicht (`"manual"`, `"automated"` of `"ab-testing"`). Biedt ook ondersteuning voor `label` en `tags` . | Ja |
 | `audience` | Array | Regels voor het publiek voor handmatige rollout-typen. | Nee |
-| `variations` | Array | Lijst van varianten. Zie [&#x200B; voorwerp FeatureGroupVariation &#x200B;](#featuregroupvariation-object). | Nee |
-| `phaseRollOutPlan` | Object | Uitrolplan fase. Vereist voor geautomatiseerde en A/B-testtypen. Zie [&#x200B; voorwerp PhaseRollOutPlan &#x200B;](#phaserolloutplan-object). | Voorwaardelijk |
+| `variations` | Array | Lijst van varianten. Zie [ voorwerp FeatureGroupVariation ](#featuregroupvariation-object). | Nee |
+| `phaseRollOutPlan` | Object | Uitrolplan fase. Vereist voor geautomatiseerde en A/B-testtypen. Zie [ voorwerp PhaseRollOutPlan ](#phaserolloutplan-object). | Voorwaardelijk |
 | `description` | String | Optionele weergavebeschrijving. Max. 225 tekens. | Nee |
 
 ### Object FeatureGroupVariation {#featuregroupvariation-object}
@@ -230,4 +185,3 @@ Elk blok in `phaseRollOutBlocks` is of a **faseblok** (`isPhaseBlock: true`) die
 * [Overzicht van API&#39;s voor functiebeheer](feature-management-apis-overview.md)
 * [API voor kenmerkvlaggen](feature-flags-management-api.md)
 * [Beheer van patch-API](management-patch-api.md)
-* [Een automatische rollout maken](../guides/automated-rollouts/create-automated-rollout.md)
