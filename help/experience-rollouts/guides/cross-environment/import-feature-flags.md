@@ -15,7 +15,7 @@ Met Experience Rollouts kunt u functiemarkeringen importeren vanuit een lagere o
 
 ## Vereisten {#prerequisites}
 
-Als u de importworkflow wilt gebruiken, moeten de toepassingsinstanties aan verschillende omgevingen zijn gekoppeld. Zie [ milieu&#39;s aan een toepassing ](associate-environments.md) associëren.
+Als u de importworkflow wilt gebruiken, moeten de toepassingsinstanties aan verschillende omgevingen zijn gekoppeld. Zie [&#x200B; milieu&#39;s aan een toepassing &#x200B;](associate-environments.md) associëren.
 
 ## Stap 1: Ga naar de doelomgeving en toepassing {#step-1}
 

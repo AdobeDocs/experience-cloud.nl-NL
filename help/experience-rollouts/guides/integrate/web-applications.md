@@ -17,7 +17,7 @@ Zie **de Eigenschap API van GET V3** in de Eigenschap API sectie van deze gids v
 
 ## Integratiestappen {#integration-steps}
 
-Voor een volledige analyse van het integratieproces, zie [ stappen van de Integratie ](integration-steps.md).
+Voor een volledige analyse van het integratieproces, zie [&#x200B; stappen van de Integratie &#x200B;](integration-steps.md).
 
 ## Zie ook {#see-also}
 

@@ -19,11 +19,11 @@ De diensten van de steun integreren gebruikend server-kant SDK. Kies de SDK voor
 
 **Java**
 
-Volg de [ de integratiegids van SDK van Java ](../sdk-releases/java/java-sdk-integration-guide.md) voor opstelling, gebiedsconfiguratie, en initialisering.
+Volg de [&#x200B; de integratiegids van SDK van Java &#x200B;](../sdk-releases/java/java-sdk-integration-guide.md) voor opstelling, gebiedsconfiguratie, en initialisering.
 
 **Node.js**
 
-Volg [ Node.js de integratiegids van SDK ](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) voor opstelling en initialisering.
+Volg [&#x200B; Node.js de integratiegids van SDK &#x200B;](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) voor opstelling en initialisering.
 
 **Andere talen**
 
@@ -43,7 +43,7 @@ Zie **de Eigenschap API van GET V2** in de sectie van de Eigenschap API van deze
 
 >[!IMPORTANT]
 >
->Desktopclients moeten de TTL-waarde in de API-reactie respecteren en een foutafhandeling implementeren om de API niet beschikbaar te maken. Zie [ toepassingen van de Desktop ](desktop-applications.md) voor vereisten.
+>Desktopclients moeten de TTL-waarde in de API-reactie respecteren en een foutafhandeling implementeren om de API niet beschikbaar te maken. Zie [&#x200B; toepassingen van de Desktop &#x200B;](desktop-applications.md) voor vereisten.
 
 ## Zie ook {#see-also}
 

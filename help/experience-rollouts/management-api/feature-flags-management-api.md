@@ -15,7 +15,7 @@ Met de API voor het beheer van functiemarkeringen kunt u programmatisch functiem
 
 **De weg van de Basis:** `/m/api/v1/mgmt/feature`
 
-Alle verzoeken vereisen de kopballen die in de [ worden beschreven gemeenschappelijke vereisten ](feature-management-apis-overview.md#common-requirements).
+Alle verzoeken vereisen de kopballen die in de [&#x200B; worden beschreven gemeenschappelijke vereisten &#x200B;](feature-management-apis-overview.md#common-requirements).
 
 ## Alle functiemarkeringen ophalen {#get-all-features}
 
@@ -30,7 +30,7 @@ Hiermee worden alle eigenschapmarkeringen voor een opgegeven toepassing opgehaal
 
 | Parameter | Type | Beschrijving | Vereist |
 |---|---|---|---|
-| `clientId` | Geheel | Numerieke id van de toepassing. Zie [ cliëntidentiteitskaart ](get-client-id.md) krijgen. Vereist als `imsClientId` niet is opgegeven. | Voorwaardelijk |
+| `clientId` | Geheel | Numerieke id van de toepassing. Zie [&#x200B; cliëntidentiteitskaart &#x200B;](get-client-id.md) krijgen. Vereist als `imsClientId` niet is opgegeven. | Voorwaardelijk |
 | `imsClientId` | String | Clientid met tekenreeksindeling van de toepassing. Vereist als `clientId` niet is opgegeven. | Voorwaardelijk |
 | `nonReleaseFeature` | Boolean | Ingesteld op `true` om onafhankelijke functiemarkeringen op te nemen die niet aan een groep of versie zijn gekoppeld. Vereist voor op API gebaseerde workflows. | Ja |
 
@@ -40,7 +40,7 @@ Hiermee worden alle eigenschapmarkeringen voor een opgegeven toepassing opgehaal
 |---|---|
 | `200` | Geslaagd. De hoofdtekst van de reactie bevat een lijst van de voorwerpen van de eigenschapmarkering. |
 
-De hoofdtekst van de reactie bevat een array `features` . Elk element is een voorwerp van de eigenschapvlag met de gebieden die in de [ worden beschreven FontDTO objecten verwijzing ](#featuredto-object).
+De hoofdtekst van de reactie bevat een array `features` . Elk element is een voorwerp van de eigenschapvlag met de gebieden die in de [&#x200B; worden beschreven FontDTO objecten verwijzing &#x200B;](#featuredto-object).
 
 **Antwoord van de Steekproef:**
 
@@ -87,7 +87,7 @@ Haalt één functiemarkering met de numerieke id op.
 
 | Status | Beschrijving |
 |---|---|
-| `200` | Geslaagd. Het lichaam van de reactie is één enkel [ FeatureDTO voorwerp ](#featuredto-object). |
+| `200` | Geslaagd. Het lichaam van de reactie is één enkel [&#x200B; FeatureDTO voorwerp &#x200B;](#featuredto-object). |
 | `400` | Ongeldige functie-id. |
 
 ## Functiemarkering maken {#create-feature}
@@ -101,12 +101,12 @@ Maakt een nieuwe functiemarkering.
 
 ### Aanvragingsinstantie {#create-request-body}
 
-Het verzoeklichaam is a [ voorwerp FeatureDTO ](#featuredto-object). De volgende velden zijn vereist voor het maken:
+Het verzoeklichaam is a [&#x200B; voorwerp FeatureDTO &#x200B;](#featuredto-object). De volgende velden zijn vereist voor het maken:
 
 | Veld | Vereist | Notities |
 |---|---|---|
 | `name` | Ja | Functiemarkering. Maximaal 50 tekens. Patroon: `^[a-zA-Z0-9_.-]*$` |
-| `clientId` | Ja | Numerieke toepassings-id. Zie [ cliëntidentiteitskaart ](get-client-id.md) krijgen. |
+| `clientId` | Ja | Numerieke toepassings-id. Zie [&#x200B; cliëntidentiteitskaart &#x200B;](get-client-id.md) krijgen. |
 | `state` | Ja | `"enabled"` of `"disabled"` |
 
 ### Antwoord {#create-response}
@@ -141,7 +141,7 @@ Het verzoeklichaam is a [ voorwerp FeatureDTO ](#featuredto-object). De volgende
 
 ## Functiemarkering bijwerken {#update-feature}
 
-Werkt een bestaande functiemarkering bij. Geef het volledige [ voorwerp FeatureDTO ](#featuredto-object) met inbegrip van het `id` gebied door.
+Werkt een bestaande functiemarkering bij. Geef het volledige [&#x200B; voorwerp FeatureDTO &#x200B;](#featuredto-object) met inbegrip van het `id` gebied door.
 
 | | |
 |---|---|
@@ -183,8 +183,8 @@ Verwijdert een functiemarkering met de numerieke id.
 | `state` | String | `"enabled"` of `"disabled"` | Ja |
 | `meta` | String | Base64-gecodeerde die meta-gegevens met de eigenschap in API reacties worden teruggekeerd. Max. 1024 tekens. | Nee |
 | `description` | String | Beschrijving weergeven. Max. 225 tekens. | Nee |
-| `audience` | Array | Lijst met publieksregels. Zie [ voorwerp FeatureRule ](#featurerule-object). Het gebruik [ krijgt gewenste publiekscriteria ](get-audience-criteria.md) om dit te produceren. | Nee |
-| `variations` | Array | Lijst van varianten. Max. 3. Zie [ voorwerp FeatureVariation ](#featurevariation-object). | Nee |
+| `audience` | Array | Lijst met publieksregels. Zie [&#x200B; voorwerp FeatureRule &#x200B;](#featurerule-object). Het gebruik [&#x200B; krijgt gewenste publiekscriteria &#x200B;](get-audience-criteria.md) om dit te produceren. | Nee |
+| `variations` | Array | Lijst van varianten. Max. 3. Zie [&#x200B; voorwerp FeatureVariation &#x200B;](#featurevariation-object). | Nee |
 | `params` | Object | Aanvullende metagegevens. Ondersteunde toetsen: `label` (display name in UI), `tags` (string array). | Nee |
 | `release` | Object | Geen/groep-koppeling. `null` als de markering zich niet in een groep bevindt. Alleen-lezen. | Nee |
 
@@ -201,7 +201,7 @@ Verwijdert een functiemarkering met de numerieke id.
 | Veld | Type | Beschrijving | Vereist |
 |---|---|---|---|
 | `id` | Geheel | Regel-id. Vereist slechts voor updatevraag. Instellen op `null` wanneer een nieuwe regel wordt toegevoegd. | Voorwaardelijk |
-| `criteria` | Object | Condition-object dat de publieksregel definieert. Zie [ voorwerp van de Voorwaarde ](#condition-object). | Ja |
+| `criteria` | Object | Condition-object dat de publieksregel definieert. Zie [&#x200B; voorwerp van de Voorwaarde &#x200B;](#condition-object). | Ja |
 
 ### Object Condition {#condition-object}
 

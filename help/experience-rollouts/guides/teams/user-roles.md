@@ -39,7 +39,7 @@ Gebruik de volgende richtlijnen om rollen toe te wijzen:
 
 ## Machtigingsfout {#permissions-error}
 
-Als een lid een &quot;niet genoeg toestemmingen&quot;fout wanneer het proberen om een eigenschap of een groep bij te werken ontmoet, hebben zij de **rol van de Eigenaar van de Versie van het 0} Product {nodig.** Neem contact op met uw teambeheerder om deze rol toe te voegen.
+Als een lid een &quot;niet genoeg toestemmingen&quot;fout wanneer het proberen om een eigenschap of een groep bij te werken ontmoet, hebben zij de **rol van de Eigenaar van de Versie van het 0&rbrace; Product &lbrace;nodig.** Neem contact op met uw teambeheerder om deze rol toe te voegen.
 
 ## Zie ook {#see-also}
 

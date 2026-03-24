@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Leden aan uw team toevoegen {#add-team-members}
 
-U moet de **Admin** rol hebben om leden aan uw team toe te voegen. Zie {de rollen van 0} Gebruiker ](user-roles.md) voor een beschrijving van elke rol en zijn toestemmingen.[
+U moet de **Admin** rol hebben om leden aan uw team toe te voegen. Zie {de rollen van 0} Gebruiker [&#128279;](user-roles.md) voor een beschrijving van elke rol en zijn toestemmingen.
 
 ## Een lid toevoegen {#add-member}
 
@@ -27,7 +27,7 @@ Het lid ontvangt een bevestiging zodra het verzoek is ingediend. Als Admin of Ad
 
 >[!TIP]
 >
->Leden kunnen ook zelf om toegang verzoeken. Zie [ toegang van het Verzoek ](../console/request-access.md) voor de zelf-serverstappen. Als beheerder ontvangt u een melding om het verzoek goed te keuren of af te wijzen.
+>Leden kunnen ook zelf om toegang verzoeken. Zie [&#x200B; toegang van het Verzoek &#x200B;](../console/request-access.md) voor de zelf-serverstappen. Als beheerder ontvangt u een melding om het verzoek goed te keuren of af te wijzen.
 
 ## Een in behandeling zijnde aanvraag goedkeuren {#approve-request}
 
@@ -41,7 +41,7 @@ De leden met **Admin** of **Admin van de Eigenschap** rol kunnen toegangsverzoek
 
 ## Nog geen team? {#no-team}
 
-Als uw team nog niet bestaat in Experience Rollouts, moet u er eerst een aanvragen. Zie [ een nieuw team ](../console/create-a-new-team.md) creëren.
+Als uw team nog niet bestaat in Experience Rollouts, moet u er eerst een aanvragen. Zie [&#x200B; een nieuw team &#x200B;](../console/create-a-new-team.md) creëren.
 
 ## Zie ook {#see-also}
 

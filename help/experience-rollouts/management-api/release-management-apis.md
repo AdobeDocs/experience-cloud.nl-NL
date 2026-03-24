@@ -15,7 +15,7 @@ Met de releasebeheer-API&#39;s kunt u softwarematig releases en groepen met meer
 
 **De weg van de Basis:** `/m/api/v2/mgmt/release`
 
-Alle verzoeken vereisen de kopballen die in de [ worden beschreven gemeenschappelijke vereisten ](feature-management-apis-overview.md#common-requirements), plus de extra hieronder vermelde kopbal.
+Alle verzoeken vereisen de kopballen die in de [&#x200B; worden beschreven gemeenschappelijke vereisten &#x200B;](feature-management-apis-overview.md#common-requirements), plus de extra hieronder vermelde kopbal.
 
 ## Aanvullende vereiste koptekst {#additional-header}
 
@@ -44,7 +44,7 @@ Haalt één enkele versie of de dwars-teameigenschapgroep door zijn numerieke id
 
 | Status | Beschrijving |
 |---|---|
-| `200` | Geslaagd. Het lichaam van de reactie is een versievoorwerp — zie [ de objecten van de Versie verwijzing ](#release-object). |
+| `200` | Geslaagd. Het lichaam van de reactie is een versievoorwerp — zie [&#x200B; de objecten van de Versie verwijzing &#x200B;](#release-object). |
 | `400` | Ongeldige release-id of onjuist geformuleerd verzoek. |
 
 ## Release maken {#create-release}
@@ -58,7 +58,7 @@ Hiermee maakt u een nieuwe release of een groep met functies voor meerdere teams
 
 ### Aanvragingsinstantie {#create-request-body}
 
-Het verzoeklichaam gebruikt het [ voorwerp van de Versie ](#release-object). Voor het maken moet `status` worden ingesteld op `"SAVED"` voor groepen met functies die verschillende teams vertegenwoordigen (`CROSS_TEAM_FEATURE_GROUP` type) of `"DRAFT"` voor standaardreleases (`RELEASE` type).
+Het verzoeklichaam gebruikt het [&#x200B; voorwerp van de Versie &#x200B;](#release-object). Voor het maken moet `status` worden ingesteld op `"SAVED"` voor groepen met functies die verschillende teams vertegenwoordigen (`CROSS_TEAM_FEATURE_GROUP` type) of `"DRAFT"` voor standaardreleases (`RELEASE` type).
 
 **Steekproef — creeer dwars-teameigenschapgroep:**
 
@@ -118,9 +118,9 @@ Werkt een bestaande versie of een groep van de dwars-teameigenschap bij. Geef he
 | `type` | String | `"RELEASE"` voor standaardreleases; `"CROSS_TEAM_FEATURE_GROUP"` voor functiegroepen die gelden voor meerdere teams. | Ja |
 | `status` | String | Status Vrijgeven. Voor IMS: `"DRAFT"` bij maken; `"DRAFT"`, `"SAVED"`, `"PUBLISHED"` bij bijwerken. Voor CTFG: `"SAVED"` bij maken; `"SAVED"` , `"PUBLISHED"` bij bijwerken. | Ja |
 | `clients` | Array | Toepassingen die aan deze release zijn gekoppeld. Voor elk item zijn `id` (numeriek) en `imsClientId` (tekenreeks) vereist. | Nee |
-| `audience` | Array | Lijst met publieksregels. Zie [ voorwerp van de Voorwaarde ](feature-flags-management-api.md#condition-object). | Nee |
+| `audience` | Array | Lijst met publieksregels. Zie [&#x200B; voorwerp van de Voorwaarde &#x200B;](feature-flags-management-api.md#condition-object). | Nee |
 | `variations` | Array | Lijst met variaties. Slechts 1 variatie wordt gesteund tijdens voorlegging. | Vereist voor indiening |
-| `params` | Object | Geen parameters. Zie [ Gesteunde paramentengebieden ](#supported-params). | Vereist voor indiening |
+| `params` | Object | Geen parameters. Zie [&#x200B; Gesteunde paramentengebieden &#x200B;](#supported-params). | Vereist voor indiening |
 | `org` | Object | Organisatie-object. Moet `id` bevatten. | Nee |
 
 ### Ondersteunde parametervelden {#supported-params}

@@ -24,7 +24,7 @@ Werkt een of meer velden van een functiemarkering bij.
 
 ### Aanvraagkoppen {#ff-request-headers}
 
-Alle verzoeken vereisen de kopballen die in de [ worden beschreven gemeenschappelijke vereisten ](feature-management-apis-overview.md#common-requirements).
+Alle verzoeken vereisen de kopballen die in de [&#x200B; worden beschreven gemeenschappelijke vereisten &#x200B;](feature-management-apis-overview.md#common-requirements).
 
 ### Padparameter {#ff-path-param}
 

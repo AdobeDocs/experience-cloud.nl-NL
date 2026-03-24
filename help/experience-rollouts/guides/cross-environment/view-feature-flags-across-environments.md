@@ -15,7 +15,7 @@ Zodra u de toepassingsinstanties in verschillende omgevingen hebt gekoppeld, gee
 
 ## Vereisten {#prerequisites}
 
-Uw toepassingsinstanties moeten in verschillende omgevingen zijn gekoppeld voordat de status van een andere omgeving zichtbaar is. Zie [ milieu&#39;s aan een toepassing ](associate-environments.md) voor opstellingsinstructies associëren.
+Uw toepassingsinstanties moeten in verschillende omgevingen zijn gekoppeld voordat de status van een andere omgeving zichtbaar is. Zie [&#x200B; milieu&#39;s aan een toepassing &#x200B;](associate-environments.md) voor opstellingsinstructies associëren.
 
 ## Hoe werkt het {#how-it-works}
 

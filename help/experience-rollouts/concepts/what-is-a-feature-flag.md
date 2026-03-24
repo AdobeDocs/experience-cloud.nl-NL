@@ -19,4 +19,4 @@ Deze scheiding vermindert het risico aanzienlijk. De ontwikkelaars kunnen en ver
 
 >[!NOTE]
 >
->In de Rollouts van de Ervaring, is een eigenschapvlag de meest atomische eenheid van eigenschapcontrole. Het kan op zijn worden gebruikt om één enkele eigenschap, of gecombineerd met andere vlaggen in a [ eigenschapgroep ](feature-groups-to-control-multiple-features.md) of [ versie ](release-management.md) te richten.
+>In de Rollouts van de Ervaring, is een eigenschapvlag de meest atomische eenheid van eigenschapcontrole. Het kan op zijn worden gebruikt om één enkele eigenschap, of gecombineerd met andere vlaggen in a [&#x200B; eigenschapgroep &#x200B;](feature-groups-to-control-multiple-features.md) of [&#x200B; versie &#x200B;](release-management.md) te richten.

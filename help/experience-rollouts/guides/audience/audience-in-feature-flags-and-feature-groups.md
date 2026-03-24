@@ -21,7 +21,7 @@ Om profielregels toe te voegen, ga naar het **publiek** lusje van een eigenschap
 
 U kunt een reeks publieksregels als herbruikbaar **Publiek** voor gebruik over veelvoudige vlaggen en groepen bewaren.
 
-Voor op context-gebaseerd richten (bijvoorbeeld, die door de actieve taal van de gebruiker of cliënttype richten), zie [ context van het Gebruik in publieksregels ](using-context-in-audience-rules.md).
+Voor op context-gebaseerd richten (bijvoorbeeld, die door de actieve taal van de gebruiker of cliënttype richten), zie [&#x200B; context van het Gebruik in publieksregels &#x200B;](using-context-in-audience-rules.md).
 
 ## Segmenten {#segments}
 
@@ -38,7 +38,7 @@ Om een segment te gebruiken, ga naar het **publiek** lusje en selecteer één of
 
 ## Auditiefalculator {#audience-calculator}
 
-Na het bepalen van uw publiekscriteria, berekent de uitgezochte **** in de bodembar om een geschatte telling van gebruikers te krijgen die kwalificeren. Zo kunt u het bereik van uw doelgroep valideren voordat u de functie activeert.
+Na het bepalen van uw publiekscriteria, berekent de uitgezochte **&#x200B;**&#x200B;in de bodembar om een geschatte telling van gebruikers te krijgen die kwalificeren. Zo kunt u het bereik van uw doelgroep valideren voordat u de functie activeert.
 
 >[!NOTE]
 >

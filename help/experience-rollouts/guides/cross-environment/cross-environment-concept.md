@@ -41,6 +41,6 @@ Deze flexibiliteit betekent dat u niet gedwongen bent om naar één maateenheid 
 
 ## Volgende stappen {#next-steps}
 
-* [ associeerde milieu&#39;s aan een toepassing ](associate-environments.md) — opstelling het verband tussen uw toepassingsinstanties
-* [ de eigenschapvlaggen van de Mening over milieu&#39;s ](view-feature-flags-across-environments.md) — de status van de monitorvlag over alle verbonden milieu&#39;s
-* [ de eigenschapvlaggen van de Invoer ](import-feature-flags.md) — promoot eigenschapmarkeringen van lagere aan hogere milieu&#39;s
+* [&#x200B; associeerde milieu&#39;s aan een toepassing &#x200B;](associate-environments.md) — opstelling het verband tussen uw toepassingsinstanties
+* [&#x200B; de eigenschapvlaggen van de Mening over milieu&#39;s &#x200B;](view-feature-flags-across-environments.md) — de status van de monitorvlag over alle verbonden milieu&#39;s
+* [&#x200B; de eigenschapvlaggen van de Invoer &#x200B;](import-feature-flags.md) — promoot eigenschapmarkeringen van lagere aan hogere milieu&#39;s

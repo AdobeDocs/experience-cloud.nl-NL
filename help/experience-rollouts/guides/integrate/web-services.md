@@ -17,8 +17,8 @@ De achtergrondservices zijn geïntegreerd met Experience Rollouts met een server
 
 | Taal | Integratiegids | Aanvullende informatie |
 |---|---|---|
-| **Java** | [ de integratiegids van SDK van Java ](../sdk-releases/java/java-sdk-integration-guide.md) | [ de versienota&#39;s van SDK van Java ](../sdk-releases/java/java-sdk-release-notes.md) |
-| **Node.js** | [ Node.js de integratiegids van SDK ](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) | [ Node.js de versienota&#39;s van SDK ](../sdk-releases/nodejs/nodejs-sdk-release-notes.md) |
+| **Java** | [&#x200B; de integratiegids van SDK van Java &#x200B;](../sdk-releases/java/java-sdk-integration-guide.md) | [&#x200B; de versienota&#39;s van SDK van Java &#x200B;](../sdk-releases/java/java-sdk-release-notes.md) |
+| **Node.js** | [&#x200B; Node.js de integratiegids van SDK &#x200B;](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) | [&#x200B; Node.js de versienota&#39;s van SDK &#x200B;](../sdk-releases/nodejs/nodejs-sdk-release-notes.md) |
 
 ## Overige talen {#other-languages}
 

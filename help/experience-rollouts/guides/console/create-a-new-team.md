@@ -15,7 +15,7 @@ Als er geen team voor uw project bestaat in Experience Rollouts, moet u er een a
 
 ## Voordat u begint {#before-you-begin}
 
-Bevestig dat er nog geen team voor uw project bestaat. Controle met uw product of technieklood, of overzicht [ Teams en hun admins ](teams-and-admins.md). Als een team reeds bestaat, verzoek om zich bij het in plaats daarvan aan te sluiten — zie [ de toegang van het Verzoek ](request-access.md).
+Bevestig dat er nog geen team voor uw project bestaat. Controle met uw product of technieklood, of overzicht [&#x200B; Teams en hun admins &#x200B;](teams-and-admins.md). Als een team reeds bestaat, verzoek om zich bij het in plaats daarvan aan te sluiten — zie [&#x200B; de toegang van het Verzoek &#x200B;](request-access.md).
 
 ## Een teamverzoek indienen {#submit-request}
 
@@ -24,7 +24,7 @@ De steun van Rollouts van de Ervaring van het contact om een nieuw team te verzo
 | Veld | Beschrijving |
 |---|---|
 | **naam van het Team** | Een unieke naam voor uw team. |
-| **het richten wijze** | De het richten wijze uw team zal gebruiken: [ gebruiker-niveau richtend of org en milieu-niveau richtend ](../../getting-started/experience-rollouts-modes.md). |
+| **het richten wijze** | De het richten wijze uw team zal gebruiken: [&#x200B; gebruiker-niveau richtend of org en milieu-niveau richtend &#x200B;](../../getting-started/experience-rollouts-modes.md). |
 | **Milieu** | De omgeving(en) die u nodig hebt: werkgebied, productie of beide. |
 | **Admin(s) van het Team** | E-mailadres(sen) van de persoon of personen die als teambeheerder zal/zullen fungeren. |
 
@@ -36,7 +36,7 @@ De steun van Rollouts van de Ervaring van het contact om een nieuw team te verzo
 
 Zodra uw team wordt gecreeerd, kunnen de beheerders beginnen leden op een zelf-servermanier toe te voegen. De nieuwe leden verzoeken toegang door het systeem van het toegangsbeheer en de beheerders goedkeuren of verwerpen die verzoeken.
 
-Zie [ toegang van het Verzoek ](request-access.md) voor de stappen leden zouden moeten volgen om zich bij het team aan te sluiten.
+Zie [&#x200B; toegang van het Verzoek &#x200B;](request-access.md) voor de stappen leden zouden moeten volgen om zich bij het team aan te sluiten.
 
 ## Zie ook {#see-also}
 

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Functiegroepen om meerdere functies te beheren {#feature-groups}
 
-A [ eigenschapvlag ](what-is-a-feature-flag.md) controleert één enkele eigenschap. Wanneer u veelvoudige verwante eigenschapvlaggen samen moet beheren — en ervoor zorgt zij het zelfde publiek bereiken — gebruikt u a **eigenschapgroep**.
+A [&#x200B; eigenschapvlag &#x200B;](what-is-a-feature-flag.md) controleert één enkele eigenschap. Wanneer u veelvoudige verwante eigenschapvlaggen samen moet beheren — en ervoor zorgt zij het zelfde publiek bereiken — gebruikt u a **eigenschapgroep**.
 
 ## Wat een functiegroep doet {#what-it-does}
 
@@ -31,4 +31,4 @@ De groepen van de eigenschap steunen het dwars-toepassingseigenschapbeheer zolan
 | Hoofdletters gebruiken | Vlaggen in uw team coördineren | Grote, multi-team lanceringscoördinatie |
 | Vereiste rechten | Teamniveau | Hoger (releasebeheer) |
 
-Als de eigenschapvlaggen u tot toepassingen wilt groeperen die door verschillende teams worden bezeten, gebruik a [ versie ](release-management.md) in plaats van een eigenschapgroep.
+Als de eigenschapvlaggen u tot toepassingen wilt groeperen die door verschillende teams worden bezeten, gebruik a [&#x200B; versie &#x200B;](release-management.md) in plaats van een eigenschapgroep.

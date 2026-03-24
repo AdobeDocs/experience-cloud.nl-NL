@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Opmerkingen bij de release Java SDK {#java-sdk-release-notes}
 
-Deze pagina bevat de releasegeschiedenis van de Experience Rollouts Java SDK. Voor integratieopstelling, zie [ de integratiegids van SDK van Java ](java-sdk-integration-guide.md).
+Deze pagina bevat de releasegeschiedenis van de Experience Rollouts Java SDK. Voor integratieopstelling, zie [&#x200B; de integratiegids van SDK van Java &#x200B;](java-sdk-integration-guide.md).
 
 ## Versie 4.0.6 {#v4-0-6}
 

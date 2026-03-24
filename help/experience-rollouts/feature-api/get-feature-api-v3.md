@@ -67,8 +67,8 @@ De reactie is een JSON-object met de volgende velden op hoofdniveau:
 | `json_version` | String | JSON-schemaversie. Intern veld — geen verwerking vereist. |
 | `ttl` | Geheel | TTL-cache in seconden. Dezelfde waarde als de antwoordheader `x-adobe-fg-poll-interval` . Standaard: 300. |
 | `caching_enabled` | Boolean | Als `true` , vindt functieevaluatie lokaal plaats op de client. Als `false`, gebeurt de evaluatie server-kant op elk verzoek. |
-| `client_analytics_params` | Object | Analyseconfiguratie voor de toepassing. Zie [ client_analytics_params gebieden ](#client-analytics-params) hieronder. |
-| `releases` | Array | Lijst met releases en functiemarkeringen waarvoor de gebruiker in aanmerking komt. Zie [ vrijgeeft hieronder gebieden ](#releases-fields). |
+| `client_analytics_params` | Object | Analyseconfiguratie voor de toepassing. Zie [&#x200B; client_analytics_params gebieden &#x200B;](#client-analytics-params) hieronder. |
+| `releases` | Array | Lijst met releases en functiemarkeringen waarvoor de gebruiker in aanmerking komt. Zie [&#x200B; vrijgeeft hieronder gebieden &#x200B;](#releases-fields). |
 
 #### client_analytics_params, velden {#client-analytics-params}
 
@@ -86,7 +86,7 @@ De reactie is een JSON-object met de volgende velden op hoofdniveau:
 | `bit_index` | De releasebitindex. Negatieve waarden geven de status Volledig uitrollen aan. |
 | `features` | Array met functiemarkeringssleutels waarvoor de gebruiker in aanmerking komt. Een eigenschapsleutel is teruggekeerd slechts als de gebruiker verkiesbaar is en de vlag in toegelaten staat is. Dit is het primaire veld waarin uw toepassingslogica moet worden ingebouwd. |
 | `meta` | Optionele Base64-gecodeerde metagegevens die aan de functie zijn gekoppeld. Decoderen voor gebruik. |
-| `release_analytics_params` | Array met metagegevensobjecten voor analyses voor elke in aanmerking komende functie. Zie [ release_analytics_params gebieden ](#release-analytics-params) hieronder. In de scenario&#39;s van de Groep van de Controle, is `features` leeg. |
+| `release_analytics_params` | Array met metagegevensobjecten voor analyses voor elke in aanmerking komende functie. Zie [&#x200B; release_analytics_params gebieden &#x200B;](#release-analytics-params) hieronder. In de scenario&#39;s van de Groep van de Controle, is `features` leeg. |
 
 #### release_analytics_params, velden {#release-analytics-params}
 

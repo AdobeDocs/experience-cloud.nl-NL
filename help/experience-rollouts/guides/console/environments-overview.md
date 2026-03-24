@@ -34,7 +34,7 @@ Volg deze aanbevelingen om configuratiefouten te vermijden en uw productiepublie
 
 * Creëer en test de eigenschapvlaggen altijd eerst in **Stadium**.
 * Valideer publieksregels, percentage rollouts en logica voor doelframes in het werkgebied voordat u deze repliceert in Production.
-* Gebruik het [ dwars-milieu werkschema ](../cross-environment/cross-environment-concept.md) om vlagstatus over milieu&#39;s te bekijken en te beheren.
+* Gebruik het [&#x200B; dwars-milieu werkschema &#x200B;](../cross-environment/cross-environment-concept.md) om vlagstatus over milieu&#39;s te bekijken en te beheren.
 
 ## Zie ook {#see-also}
 

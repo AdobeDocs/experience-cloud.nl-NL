@@ -25,7 +25,7 @@ Hierdoor kunnen teams:
 
 ## Hoe het in de Rollouts van de Ervaring werkt {#how-it-works}
 
-Het beheer van de versie in de Rollouts van de Ervaring bouwt op het concept [ eigenschap het flagging ](what-is-a-feature-flag.md) voort. Elk team stelt hun code aan productie achter een eigenschapvlag op. Een versie is dan a **inzameling van eigenschapvlaggen die over veelvoudige toepassingen en teams** worden bepaald.
+Het beheer van de versie in de Rollouts van de Ervaring bouwt op het concept [&#x200B; eigenschap het flagging &#x200B;](what-is-a-feature-flag.md) voort. Elk team stelt hun code aan productie achter een eigenschapvlag op. Een versie is dan a **inzameling van eigenschapvlaggen die over veelvoudige toepassingen en teams** worden bepaald.
 
 Wanneer alle teams klaar zijn, kan de versie in één enkele verrichting worden geactiveerd — of geleidelijk worden ingevoerd — zonder om het even welk individueel team dat plaatsingstijdstip moet hergroeperen of coördineren.
 
@@ -35,4 +35,4 @@ Deze aanpak voorziet in:
 * **gecoördineerde activering** — Alle vlaggen in een versie worden samen geactiveerd wanneer de versie levend gaat.
 * **Graduele rollout** - de versie kan geleidelijk aan stijgende percentages van gebruikers worden geopend.
 
-Voor details bij het vormen van versies in de Rollouts van de Ervaring, zie [ beheer van de Versie ](release-management.md).
+Voor details bij het vormen van versies in de Rollouts van de Ervaring, zie [&#x200B; beheer van de Versie &#x200B;](release-management.md).

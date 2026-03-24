@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Zodra een geautomatiseerde rollout levend is, kunt u zijn vooruitgang volgen en tussenbeide komen indien nodig. Op deze pagina wordt beschreven hoe u de voortgangsindicator kunt lezen, een plan kunt onderbreken en hervatten en zo nodig kunt afbreken.
 
-Deze pagina veronderstelt u reeds een rollout plan hebt gecreeerd en gepubliceerd. Zie [ creeer een geautomatiseerde rollout ](create-automated-rollout.md) als u nog niet opstelling hebt.
+Deze pagina veronderstelt u reeds een rollout plan hebt gecreeerd en gepubliceerd. Zie [&#x200B; creeer een geautomatiseerde rollout &#x200B;](create-automated-rollout.md) als u nog niet opstelling hebt.
 
 ## Voortgang van rollout weergeven {#view-progress}
 

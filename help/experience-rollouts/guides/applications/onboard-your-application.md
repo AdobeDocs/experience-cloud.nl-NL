@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Aan boord van uw toepassing {#onboard-your-application}
 
-U moet de **Admin** rol hebben om een nieuwe toepassing toe te voegen. Zie {de rollen van 0} Gebruiker ](../teams/user-roles.md) als u uw rol moet verifiëren of het van uw teamadmin verzoeken.[
+U moet de **Admin** rol hebben om een nieuwe toepassing toe te voegen. Zie {de rollen van 0} Gebruiker [&#128279;](../teams/user-roles.md) als u uw rol moet verifiëren of het van uw teamadmin verzoeken.
 
 ## Een nieuwe toepassing toevoegen {#add-application}
 

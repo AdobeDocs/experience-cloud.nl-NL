@@ -73,8 +73,8 @@ De reactie is een JSON-object met de volgende velden op hoofdniveau:
 
 | Veld | Beschrijving |
 |---|---|
-| `releases` | Array met releases waarvoor de gebruiker in aanmerking komt. Zie [ vrijgeeft hieronder gebieden ](#releases-fields). |
-| `client_analytics_params` | Configuratieobject Analytics. Zie [ client_analytics_params gebieden ](#analytics-fields) hieronder. |
+| `releases` | Array met releases waarvoor de gebruiker in aanmerking komt. Zie [&#x200B; vrijgeeft hieronder gebieden &#x200B;](#releases-fields). |
+| `client_analytics_params` | Configuratieobject Analytics. Zie [&#x200B; client_analytics_params gebieden &#x200B;](#analytics-fields) hieronder. |
 
 #### releasevelden {#releases-fields}
 

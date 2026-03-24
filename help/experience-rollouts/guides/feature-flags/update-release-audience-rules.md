@@ -67,7 +67,7 @@ U kunt veelvoudige publiekscriteria combineren gebruikend logica AND/OR.
 **Voorbeelden:**
 
 * Om slechts ondernemingsrekeningen van een specifiek domein te richten, combineer het **type van identiteitskaart** regel met de **E-mail domein** regel gebruikend EN.
-* Om 10% van gebruikers van een specifiek land te richten, combineer de **regel van het Land** met de **3} regel van het Percentage {.**
+* Om 10% van gebruikers van een specifiek land te richten, combineer de **regel van het Land** met de **3&rbrace; regel van het Percentage &lbrace;.**
 
 Gebruik de pictogrammen **+/-** om voorwaarden toe te voegen of te verwijderen. Als u een voorwaarde wilt dupliceren, selecteert u het dubbele pictogram naast een bestaande regel. Voor complexe genestelde logica, laat **Genestelde Logica** toe en ga een geldige uitdrukking in het tekstvakje in.
 

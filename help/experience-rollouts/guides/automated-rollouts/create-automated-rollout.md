@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Een automatische rollout maken {#create-automated-rollout}
 
-Met een geautomatiseerde rollout kunt u alle rollout-fasen en de bijbehorende planningen in één sessie definiëren. De Rollouts van de ervaring gaat automatisch van één fase aan volgende over, zonder u te vereisen om aan de console voor elke stap terug te keren. Zie [ Geautomatiseerd rollout concept ](automated-rollout-concept.md) voor een overzicht.
+Met een geautomatiseerde rollout kunt u alle rollout-fasen en de bijbehorende planningen in één sessie definiëren. De Rollouts van de ervaring gaat automatisch van één fase aan volgende over, zonder u te vereisen om aan de console voor elke stap terug te keren. Zie [&#x200B; Geautomatiseerd rollout concept &#x200B;](automated-rollout-concept.md) voor een overzicht.
 
 Geautomatiseerde rollouts worden ondersteund voor functiemarkeringen, functiegroepen en groepen met meerdere functies.
 
@@ -59,10 +59,10 @@ Herhaal het proces om extra faseblokken toe te voegen en blokkeringen te wachten
 
 Nadat het rollout-plan is voltooid, kiest u hoe het moet worden geactiveerd:
 
-* **Programma** — Plaats een toekomstige datum en tijd voor de rollout om automatisch te beginnen. Zie [ Programma ](../feature-flags/schedule.md) voor details.
+* **Programma** — Plaats een toekomstige datum en tijd voor de rollout om automatisch te beginnen. Zie [&#x200B; Programma &#x200B;](../feature-flags/schedule.md) voor details.
 * **publiceert manueel** — draai de eigenschapvlag op of verplaats de eigenschapgroep aan **publiceren** staat om onmiddellijk te beginnen.
 
-Het plan begint uitvoerend van het eerste faseblok. U kunt het actieve abonnement op elk gewenst moment controleren en bewerken. Zie [ Monitor en geef een rollout plan ](monitor-edit-rollout-plan.md) uit.
+Het plan begint uitvoerend van het eerste faseblok. U kunt het actieve abonnement op elk gewenst moment controleren en bewerken. Zie [&#x200B; Monitor en geef een rollout plan &#x200B;](monitor-edit-rollout-plan.md) uit.
 
 ## Zie ook {#see-also}
 

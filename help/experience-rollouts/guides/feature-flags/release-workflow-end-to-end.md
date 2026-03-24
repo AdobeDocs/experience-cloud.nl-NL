@@ -33,7 +33,7 @@ De manager van de Versie selecteert het publiek voor de versie - bijvoorbeeld, 1
 
 ## &#x200B;5. De rollout uitbreiden en beheren {#expand}
 
-Nadat de versie levend gaat, kan de Manager van de Versie de publieksregels aanpassen om de rollout geleidelijk uit te breiden, voor kwesties te controleren, en de controles van de versiestatus te gebruiken om de levenscyclus te beheren. Zie [ de staten van de Versie ](release-states.md) voor details.
+Nadat de versie levend gaat, kan de Manager van de Versie de publieksregels aanpassen om de rollout geleidelijk uit te breiden, voor kwesties te controleren, en de controles van de versiestatus te gebruiken om de levenscyclus te beheren. Zie [&#x200B; de staten van de Versie &#x200B;](release-states.md) voor details.
 
 ## Belangrijkste punten {#key-points}
 

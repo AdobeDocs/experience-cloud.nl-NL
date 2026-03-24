@@ -15,10 +15,10 @@ A/B de tests in de Rollouts van de Ervaring worden uitgevoerd gebruikend **eigen
 
 ## Vereisten {#prerequisites}
 
-* U hebt toegang tot de console — zie [ Login aan de console ](../console/log-in-to-the-console.md)
+* U hebt toegang tot de console — zie [&#x200B; Login aan de console &#x200B;](../console/log-in-to-the-console.md)
 * U maakt deel uit van een team en uw toepassing is aan boord
-* U hebt de **rol van de Eigenaar van de Versie van de Ontwikkelaar** of **Product** - zie [ Gebruikersrollen ](../teams/user-roles.md)
-* U hebt de eigenschapvlaggen gecreeerd om te testen — zie [ uw eerste eigenschapvlag ](create-your-first-feature-flag.md) creëren
+* U hebt de **rol van de Eigenaar van de Versie van de Ontwikkelaar** of **Product** - zie [&#x200B; Gebruikersrollen &#x200B;](../teams/user-roles.md)
+* U hebt de eigenschapvlaggen gecreeerd om te testen — zie [&#x200B; uw eerste eigenschapvlag &#x200B;](create-your-first-feature-flag.md) creëren
 
 ## Stap 1: Maak een functiegroep met meerdere varianten {#create}
 
@@ -26,7 +26,7 @@ A/B de tests in de Rollouts van de Ervaring worden uitgevoerd gebruikend **eigen
 2. In **Basisdetails**, verstrek een titel, een sleutel, en een beschrijving.
 3. Plaats a **percentenuitrol** om te bepalen hoeveel van uw publiek aan de test deelneemt.
 4. Plaats **Varianten** aan een waarde groter dan één (bijvoorbeeld, twee varianten voor een klassieke A/B test).
-5. Zie [ plaats een eigenschapgroep om uit geleidelijk te rollen ](set-feature-group-gradual-rollout.md) om te begrijpen hoe het blootstellingspercentage over varianten wordt verdeeld.
+5. Zie [&#x200B; plaats een eigenschapgroep om uit geleidelijk te rollen &#x200B;](set-feature-group-gradual-rollout.md) om te begrijpen hoe het blootstellingspercentage over varianten wordt verdeeld.
 
 ## Stap 2: Het publiek instellen {#audience}
 
@@ -34,7 +34,7 @@ Voor het **publiek** lusje, voeg publiekscriteria toe en selecteer de toepassing
 
 >[!NOTE]
 >
->Om externe gebruikers in een test van A/B te richten, moet u de **rol van de Eigenaar van de Versie van het 0} Product hebben.** De rol van de Ontwikkelaar is sandbox en beperkt zich tot privé testen.
+>Om externe gebruikers in een test van A/B te richten, moet u de **rol van de Eigenaar van de Versie van het 0&rbrace; Product hebben.** De rol van de Ontwikkelaar is sandbox en beperkt zich tot privé testen.
 
 ## Stap 3: functies toevoegen per variant {#features}
 

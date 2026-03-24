@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Hoe vraag ik om een release? {#request-release}
 
-Zie [ Verzoek om een versie ](request-a-release.md) voor het volledige proces en de informatie u moet verstrekken.
+Zie [&#x200B; Verzoek om een versie &#x200B;](request-a-release.md) voor het volledige proces en de informatie u moet verstrekken.
 
 ## Welke publiekscriteria worden gesteund voor versies? {#audience-criteria}
 
@@ -28,17 +28,17 @@ De versies steunen de volgende publieksregels:
 * Percentage (alle gebruikers)
 * Percentage (alleen voor authentiek verklaarde gebruikers)
 
-U kunt veelvoudige regels combineren gebruikend logica AND/OR, met inbegrip van genestelde voorwaarden. Zie [ de regels van het de versiepubliek van de Update ](update-release-audience-rules.md) voor geleidelijke configuratieinstructies.
+U kunt veelvoudige regels combineren gebruikend logica AND/OR, met inbegrip van genestelde voorwaarden. Zie [&#x200B; de regels van het de versiepubliek van de Update &#x200B;](update-release-audience-rules.md) voor geleidelijke configuratieinstructies.
 
 ## Hoe voeg ik een toepassing aan een versie toe? {#onboard-application}
 
-Nadat de versie wordt gecreeerd, open het in de console en voeg uw toepassing aan de versieconfiguratie toe. De eigenaar van de productrelease voor elke toepassing kan vervolgens de relevante functiemarkeringen toevoegen. Zie [ het werkschema van de Versie van begin tot eind ](release-workflow-end-to-end.md) voor de volledige opeenvolging.
+Nadat de versie wordt gecreeerd, open het in de console en voeg uw toepassing aan de versieconfiguratie toe. De eigenaar van de productrelease voor elke toepassing kan vervolgens de relevante functiemarkeringen toevoegen. Zie [&#x200B; het werkschema van de Versie van begin tot eind &#x200B;](release-workflow-end-to-end.md) voor de volledige opeenvolging.
 
 ## Een functie wordt niet geretourneerd voor een gebruiker die hiervoor in aanmerking zou moeten komen. Hoe los ik problemen op? {#troubleshoot}
 
 Voer de volgende stappen uit om fouten op te sporen:
 
-1. **Controle de versiestaat.** De versie moet in **Gepubliceerde** of **Volledige uitrolstatus** zijn om eigenschappen te dienen. Zie {de staten van de Versie 0} ](release-states.md).[
+1. **Controle de versiestaat.** De versie moet in **Gepubliceerde** of **Volledige uitrolstatus** zijn om eigenschappen te dienen. Zie {de staten van de Versie 0} [&#128279;](release-states.md).
 2. **controleer de toepassing en eigenschapvlag.** Controleer of de functiemarkering is gemaakt voor de juiste toepassing en of de toepassing is gekoppeld aan de juiste release.
 3. **Controle dat de eigenschapvlag wordt toegelaten.** Een uitgeschakelde vlag zal niet worden gediend zelfs als de versie actief is.
 4. **herzie de publiekscriteria.** Bevestig dat de gebruiker aan alle voorwaarden voldoet die in de publieksregels worden bepaald. Controleer de criteria voor de specifieke versie de eigenschap wordt geassocieerd met tweemaal.

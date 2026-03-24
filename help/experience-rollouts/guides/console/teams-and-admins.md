@@ -15,7 +15,7 @@ In de Rollouts van de Ervaring, is het a **team** de organisatorische eenheid di
 
 ## Teamstructuur {#team-structure}
 
-Teams in Experience Rollouts hebben een platte structuur: alle leden met dezelfde rol delen dezelfde machtigingen binnen het team. Er is geen hiërarchie binnen een rol. De verschillende rollen dragen verschillende niveaus van toegang. Zie {de rollen van 0} Gebruiker ](../teams/user-roles.md) voor een volledige uitsplitsing.[
+Teams in Experience Rollouts hebben een platte structuur: alle leden met dezelfde rol delen dezelfde machtigingen binnen het team. Er is geen hiërarchie binnen een rol. De verschillende rollen dragen verschillende niveaus van toegang. Zie {de rollen van 0} Gebruiker [&#128279;](../teams/user-roles.md) voor een volledige uitsplitsing.
 
 Een team kan meerdere toepassingen bezitten. Alle eigenschapvlaggen, eigenschapgroepen, en versies voor die toepassingen worden beheerd binnen de teamcontext.
 
@@ -40,7 +40,7 @@ Alvorens toegang aan te vragen, bepaal of een team reeds voor uw project bestaat
 2. Controleer de teams die zichtbaar zijn in de Experience Rollouts-console als u al beperkte toegang hebt.
 3. Vraag de beheerder van de Rollouts van de Ervaring van uw organisatie voor een lijst van actieve teams.
 
-Als er geen team voor uw project bestaat, moet u er een maken. Zie [ een nieuw team ](create-a-new-team.md) creëren.
+Als er geen team voor uw project bestaat, moet u er een maken. Zie [&#x200B; een nieuw team &#x200B;](create-a-new-team.md) creëren.
 
 ## Zie ook {#see-also}
 

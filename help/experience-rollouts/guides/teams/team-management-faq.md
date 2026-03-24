@@ -17,9 +17,9 @@ Dit kan zich voordoen in de Stage-omgeving als de gebruiker zich nog niet eerder
 
 ## Ik ben beheerder, maar ik kan geen functiemarkeringen maken of bewerken {#admin-cannot-edit-flags}
 
-Rollen in Experience Rollouts sluiten elkaar uit. De **Admin** rol verleent teambeheertoestemmingen maar omvat niet de toestemmingen van de Eigenaar van de Versie van het a **Product**. Om eigenschapvlaggen tot stand te brengen en uit te geven, heeft een lid de **rol van de Eigenaar van de Versie van het 0} Product naast de** Admin **rol nodig.**
+Rollen in Experience Rollouts sluiten elkaar uit. De **Admin** rol verleent teambeheertoestemmingen maar omvat niet de toestemmingen van de Eigenaar van de Versie van het a **Product**. Om eigenschapvlaggen tot stand te brengen en uit te geven, heeft een lid de **rol van de Eigenaar van de Versie van het 0&rbrace; Product naast de** Admin **rol nodig.**
 
-Neem contact op met uw teambeheerder om extra rollen toe te wijzen. Zie {de rollen van 0} Gebruiker ](user-roles.md) voor een volledige verdeling van wat elke rol kan doen.[
+Neem contact op met uw teambeheerder om extra rollen toe te wijzen. Zie {de rollen van 0} Gebruiker [&#128279;](user-roles.md) voor een volledige verdeling van wat elke rol kan doen.
 
 ## Hebben beheerders een hiërarchie? Kan één beheerder een andere met voeten treden? {#admin-hierarchy}
 

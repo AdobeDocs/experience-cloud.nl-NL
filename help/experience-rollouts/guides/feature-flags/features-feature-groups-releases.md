@@ -21,7 +21,7 @@ De meest atoomeenheid. Beheert één functie voor één toepassing, die eigendom
 **de groep van de Eigenschap**
 Een verzameling functievlaggen die bij hetzelfde team horen. Hiermee kunt u meerdere vlaggen in meerdere toepassingen in één team als één eenheid beheren.
 
-**van de de eigenschapgroep van 0} dwars-team
+**van de de eigenschapgroep van 0&rbrace; dwars-team
 Breidt mogelijkheden van de eigenschapgroep over veelvoudige teams en toepassingen uit.** Zelf-bedient en steunt rijke publiekscriteria, maar steunt geen caching.
 
 **Versie**
@@ -47,7 +47,7 @@ Ontworpen voor grote, gecoördineerde rollouts over veelvoudige teams en toepass
 |---|---|
 | Eén functie voor één toepassing testen of implementeren | **markering van de Eigenschap** |
 | Meerdere functies in hetzelfde team coördineren en tegelijk actief worden | **de groep van de Eigenschap** |
-| Het coördineren van eigenschappen over toepassingen in verschillende teams, met rijke het richten | **van de de eigenschapgroep van 0} dwars-team** |
+| Het coördineren van eigenschappen over toepassingen in verschillende teams, met rijke het richten | **van de de eigenschapgroep van 0&rbrace; dwars-team** |
 | Grote gecoördineerde release voor meerdere teams, met caching op SDK-niveau | **Versie** |
 
 ## Zie ook {#see-also}

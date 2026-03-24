@@ -17,7 +17,7 @@ De toegang tot de Rollouts van de Ervaring wordt beheerd op het teamniveau. Om d
 
 Bevestig het volgende voordat u toegang aanvraagt:
 
-* U weet welk team u wilt deelnemen. Controle met uw product of technieklood, of verwijs naar [ Teams en hun admins ](teams-and-admins.md) om uw team en zijn admin te identificeren.
+* U weet welk team u wilt deelnemen. Controle met uw product of technieklood, of verwijs naar [&#x200B; Teams en hun admins &#x200B;](teams-and-admins.md) om uw team en zijn admin te identificeren.
 * U weet welk milieu u toegang tot - **Stadium**, **Productie**, of allebei nodig hebt.
 
 ## Toegang aanvragen {#request-steps}
@@ -35,12 +35,12 @@ U ontvangt een bevestiging zodra het verzoek is verzonden. U kunt het statuut va
 
 ## Beschikbare rollen {#roles}
 
-De rol die aan u wordt toegewezen bepaalt welke acties u in de console kunt uitvoeren. Zie {de rollen van 0} Gebruiker ](../teams/user-roles.md) voor een volledige beschrijving van elke rol en zijn toestemmingen.[
+De rol die aan u wordt toegewezen bepaalt welke acties u in de console kunt uitvoeren. Zie {de rollen van 0} Gebruiker [&#128279;](../teams/user-roles.md) voor een volledige beschrijving van elke rol en zijn toestemmingen.
 
 ## Nadat toegang is verleend {#after-access}
 
-Zodra uw verzoek wordt goedgekeurd, login aan de console van de Rollouts van de Ervaring en verifieer dat uw team en toepassingen zichtbaar zijn. Zie [ Login aan de console ](log-in-to-the-console.md) voor volgende stappen.
+Zodra uw verzoek wordt goedgekeurd, login aan de console van de Rollouts van de Ervaring en verifieer dat uw team en toepassingen zichtbaar zijn. Zie [&#x200B; Login aan de console &#x200B;](log-in-to-the-console.md) voor volgende stappen.
 
 ## Hebt u hulp nodig? {#need-help}
 
-Als u onzeker bent welk team om zich bij aan te sluiten, of als geen team voor uw project nog bestaat, zie [ een nieuw team ](create-a-new-team.md) creëren of neem beheerder van de Rollouts van de Ervaring van uw organisatie in contact.
+Als u onzeker bent welk team om zich bij aan te sluiten, of als geen team voor uw project nog bestaat, zie [&#x200B; een nieuw team &#x200B;](create-a-new-team.md) creëren of neem beheerder van de Rollouts van de Ervaring van uw organisatie in contact.

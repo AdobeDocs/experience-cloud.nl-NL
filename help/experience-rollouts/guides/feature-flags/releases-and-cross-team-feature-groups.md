@@ -24,7 +24,7 @@ Belangrijkste kenmerken:
 * **Geen grens** op het aantal u kunt creëren
 * **geen caching** — De de vlagevaluaties van de Eigenschap vereisen een API vraag; SDK-Vlakke caching wordt niet gesteund
 
-Voor geleidelijke verwezenlijking instructies, zie [ tot een dwars-teameigenschapgroep ](create-cross-team-feature-group.md) leiden.
+Voor geleidelijke verwezenlijking instructies, zie [&#x200B; tot een dwars-teameigenschapgroep &#x200B;](create-cross-team-feature-group.md) leiden.
 
 ## Uitstoot {#releases}
 

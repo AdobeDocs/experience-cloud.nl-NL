@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Opmerkingen bij de release Node.js SDK {#nodejs-sdk-release-notes}
 
-Deze pagina bevat de releasegeschiedenis van de Experience Rollouts Node.js SDK. Voor integratieopstelling, zie [ Node.js de integratiegids van SDK ](nodejs-sdk-integration-guide.md).
+Deze pagina bevat de releasegeschiedenis van de Experience Rollouts Node.js SDK. Voor integratieopstelling, zie [&#x200B; Node.js de integratiegids van SDK &#x200B;](nodejs-sdk-integration-guide.md).
 
 ## Versie 1.0.10 {#v1-0-10}
 

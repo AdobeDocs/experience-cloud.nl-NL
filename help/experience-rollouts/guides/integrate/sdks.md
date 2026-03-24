@@ -41,13 +41,13 @@ Belangrijke specificaties voor de Java SDK:
 * **Ondersteunde JDK:** JDK 8 en later
 * **niet-cacheable cliënten:** gesteund van versie 0.8 van SDK verder. Voor niet-cachebare clients wordt door `getFeature()` een live API-aanroep uitgevoerd in plaats van te lezen vanuit cache. De SDK gaat verder met de opiniepeiling op de achtergrond en schakelt over naar cache-gebaseerde serving als de client cacheable wordt.
 
-Zie de [ de integratiegids van SDK van Java ](../sdk-releases/java/java-sdk-integration-guide.md) voor opstellingsinstructies.
+Zie de [&#x200B; de integratiegids van SDK van Java &#x200B;](../sdk-releases/java/java-sdk-integration-guide.md) voor opstellingsinstructies.
 
 ### Node.js SDK {#nodejs-sdk}
 
 De Node.js SDK wordt gedistribueerd via npm.
 
-Zie [ Node.js de integratiegids van SDK ](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) voor opstellingsinstructies.
+Zie [&#x200B; Node.js de integratiegids van SDK &#x200B;](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) voor opstellingsinstructies.
 
 ## Kiezen tussen SDK en REST API {#sdk-vs-api}
 

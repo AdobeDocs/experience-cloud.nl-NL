@@ -17,7 +17,7 @@ Als u hulp van het de steunteam van de Rollouts van de Ervaring nodig hebt, gebr
 
 Voer de volgende stappen uit om een ondersteuningsverzoek in te dienen:
 
-1. Login aan [ Adobe Admin Console ](https://adminconsole.adobe.com).
+1. Login aan [&#x200B; Adobe Admin Console &#x200B;](https://adminconsole.adobe.com).
 2. Navigeer aan **Steun** in de hoogste navigatie.
 3. Selecteer **Open een steunkaartje**.
 4. Vul het aanvraagformulier in met de details van uw uitgave.

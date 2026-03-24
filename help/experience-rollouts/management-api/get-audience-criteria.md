@@ -19,7 +19,7 @@ Ga als volgt te werk om de JSON voor een gewenst publiek te verkrijgen:
 
 1. In de console van Rollouts van de Ervaring, creeer een tijdelijke eigenschapvlag met de publiekscriteria u in uw API vraag wilt gebruiken.
 2. Noteer na het opslaan de markering-id van de functie in de URL van de browser. De id wordt na de client-id in de URL weergegeven. In `.../feature-flags/1191/22080` is de functie-id bijvoorbeeld `22080` .
-3. Vraag [ krijgt Eigenschap door identiteitskaart ](feature-flags-management-api.md#get-feature-by-id) eindpunt met die eigenschapidentiteitskaart
+3. Vraag [&#x200B; krijgt Eigenschap door identiteitskaart &#x200B;](feature-flags-management-api.md#get-feature-by-id) eindpunt met die eigenschapidentiteitskaart
 4. Zoek in het antwoord-JSON het veld `audience` . Dit bevat de exacte publiekscriteria-structuur die u nodig hebt.
 5. Kopieer de waarde `audience` en verwijder het kenmerk `id` uit elk regelobject. Gebruik dit in de aanroep van de functie-API voor maken of bijwerken.
 

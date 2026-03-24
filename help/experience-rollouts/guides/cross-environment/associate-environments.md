@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # Omgevingen koppelen aan een toepassing {#associate-environments}
 
-Door de toepassingsinstanties aan elkaar te koppelen in verschillende omgevingen, kunt u de zichtbaarheid van verschillende omgevingen verhogen en workflows importeren. U moet de **Admin** rol hebben om dit te vormen. Zie {de rollen van 0} Gebruiker ](../teams/user-roles.md) als u uw rol moet verifiëren.[
+Door de toepassingsinstanties aan elkaar te koppelen in verschillende omgevingen, kunt u de zichtbaarheid van verschillende omgevingen verhogen en workflows importeren. U moet de **Admin** rol hebben om dit te vormen. Zie {de rollen van 0} Gebruiker [&#128279;](../teams/user-roles.md) als u uw rol moet verifiëren.
 
-Voor achtergrond waarom dit nuttig is, zie [ Cross-environment concept ](cross-environment-concept.md).
+Voor achtergrond waarom dit nuttig is, zie [&#x200B; Cross-environment concept &#x200B;](cross-environment-concept.md).
 
 ## Stap 1: De toepassingsinstellingen openen {#step-1}
 
