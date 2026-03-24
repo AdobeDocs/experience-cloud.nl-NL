@@ -1,28 +1,40 @@
 ---
 title: Adobe Experience Rollouts
 description: Leer hoe u Adobe Experience Rollouts kunt gebruiken om functies veilig en geleidelijk te bieden met gecontroleerde rollouts, functiemarkeringen en doelgericht beheer van het publiek.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
+source-git-commit: 65effd7e3b12404359e3693820bbf9e5080bea03
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
 
-
 # Adobe Experience Rollouts {#experience-rollouts-home}
 
-Adobe Experience Rollouts is een platform voor functiebeheer en gecontroleerde release dat productteams helpt nieuwe mogelijkheden veilig, geleidelijk en met minder risico te bieden.
+Met Adobe Experience Rollouts kunnen productteams geleidelijk en veilig nieuwe functies verzenden, zonder herplaatsingen of downtime. U bepaalt wie wat, wanneer en in welk tempo ziet. Als er iets misgaat, schakelt u de functie direct uit. Als het goed gaat, breidt u het publiek op uw programma uit.
 
-In plaats van een nieuwe functie voor iedereen tegelijk in te schakelen, kunt u met Experience Rollouts productteams gebruiken:
+## Wat u kunt doen
 
-* **eigenschappen van de Versie geleidelijk** - Begin met een klein percentage gebruikers, dan toename in tijd. Als iets zich niet zoals verwacht gedraagt, kan de eigenschap snel worden uitgezet zonder onderbreking of het herinstalleren van software.
+**Controle die nieuwe eigenschappen ziet.** De versies van het doel aan specifieke gebruikers, organisaties, gebieden, of douanekenmerken. Begin met een kleine groep, bevestig de ervaring, dan breid uit — allen van de console, zonder codeveranderingen.
 
-* **eigenschappen van het Doel aan specifiek publiek** - laat nieuwe mogelijkheden voor geselecteerde groepen (bijvoorbeeld, bètaprogramma&#39;s, bepaalde gebieden, of specifieke plannen) toe zodat kunnen de veranderingen worden bevestigd en worden verfijnd alvorens zij globaal beschikbaar zijn.
+**looppas A/B experimenten.** Dien verschillende varianten aan verschillende segmenten van uw publiek en meet die beter presteert. Gebruik de resultaten om geïnformeerde productbeslissingen te nemen vóór een volledige release.
 
-* **experimenten van de Looppas en tests A/B** - probeer verschillende versies van een eigenschap (zoals afwisselende lay-outs, stromen, of aanbevelingen) en maatregel die beter werkt, gebruikend gegevens om productbesluiten te begeleiden.
+**vermindert releaserisico.** Breek grote veranderingen in kleinere, gecontroleerde rollen. Als er een fout of prestatieprobleem optreedt, schakelt u alleen de desbetreffende functie uit. De rest van de toepassing blijft stabiel.
 
-* **Verminder risico voor kritieke versies** - Breek grote veranderingen in kleinere, gecontroleerde rollouts zodat zijn de kwesties gemakkelijker te ontdekken, te begrijpen en te bevestigen alvorens zij iedereen beïnvloeden.
+**Coördineer over teams.** De de eigenschapgroepen van het dwars-team laten veelvoudige teams aan één enkele gecoördineerde versie deelnemen, elk die hun eigen eigenschapvlaggen beheren terwijl het delen van een gemeenschappelijk rollout programma en een publiek.
 
-* **antwoordt snel aan kwesties** - als een insect of prestatiesprobleem verschijnt, draai slechts de beïnvloede eigenschap terwijl het houden van de rest van de toepassing stabiel.
+## Aan boord van uw eerste functie
 
-In de praktijk helpen Experience Rollouts eindgebruikers vaker verbeteringen te ervaren met minder onderbrekingen: nieuwe mogelijkheden kunnen sneller aankomen, behoedzamer worden getest en snel worden aangepast op basis van real-world feedback.
+Het krijgen van waarde van de Rollouts van de Ervaring begint met drie stappen:
+
+1. **Opstelling uw team en toepassing** - [ de toegang van het Verzoek ](guides/console/request-access.md) aan de console, dan [ op uw toepassing ](guides/applications/onboard-your-application.md) zodat Ervaring Rollouts weet welke cliënten te dienen.
+
+2. **creeer en publiceer een eigenschapvlag** - volg [ creeer uw eerste eigenschapvlag ](guides/feature-flags/create-your-first-feature-flag.md) gids om een vlag te bepalen, uw aanvankelijke publiek te plaatsen, en het aan uw milieu te publiceren.
+
+3. **integreer met uw toepassing** — verbind uw app met de Rollouts API van de Ervaring of SDK zodat kan het eigenschapmarkeringen terugwinnen en toepassen bij runtime. Begin met de [ integratiestappen ](guides/integrate/integration-steps.md) voor uw toepassingstype.
+
+Zodra uw eerste vlag levend is, kunt u zijn publiek verfijnen, een geleidelijke uitrol vormen, en het bevorderen door [ versiestaten ](guides/feature-flags/release-states.md) van bewaarde aan volledige uitlooptraject.
+
+## Hebt u hulp nodig?
+
+Als iets zich niet zoals verwacht gedraagt, behandelt de [ het oplossen van problemengids ](guides/support/troubleshooting.md) de gemeenschappelijkste kwesties. Voor om het even wat anders, [ contactsteun ](guides/support/contact-support.md).
