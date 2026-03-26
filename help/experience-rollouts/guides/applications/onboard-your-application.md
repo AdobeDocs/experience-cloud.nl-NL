@@ -1,17 +1,17 @@
 ---
 title: Aan boord van uw toepassing
 description: Leer hoe u een nieuwe toepassing instelt op Adobe Experience Rollouts zodat uw team functiemarkeringen kan gaan maken en beheren.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
 
-
 # Aan boord van uw toepassing {#onboard-your-application}
 
-U moet de **Admin** rol hebben om een nieuwe toepassing toe te voegen. Zie {de rollen van 0} Gebruiker [&#128279;](../teams/user-roles.md) als u uw rol moet verifiëren of het van uw teamadmin verzoeken.
+U moet de **Admin** rol hebben om een nieuwe toepassing toe te voegen. Neem contact op met uw teambeheerder als u uw rol moet verifiëren of bijwerken.
 
 ## Een nieuwe toepassing toevoegen {#add-application}
 
@@ -45,5 +45,4 @@ Zodra uw toepassing wordt geregistreerd, kan uw team beginnen eigenschapmarkerin
 ## Zie ook {#see-also}
 
 * [Toepassingen beheren](manage-applications.md)
-* [Gebruikersrollen](../teams/user-roles.md)
 * [Aanmelden bij de console](../console/log-in-to-the-console.md)

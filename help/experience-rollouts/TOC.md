@@ -2,9 +2,9 @@
 audience: user
 user-guide-title: Adobe Experience Rollouts
 user-guide-description: Leer hoe u Adobe Experience Rollouts kunt gebruiken om functiemarkeringen, gecontroleerde rollouts en doelgerichte releases in uw toepassingen te beheren.
-source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
+source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '291'
 ht-degree: 1%
 
 ---
@@ -27,15 +27,8 @@ ht-degree: 1%
 + Handleidingen {#guides}
    + Aan de slag met de console {#console}
       + [Aanmelden bij de console Experience Rollouts](guides/console/log-in-to-the-console.md)
-      + [Overzicht van omgevingen](guides/console/environments-overview.md)
+      + [Uw sandbox selecteren](guides/console/environments-overview.md)
       + [Toegang aanvragen](guides/console/request-access.md)
-      + [Teams en hun beheerders](guides/console/teams-and-admins.md)
-      + [Een nieuw team maken](guides/console/create-a-new-team.md)
-   + Teams {#teams}
-      + [Teams beheren](guides/teams/manage-teams.md)
-      + [Gebruikersrollen](guides/teams/user-roles.md)
-      + [Leden aan uw team toevoegen](guides/teams/add-team-members.md)
-      + [Veelgestelde vragen over teambeheer](guides/teams/team-management-faq.md)
    + Toepassingen {#applications}
       + [Toepassingen beheren](guides/applications/manage-applications.md)
       + [Aan boord van uw toepassing](guides/applications/onboard-your-application.md)
@@ -49,19 +42,13 @@ ht-degree: 1%
       + [SDK&#39;s](guides/integrate/sdks.md)
       + [Integratiestappen](guides/integrate/integration-steps.md)
       + [Abonneren op de API-toepassing in Adobe Developer Console](guides/integrate/subscribe-to-api-application.md)
-   + Functiemarkeringen en -releases {#feature-flags-releases}
-      + [Functies, functiegroepen en releases](guides/feature-flags/features-feature-groups-releases.md)
+   + Functiemarkeringen {#feature-flags}
+      + [Functies en functiegroepen](guides/feature-flags/features-feature-groups-releases.md)
       + [De eerste functiemarkering maken](guides/feature-flags/create-your-first-feature-flag.md)
       + [Een functie instellen die geleidelijk moet worden geïmplementeerd](guides/feature-flags/set-feature-gradual-rollout.md)
       + [Een functiegroep maken](guides/feature-flags/create-a-feature-group.md)
       + [Een functiegroep instellen die geleidelijk moet worden geïmplementeerd](guides/feature-flags/set-feature-group-gradual-rollout.md)
       + [A/B testen met functiemarkeringen](guides/feature-flags/a-b-testing.md)
-      + [Versies en groepen met meerdere functies](guides/feature-flags/releases-and-cross-team-feature-groups.md)
-      + [De werkstroom van begin tot einde opheffen](guides/feature-flags/release-workflow-end-to-end.md)
-      + [Release aanvragen](guides/feature-flags/request-a-release.md)
-      + [Regels voor het publiek van de release bijwerken](guides/feature-flags/update-release-audience-rules.md)
-      + [Releasestatus](guides/feature-flags/release-states.md)
-      + [Een functiegroep voor meerdere teams maken](guides/feature-flags/create-cross-team-feature-group.md)
       + [Veelgestelde vragen over releasebeheer](guides/feature-flags/release-management-faqs.md)
       + [Analyse](guides/feature-flags/analytics.md)
       + [Schema](guides/feature-flags/schedule.md)

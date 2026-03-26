@@ -1,13 +1,13 @@
 ---
 title: Problemen oplossen
 description: Gebruik de werkbank Rollouts van de Ervaring om de kwesties van de de evaluatie van de eigenschapvlag voor specifieke gebruikers te diagnostiseren, met inbegrip van het controleren van welke eigenschappen toegelaten, gehandicapt, of onovertroffen voor een bepaalde gebruikersidentiteit zijn.
-source-git-commit: d824d85c6701edc9be314713bb8e9624b183e2d2
+exl-id: d64e9573-8e18-46a1-a75a-5ae5bfc7c82d
+source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
-
 
 # Problemen oplossen {#troubleshooting}
 
@@ -51,7 +51,7 @@ Deze sectie toont drie lijsten voor het geselecteerde team en de toepassing:
 
 De versies verbonden aan het momenteel geselecteerde team en de toepassing verschijnen bij de bovenkant van elke lijst.
 
-{de vlaggen en de groepen van de Eigenschap 0} **&#x200B;**
+{de vlaggen en de groepen van de Eigenschap 0} ****
 
 Deze sectie bevat een lijst met alle functiemarkeringen van het geselecteerde team en de geselecteerde toepassing die momenteel zijn ingeschakeld voor de gebruiker. Elk item toont:
 
@@ -85,5 +85,3 @@ De volgende lijst beschrijft gemeenschappelijke problemen en hoe te om hen te on
 
 * [Ondersteuning](get-support.md)
 * [Contact opnemen met ondersteuning](contact-support.md)
-* [Regels voor het publiek van de release bijwerken](../feature-flags/update-release-audience-rules.md)
-* [Releasestatus](../feature-flags/release-states.md)

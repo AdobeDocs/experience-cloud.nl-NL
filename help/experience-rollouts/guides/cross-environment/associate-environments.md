@@ -1,19 +1,19 @@
 ---
 title: Omgevingen koppelen aan een toepassing
 description: Leer hoe u toepassingsinstanties in verschillende omgevingen in Adobe Experience Rollouts kunt koppelen, zodat u functiemarkeringen consistent kunt beheren, van ontwikkeling tot productie.
-source-git-commit: 5c99061a7f2aaaad98190166ea6fd79b7eb26dec
+exl-id: 53080db1-f257-4369-82ab-57c84395a40a
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
 
-
 # Omgevingen koppelen aan een toepassing {#associate-environments}
 
-Door de toepassingsinstanties aan elkaar te koppelen in verschillende omgevingen, kunt u de zichtbaarheid van verschillende omgevingen verhogen en workflows importeren. U moet de **Admin** rol hebben om dit te vormen. Zie {de rollen van 0} Gebruiker [&#128279;](../teams/user-roles.md) als u uw rol moet verifiëren.
+Door de toepassingsinstanties aan elkaar te koppelen in verschillende omgevingen, kunt u de zichtbaarheid van verschillende omgevingen verhogen en workflows importeren. U moet de **Admin** rol hebben om dit te vormen. Neem contact op met uw teambeheerder als u uw rol moet verifiëren of bijwerken.
 
-Voor achtergrond waarom dit nuttig is, zie [&#x200B; Cross-environment concept &#x200B;](cross-environment-concept.md).
+Voor achtergrond waarom dit nuttig is, zie [ Cross-environment concept ](cross-environment-concept.md).
 
 ## Stap 1: De toepassingsinstellingen openen {#step-1}
 

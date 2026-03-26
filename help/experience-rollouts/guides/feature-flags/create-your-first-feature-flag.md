@@ -1,13 +1,13 @@
 ---
 title: De eerste functiemarkering maken
 description: Leer hoe u een functiemarkering kunt maken in Adobe Experience Rollouts, een publiek kunt instellen en testen voordat u de markering voor gebruikers gaat gebruiken.
-source-git-commit: ae420329b94b24fcd173734b414aecf1c5fc16ca
+exl-id: ae115120-8da9-465e-a556-c17591ea7054
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
-
 
 # De eerste functiemarkering maken {#create-feature-flag}
 
@@ -15,10 +15,9 @@ ht-degree: 0%
 
 Vul de volgende handelingen in voordat u een functiemarkering maakt:
 
-* U hebt toegang tot de console van Rollouts van de Ervaring — zie [&#x200B; Login aan de console &#x200B;](../console/log-in-to-the-console.md)
-* U behoort tot een team - zie [&#x200B; teams beheren &#x200B;](../teams/manage-teams.md)
-* Uw toepassing wordt bewaakt - zie [&#x200B; Op uw toepassing &#x200B;](../applications/onboard-your-application.md)
-* U hebt de **rol van de Eigenaar van de Versie van de Ontwikkelaar** of **Product** - zie [&#x200B; Gebruikersrollen &#x200B;](../teams/user-roles.md)
+* U hebt toegang tot de console van Rollouts van de Ervaring — zie [ Login aan de console ](../console/log-in-to-the-console.md)
+* Uw toepassing wordt bewaakt - zie [ Op uw toepassing ](../applications/onboard-your-application.md)
+* U hebt de **rol van de Eigenaar van de Versie van de Ontwikkelaar** of **Product**
 
 ## Stap 1: De functiemarkering maken {#create}
 
@@ -43,22 +42,21 @@ Om publiekscriteria toe te voegen, ga naar het **publiek** lusje wanneer het cre
 
 >[!NOTE]
 >
->De **rol van de Ontwikkelaar** is sandbox. De ontwikkelaars kunnen een eigenschap aan zich slechts blootstellen door hun eigen Gebruiker toe te voegen - identiteitskaart onder **Publiek > Profiel > Gebruiker - identiteitskaart**. Om een eigenschap aan externe gebruikers bloot te stellen, hebt u de **rol van de Eigenaar van de Versie van het 0&rbrace; Product nodig.**
+>De **rol van de Ontwikkelaar** is sandbox. De ontwikkelaars kunnen een eigenschap aan zich slechts blootstellen door hun eigen Gebruiker toe te voegen - identiteitskaart onder **Publiek > Profiel > Gebruiker - identiteitskaart**. Om een eigenschap aan externe gebruikers bloot te stellen, hebt u de **rol van de Eigenaar van de Versie van het 0} Product nodig.**
 
 ## Stap 3: de omvang van het publiek berekenen {#audience-size}
 
-Na het toevoegen van publiekscriteria, berekent de uitgezochte **&#x200B;**&#x200B;in de bodembar om een geschatte telling van gebruikers te krijgen die voor de eigenschap kwalificeren. Zo kunt u uw doelversie valideren voordat u live gaat.
+Na het toevoegen van publiekscriteria, berekent de uitgezochte **** in de bodembar om een geschatte telling van gebruikers te krijgen die voor de eigenschap kwalificeren. Zo kunt u uw doelversie valideren voordat u live gaat.
 
 ## Stap 4: Schema (optioneel) {#schedule}
 
-U kunt een functiemarkering plannen om op een toekomstige datum en tijd te activeren. Zie [&#x200B; Programma &#x200B;](schedule.md) voor details.
+U kunt een functiemarkering plannen om op een toekomstige datum en tijd te activeren. Zie [ Programma ](schedule.md) voor details.
 
 ## Veelgestelde vragen: ik kan geen functiemarkering toevoegen als ontwikkelaar {#faq}
 
-De **rol van de Ontwikkelaar** is sandbox. Ontwikkelaars kunnen functies privé testen door hun gebruikersnaam aan het publiek toe te voegen. Ze kunnen functies niet aan externe gebruikers beschikbaar maken. Gebruik de **rol van de Eigenaar van de Versie van het 0&rbrace; Product &lbrace;om eigenschappen aan externe gebruikers vrij te geven.** Neem contact op met uw teambeheerder om uw rol bij te werken.
+De **rol van de Ontwikkelaar** is sandbox. Ontwikkelaars kunnen functies privé testen door hun gebruikersnaam aan het publiek toe te voegen. Ze kunnen functies niet aan externe gebruikers beschikbaar maken. Gebruik de **rol van de Eigenaar van de Versie van het 0} Product {om eigenschappen aan externe gebruikers vrij te geven.** Neem contact op met uw teambeheerder om uw rol bij te werken.
 
 ## Zie ook {#see-also}
 
 * [Een functie instellen die geleidelijk moet worden geïmplementeerd](set-feature-gradual-rollout.md)
 * [Een functiegroep maken](create-a-feature-group.md)
-* [Gebruikersrollen](../teams/user-roles.md)

@@ -1,13 +1,13 @@
 ---
 title: Enterprise-org-gegevens gebruiken in publieksregels
 description: Leer hoe u id's van bedrijfsorganisaties als publiekscriteria in Adobe Experience Rollouts kunt gebruiken om specifieke klantenorganisaties te richten.
-source-git-commit: 3f3f7145b3c58dc721cbeb850e9e8571e3255bb1
+exl-id: 74f97ec7-a809-41bf-a41d-bb57f033040f
+source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
-
 
 # Enterprise-org-gegevens gebruiken in publieksregels {#enterprise-org-data}
 
@@ -41,5 +41,4 @@ DMA-organisaties gebruiken org-id&#39;s in de notatie `XXXXXXXXXXXXXXXXXXXXXXXX@
 ## Zie ook {#see-also}
 
 * [Publiek in functiemarkeringen en functiegroepen](audience-in-feature-flags-and-feature-groups.md)
-* [Regels voor het publiek van de release bijwerken](../feature-flags/update-release-audience-rules.md)
 * [Complexe publieksregels](complex-rules.md)

@@ -1,13 +1,13 @@
 ---
 title: Een functiegroep maken
 description: Leer hoe u in Adobe Experience Rollouts een functiegroep maakt voor het beheren van meerdere functiemarkeringen in verschillende toepassingen in uw team als één eenheid.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
-
 
 # Een functiegroep maken {#create-feature-group}
 
@@ -15,13 +15,12 @@ ht-degree: 0%
 
 Voer de volgende handelingen uit voordat u een functiegroep maakt:
 
-* U hebt toegang tot de console van Rollouts van de Ervaring — zie [&#x200B; Login aan de console &#x200B;](../console/log-in-to-the-console.md)
-* U behoort tot een team - zie [&#x200B; teams beheren &#x200B;](../teams/manage-teams.md)
-* Uw toepassing wordt bewaakt - zie [&#x200B; Op uw toepassing &#x200B;](../applications/onboard-your-application.md)
-* U hebt de **rol van de Eigenaar van de Versie van de Ontwikkelaar** of **Product** - zie [&#x200B; Gebruikersrollen &#x200B;](../teams/user-roles.md)
-* U hebt de eigenschapvlaggen gecreeerd u aan de groep wilt toevoegen — zie [&#x200B; uw eerste eigenschapvlag &#x200B;](create-your-first-feature-flag.md) creëren
+* U hebt toegang tot de console van Rollouts van de Ervaring — zie [ Login aan de console ](../console/log-in-to-the-console.md)
+* Uw toepassing wordt bewaakt - zie [ Op uw toepassing ](../applications/onboard-your-application.md)
+* U hebt de **rol van de Eigenaar van de Versie van de Ontwikkelaar** of **Product**
+* U hebt de eigenschapvlaggen gecreeerd u aan de groep wilt toevoegen — zie [ uw eerste eigenschapvlag ](create-your-first-feature-flag.md) creëren
 
-Voor een inleiding aan eigenschapgroepen, zie {de groepen van de Eigenschap 0} om veelvoudige eigenschappen [&#128279;](../../concepts/feature-groups-to-control-multiple-features.md) te controleren.
+Voor een inleiding aan eigenschapgroepen, zie {de groepen van de Eigenschap 0} om veelvoudige eigenschappen ](../../concepts/feature-groups-to-control-multiple-features.md) te controleren.[
 
 ## Stap 1: Maak de functiegroep {#create}
 
@@ -36,7 +35,7 @@ Configureer de algemene instellingen voor de functiegroep:
 
 1. Geef een titel, sleutel, beschrijving en eventueel een tag op.
 2. Plaats a **percentenuitloop** voor de eigenschapgroep.
-3. Als u een test A/B wilt in werking stellen, selecteer meer dan één variant. Anders, verlaat het bij één variant. Zie [&#x200B; A/B het testen met eigenschapmarkeringen &#x200B;](a-b-testing.md) voor details.
+3. Als u een test A/B wilt in werking stellen, selecteer meer dan één variant. Anders, verlaat het bij één variant. Zie [ A/B het testen met eigenschapmarkeringen ](a-b-testing.md) voor details.
 
 ## Stap 3: Publiek {#audience}
 
@@ -47,7 +46,7 @@ Bepaal wie de eigenschappen in deze groep zal ontvangen:
 
 >[!NOTE]
 >
->De **rol van de Ontwikkelaar** is sandbox. Voeg uw eigen identiteitskaart van de Gebruiker onder **Publiek > Profiel > Gebruiker toe - identiteitskaart** om privé te testen. Om externe gebruikers te richten, hebt u de **rol van de Eigenaar van de Versie van het 0&rbrace; Product nodig.**
+>De **rol van de Ontwikkelaar** is sandbox. Voeg uw eigen identiteitskaart van de Gebruiker onder **Publiek > Profiel > Gebruiker toe - identiteitskaart** om privé te testen. Om externe gebruikers te richten, hebt u de **rol van de Eigenaar van de Versie van het 0} Product nodig.**
 
 ## Stap 4: Functies {#features}
 
@@ -63,7 +62,7 @@ Wijs de eigenschapmarkeringen toe die door deze groep zullen worden gecontroleer
 
 ## Stap 5: Planning (optioneel) {#schedule}
 
-U kunt plannen dat de functiegroep op een toekomstige datum en tijd wordt geactiveerd. Zie [&#x200B; Programma &#x200B;](schedule.md) voor details.
+U kunt plannen dat de functiegroep op een toekomstige datum en tijd wordt geactiveerd. Zie [ Programma ](schedule.md) voor details.
 
 ## Zie ook {#see-also}
 

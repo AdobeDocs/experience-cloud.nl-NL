@@ -1,13 +1,13 @@
 ---
 title: Toepassingen beheren
 description: Leer hoe u toepassingen beheert in Adobe Experience Rollouts, inclusief het toevoegen van nieuwe toepassingen en het begrijpen van teameigendom.
-source-git-commit: 53edbee220e7ef17c4a3ea066743192c1e9681f4
+exl-id: 6109fdd5-b5f5-41ca-8690-8aa78df50499
+source-git-commit: 8dc03f77f4e13ac9196df0910b1c00904b57a934
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
-
 
 # Toepassingen beheren {#manage-applications}
 
@@ -19,7 +19,7 @@ Slechts kunnen de leden met de **Admin** rol toepassingen toevoegen of wijzigen.
 
 ## Een toepassing toevoegen {#add-application}
 
-Om een toepassing aan uw team toe te voegen, zie [&#x200B; Aan boord uw toepassing &#x200B;](onboard-your-application.md) voor geleidelijke instructies.
+Om een toepassing aan uw team toe te voegen, zie [ Aan boord uw toepassing ](onboard-your-application.md) voor geleidelijke instructies.
 
 ## Teameigenaar {#team-ownership}
 
@@ -27,11 +27,9 @@ Elke toepassing is eigendom van exact één team. Alleen leden van dat team kunn
 
 Dit eigendomsmodel is ook van invloed op de manier waarop u functiegroepen structureert:
 
-* **binnen uw team** — De Eigenaar van de Versie van het Product kan eigenschapvlaggen over toepassingen groeperen die door het zelfde team worden bezeten. Zie {de groepen van de Eigenschap 0} om veelvoudige eigenschappen [&#128279;](../../concepts/feature-groups-to-control-multiple-features.md) te controleren.
-* **over teams** — Als u eigenschapmarkeringen van toepassingen moet groeperen die door verschillende teams worden bezeten, gebruik een groep van de dwars-teameigenschap, die de **rol van Admin van de Eigenschap** vereist.
+* **binnen uw team** — De Eigenaar van de Versie van het Product kan eigenschapvlaggen over toepassingen groeperen die door het zelfde team worden bezeten. Zie {de groepen van de Eigenschap 0} om veelvoudige eigenschappen ](../../concepts/feature-groups-to-control-multiple-features.md) te controleren.[
 
 ## Zie ook {#see-also}
 
 * [Aan boord van uw toepassing](onboard-your-application.md)
 * [Functiegroepen om meerdere functies te beheren](../../concepts/feature-groups-to-control-multiple-features.md)
-* [Gebruikersrollen](../teams/user-roles.md)
