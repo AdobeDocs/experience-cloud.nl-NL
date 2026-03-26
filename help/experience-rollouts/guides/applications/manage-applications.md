@@ -19,7 +19,7 @@ Slechts kunnen de leden met de **Admin** rol toepassingen toevoegen of wijzigen.
 
 ## Een toepassing toevoegen {#add-application}
 
-Om een toepassing aan uw team toe te voegen, zie [ Aan boord uw toepassing ](onboard-your-application.md) voor geleidelijke instructies.
+Om een toepassing aan uw team toe te voegen, zie [&#x200B; Aan boord uw toepassing &#x200B;](onboard-your-application.md) voor geleidelijke instructies.
 
 ## Teameigenaar {#team-ownership}
 
@@ -27,7 +27,7 @@ Elke toepassing is eigendom van exact één team. Alleen leden van dat team kunn
 
 Dit eigendomsmodel is ook van invloed op de manier waarop u functiegroepen structureert:
 
-* **binnen uw team** — De Eigenaar van de Versie van het Product kan eigenschapvlaggen over toepassingen groeperen die door het zelfde team worden bezeten. Zie {de groepen van de Eigenschap 0} om veelvoudige eigenschappen ](../../concepts/feature-groups-to-control-multiple-features.md) te controleren.[
+* **binnen uw team** — De Eigenaar van de Versie van het Product kan eigenschapvlaggen over toepassingen groeperen die door het zelfde team worden bezeten. Zie {de groepen van de Eigenschap 0} om veelvoudige eigenschappen [&#128279;](../../concepts/feature-groups-to-control-multiple-features.md) te controleren.
 
 ## Zie ook {#see-also}
 

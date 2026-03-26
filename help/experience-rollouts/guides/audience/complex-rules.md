@@ -30,7 +30,7 @@ Met geneste logica kunt u meerdere publieksomstandigheden combineren met nauwkeu
    * `(1 and 2) or 3`
    * `(1 and 2) or (3 and 4)`
 
-Dit is hetzelfde mechanisme dat wordt gebruikt voor percentageregels in combinatie met andere criteria. Zie [ percentageregels in publiekscriteria ](adding-percentage-rules.md) voor werkte voorbeelden toevoegen.
+Dit is hetzelfde mechanisme dat wordt gebruikt voor percentageregels in combinatie met andere criteria. Zie [&#x200B; percentageregels in publiekscriteria &#x200B;](adding-percentage-rules.md) voor werkte voorbeelden toevoegen.
 
 ## Zie ook {#see-also}
 

@@ -27,14 +27,14 @@ Met Adobe Experience Rollouts kunnen productteams geleidelijk en veilig nieuwe f
 
 Het krijgen van waarde van de Rollouts van de Ervaring begint met drie stappen:
 
-1. **Opstelling uw team en toepassing** - [ de toegang van het Verzoek ](guides/console/request-access.md) aan de console, dan [ op uw toepassing ](guides/applications/onboard-your-application.md) zodat Ervaring Rollouts weet welke cliënten te dienen.
+1. **Opstelling uw team en toepassing** - [&#x200B; de toegang van het Verzoek &#x200B;](guides/console/request-access.md) aan de console, dan [&#x200B; op uw toepassing &#x200B;](guides/applications/onboard-your-application.md) zodat Ervaring Rollouts weet welke cliënten te dienen.
 
-2. **creeer en publiceer een eigenschapvlag** - volg [ creeer uw eerste eigenschapvlag ](guides/feature-flags/create-your-first-feature-flag.md) gids om een vlag te bepalen, uw aanvankelijke publiek te plaatsen, en het aan uw milieu te publiceren.
+2. **creeer en publiceer een eigenschapvlag** - volg [&#x200B; creeer uw eerste eigenschapvlag &#x200B;](guides/feature-flags/create-your-first-feature-flag.md) gids om een vlag te bepalen, uw aanvankelijke publiek te plaatsen, en het aan uw milieu te publiceren.
 
-3. **integreer met uw toepassing** — verbind uw app met de Rollouts API van de Ervaring of SDK zodat kan het eigenschapmarkeringen terugwinnen en toepassen bij runtime. Begin met de [ integratiestappen ](guides/integrate/integration-steps.md) voor uw toepassingstype.
+3. **integreer met uw toepassing** — verbind uw app met de Rollouts API van de Ervaring of SDK zodat kan het eigenschapmarkeringen terugwinnen en toepassen bij runtime. Begin met de [&#x200B; integratiestappen &#x200B;](guides/integrate/integration-steps.md) voor uw toepassingstype.
 
 Zodra uw eerste vlag levend is, kunt u zijn publiek verfijnen, een geleidelijke rollout vormen, en het bevorderen van bewaarde aan volledige rollout.
 
 ## Hebt u hulp nodig?
 
-Als iets zich niet zoals verwacht gedraagt, behandelt de [ het oplossen van problemengids ](guides/support/troubleshooting.md) de gemeenschappelijkste kwesties. Voor om het even wat anders, [ contactsteun ](guides/support/contact-support.md).
+Als iets zich niet zoals verwacht gedraagt, behandelt de [&#x200B; het oplossen van problemengids &#x200B;](guides/support/troubleshooting.md) de gemeenschappelijkste kwesties. Voor om het even wat anders, [&#x200B; contactsteun &#x200B;](guides/support/contact-support.md).

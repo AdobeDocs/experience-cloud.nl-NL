@@ -39,7 +39,7 @@ De rol die aan u wordt toegewezen bepaalt welke acties u in de console kunt uitv
 
 ## Nadat toegang is verleend {#after-access}
 
-Zodra uw verzoek wordt goedgekeurd, login aan de console van de Rollouts van de Ervaring en verifieer dat uw team en toepassingen zichtbaar zijn. Zie [ Login aan de console ](log-in-to-the-console.md) voor volgende stappen.
+Zodra uw verzoek wordt goedgekeurd, login aan de console van de Rollouts van de Ervaring en verifieer dat uw team en toepassingen zichtbaar zijn. Zie [&#x200B; Login aan de console &#x200B;](log-in-to-the-console.md) voor volgende stappen.
 
 ## Hebt u hulp nodig? {#need-help}
 

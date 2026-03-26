@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Door de toepassingsinstanties aan elkaar te koppelen in verschillende omgevingen, kunt u de zichtbaarheid van verschillende omgevingen verhogen en workflows importeren. U moet de **Admin** rol hebben om dit te vormen. Neem contact op met uw teambeheerder als u uw rol moet verifiëren of bijwerken.
 
-Voor achtergrond waarom dit nuttig is, zie [ Cross-environment concept ](cross-environment-concept.md).
+Voor achtergrond waarom dit nuttig is, zie [&#x200B; Cross-environment concept &#x200B;](cross-environment-concept.md).
 
 ## Stap 1: De toepassingsinstellingen openen {#step-1}
 

@@ -51,7 +51,7 @@ Deze sectie toont drie lijsten voor het geselecteerde team en de toepassing:
 
 De versies verbonden aan het momenteel geselecteerde team en de toepassing verschijnen bij de bovenkant van elke lijst.
 
-{de vlaggen en de groepen van de Eigenschap 0} ****
+{de vlaggen en de groepen van de Eigenschap 0} **&#x200B;**
 
 Deze sectie bevat een lijst met alle functiemarkeringen van het geselecteerde team en de geselecteerde toepassing die momenteel zijn ingeschakeld voor de gebruiker. Elk item toont:
 
