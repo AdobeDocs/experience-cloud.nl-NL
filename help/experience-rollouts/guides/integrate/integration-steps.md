@@ -1,13 +1,13 @@
 ---
 title: Integratiestappen
-description: Voer de integratiestappen voor uw toepassingstype uit om Adobe Experience Rollouts te verbinden met uw webservice, web- of mobiele app of bureaubladtoepassing.
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+description: Voer de integratiestappen voor uw toepassingstype uit om Adobe Experience Rollouts met de beschikbare SDK's te verbinden met uw webservice, mobiele app of bureaubladtoepassing.
+exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
-
 
 # Integratiestappen {#integration-steps}
 
@@ -19,31 +19,31 @@ De diensten van de steun integreren gebruikend server-kant SDK. Kies de SDK voor
 
 **Java**
 
-Volg de [&#x200B; de integratiegids van SDK van Java &#x200B;](../sdk-releases/java/java-sdk-integration-guide.md) voor opstelling, gebiedsconfiguratie, en initialisering.
+Volg de [ de integratiegids van SDK van Java ](../sdk-releases/java/java-sdk-integration-guide.md) voor opstelling, gebiedsconfiguratie, en initialisering.
 
 **Node.js**
 
-Volg [&#x200B; Node.js de integratiegids van SDK &#x200B;](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) voor opstelling en initialisering.
+Volg [ Node.js de integratiegids van SDK ](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) voor opstelling en initialisering.
 
 **Andere talen**
 
-Als uw stapel hierboven niet vermeld is, integreer direct met de **Eigenschap API V3** (zie de sectie van de Eigenschap API van deze gids). Als u hulp nodig hebt, kunt u contact opnemen met de ondersteuning Rollouts.
+De steun van Rollouts van de Ervaring van het contact voor begeleiding op uw specifieke stapel.
 
 ## Web- en mobiele toepassingen {#web-mobile}
 
-Het Web en de mobiele toepassingen roepen de **Eigenschap API V3** om eigenschapvlaggen voor de huidige gebruiker terug te winnen en voorwaardelijke logica in de toepassing toe te passen.
+Web- en mobiele toepassingen integreren via respectievelijk het web-SDK en mobiele SDK.
 
-Zie **de Eigenschap API van GET V3** in de sectie van de Eigenschap API van deze gids voor de volledige API verwijzing.
+>[!NOTE]
+>
+>Web SDK en mobiele SDK-documentatie wordt momenteel voorbereid en zal binnenkort beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger voor hulp bij vroege toegang.
 
 ## Bureaubladtoepassingen {#desktop}
 
-De toepassingen van de Desktop roepen de **Eigenschap API V2** om eigenschapvlaggen terug te winnen.
+Desktoptoepassingen worden geïntegreerd via de SDK. Neem contact op met uw Adobe-vertegenwoordiger voor integratiehulp die specifiek is voor uw desktopstapel.
 
-Zie **de Eigenschap API van GET V2** in de sectie van de Eigenschap API van deze gids voor de volledige API verwijzing.
-
->[!IMPORTANT]
+>[!NOTE]
 >
->Desktopclients moeten de TTL-waarde in de API-reactie respecteren en een foutafhandeling implementeren om de API niet beschikbaar te maken. Zie [&#x200B; toepassingen van de Desktop &#x200B;](desktop-applications.md) voor vereisten.
+>Desktop SDK-documentatie wordt momenteel voorbereid en zal binnenkort beschikbaar zijn.
 
 ## Zie ook {#see-also}
 

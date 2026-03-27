@@ -1,13 +1,13 @@
 ---
 title: Integratiehandleiding voor Java SDK
 description: Leer hoe u de Experience Rollouts Java SDK kunt integreren in uw back-endservice om functiemarkeringen op te halen en te evalueren.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 7c12bd6c-1883-4f1c-985f-a2b0432e61ce
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
-
 
 # Integratiehandleiding voor Java SDK {#java-sdk-integration-guide}
 
@@ -19,8 +19,8 @@ Voordat u de Java SDK gaat integreren, moet u controleren of u beschikt over:
 
 * JDK 11 of hoger (vereist vanaf SDK versie 3.0.0; eerdere versies ondersteunen JDK 8+)
 * Een op Maven gebaseerd bouwsysteem
-* Een **API sleutel** en **de dienstteken** cliëntidentiteitskaart van uw project van Adobe Developer Console — zie [&#x200B; aan de API toepassing &#x200B;](../../integrate/subscribe-to-api-application.md) intekenen
-* Uw **toepassings cliënt IDs** die in de console van Rollouts van de Ervaring wordt geregistreerd — zie [&#x200B; Onboard uw toepassing &#x200B;](../../applications/onboard-your-application.md)
+* Een **API sleutel** en **de dienstteken** cliëntidentiteitskaart van uw project van Adobe Developer Console — de steun van Rollouts van de Ervaring van het contact om uw gevoegde op lijst van gewenste personen cliëntidentiteitskaart te hebben
+* Uw **toepassings cliënt IDs** die in de console van Rollouts van de Ervaring wordt geregistreerd — zie [ Onboard uw toepassing ](../../applications/onboard-your-application.md)
 
 ## De Geweven afhankelijkheid toevoegen {#maven-dependency}
 
@@ -188,5 +188,4 @@ try {
 
 * [Opmerkingen bij de release Java SDK](java-sdk-release-notes.md)
 * [SDK&#39;s](../../integrate/sdks.md)
-* [Abonneren op de API-toepassing](../../integrate/subscribe-to-api-application.md)
 * [Integratiestappen](../../integrate/integration-steps.md)

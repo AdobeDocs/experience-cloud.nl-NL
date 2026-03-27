@@ -1,13 +1,13 @@
 ---
 title: SDK's
 description: Meer informatie over de SDK-architectuur in Adobe Experience Rollouts en de beschikbare SDK's voor Java en Node.js.
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
-
 
 # SDK&#39;s {#sdks}
 
@@ -41,22 +41,13 @@ Belangrijke specificaties voor de Java SDK:
 * **Ondersteunde JDK:** JDK 8 en later
 * **niet-cacheable cliënten:** gesteund van versie 0.8 van SDK verder. Voor niet-cachebare clients wordt door `getFeature()` een live API-aanroep uitgevoerd in plaats van te lezen vanuit cache. De SDK gaat verder met de opiniepeiling op de achtergrond en schakelt over naar cache-gebaseerde serving als de client cacheable wordt.
 
-Zie de [&#x200B; de integratiegids van SDK van Java &#x200B;](../sdk-releases/java/java-sdk-integration-guide.md) voor opstellingsinstructies.
+Zie de [ de integratiegids van SDK van Java ](../sdk-releases/java/java-sdk-integration-guide.md) voor opstellingsinstructies.
 
 ### Node.js SDK {#nodejs-sdk}
 
 De Node.js SDK wordt gedistribueerd via npm.
 
-Zie [&#x200B; Node.js de integratiegids van SDK &#x200B;](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) voor opstellingsinstructies.
-
-## Kiezen tussen SDK en REST API {#sdk-vs-api}
-
-| Scenario | Aanbeveling |
-|---|---|
-| Backend Java of Node.js-service | Gebruik de juiste SDK voor automatische caching en vereenvoudigde integratie |
-| Andere achtergrondtaal | De functie-API V3 rechtstreeks gebruiken — raadpleeg de sectie Functie-API van deze handleiding |
-| Web- of mobiele toepassing | De functie-API V3 rechtstreeks gebruiken — raadpleeg de sectie Functie-API van deze handleiding |
-| Bureaubladtoepassing | De functie-API V2 rechtstreeks gebruiken — raadpleeg de sectie Functie-API van deze handleiding |
+Zie [ Node.js de integratiegids van SDK ](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) voor opstellingsinstructies.
 
 ## Zie ook {#see-also}
 

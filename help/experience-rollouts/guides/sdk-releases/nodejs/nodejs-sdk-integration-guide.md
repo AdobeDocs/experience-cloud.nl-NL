@@ -1,13 +1,13 @@
 ---
 title: Node.js SDK Integration guide
 description: Leer hoe u de Experience Rollouts Node.js SDK kunt integreren in uw back-endservice om functiemarkeringen op te halen en te evalueren.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 063829fe-6933-45ff-add4-285ca7391778
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
-
 
 # Node.js SDK Integration guide {#nodejs-sdk-integration-guide}
 
@@ -15,15 +15,15 @@ The Experience Rollouts Node.js SDK is a server-side library intended for Node.j
 
 >[!NOTE]
 >
->De SDK Node.js is alleen ontworpen voor gebruik op de server. Roep voor client-side webtoepassingen het kenmerkAPI V3 REST-eindpunt rechtstreeks aan.
+>De SDK Node.js is alleen ontworpen voor gebruik op de server. Gebruik voor client-side webtoepassingen de SDK. Web SDK-documentatie wordt momenteel voorbereid en zal binnenkort beschikbaar zijn.
 
 ## Vereisten {#prerequisites}
 
 Voordat u de SDK Node.js gaat integreren, moet u controleren of u beschikt over:
 
 * Een Node.js-servertoepassing
-* Een **API sleutel** en **de dienstteken** dat door Adobe Developer Console wordt verkregen — zie [&#x200B; aan de API toepassing &#x200B;](../../integrate/subscribe-to-api-application.md) intekenen
-* Uw **toepassings cliënt IDs** die in de console van Rollouts van de Ervaring wordt geregistreerd — zie [&#x200B; Onboard uw toepassing &#x200B;](../../applications/onboard-your-application.md)
+* Een **API sleutel** en **de dienstteken** dat door Adobe Developer Console wordt verkregen — de steun van Rollouts van de Ervaring van het contact om uw cliëntidentiteitskaart te hebben gevoegd op lijst van gewenste personen
+* Uw **toepassings cliënt IDs** die in de console van Rollouts van de Ervaring wordt geregistreerd — zie [ Onboard uw toepassing ](../../applications/onboard-your-application.md)
 
 ## De SDK installeren {#install}
 
@@ -117,7 +117,7 @@ floodgateClient.getFeatures(
 
 ### Standaard volledige-rollout versies {#default-releases}
 
-Wanneer noch een toegangstoken noch een versiemarkering wordt verstrekt, keert SDK eigenschappen in **Volledige Staat van de Uitvoer** terug of **3&rbrace; staat van de Basislijn &lbrace;:**
+Wanneer noch een toegangstoken noch een versiemarkering wordt verstrekt, keert SDK eigenschappen in **Volledige Staat van de Uitvoer** terug of **3} staat van de Basislijn {:**
 
 ```javascript
 floodgateClient.getFeatures(
@@ -160,5 +160,4 @@ floodgateClient.createInstance(
 
 * [Opmerkingen bij de release Node.js SDK](nodejs-sdk-release-notes.md)
 * [SDK&#39;s](../../integrate/sdks.md)
-* [Abonneren op de API-toepassing](../../integrate/subscribe-to-api-application.md)
 * [Integratiestappen](../../integrate/integration-steps.md)

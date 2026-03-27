@@ -1,13 +1,13 @@
 ---
 title: Integreer Experience Rollouts in uw app
 description: Leer hoe u Adobe Experience Rollouts kunt integreren in uw toepassing, of het nu gaat om een webservice, webeigenschap, mobiele app of desktoptoepassing.
-source-git-commit: 5dfb2fad7d04fc7f681337195de9c26e8aa26a09
+exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
-
 
 # Integreer Experience Rollouts in uw app {#integrate}
 
@@ -17,19 +17,19 @@ Deze sectie verstrekt integratierichtlijnen voor alle cliënten van Rollouts van
 
 Selecteer de hulplijn die overeenkomt met het toepassingstype:
 
-1. [&#x200B; Opstartgids &#x200B;](startup-guide.md) — Begin hier voor een overzicht op hoog niveau van alle integratiestappen
-2. [&#x200B; de toepassingen van de Desktop &#x200B;](desktop-applications.md) — Directe integratie van REST API voor Desktopapps
-3. [&#x200B; Mobiele toepassingen &#x200B;](mobile-applications.md) — REST API integratie voor mobiele apps
-4. [&#x200B; toepassingen van het Web &#x200B;](web-applications.md) — REST API integratie voor Web-eigenschappen
-5. [&#x200B; de diensten van het Web &#x200B;](web-services.md) — Server-kant de integratie van SDK voor de backenddiensten
-6. [&#x200B; SDKs &#x200B;](sdks.md) — de architectuur van SDK, eerste vereisten, en beschikbare SDKs
-7. [&#x200B; stappen van de Integratie &#x200B;](integration-steps.md) — Gedetailleerde geleidelijke integratieinstructies
+1. [ Opstartgids ](startup-guide.md) — Begin hier voor een overzicht op hoog niveau van alle integratiestappen
+2. [ de toepassingen van de Desktop ](desktop-applications.md) — de integratie van SDK voor Desktopapps
+3. [ Mobiele toepassingen ](mobile-applications.md) — de integratie van SDK voor mobiele apps
+4. [ toepassingen van het Web ](web-applications.md) — de integratie van SDK voor Webeigenschappen
+5. [ de diensten van het Web ](web-services.md) — Server-kant de integratie van SDK voor de backenddiensten
+6. [ SDKs ](sdks.md) — de architectuur van SDK, eerste vereisten, en beschikbare SDKs
+7. [ stappen van de Integratie ](integration-steps.md) — Gedetailleerde geleidelijke integratieinstructies
 
 ## Toepassingstypen in één oogopslag {#overview}
 
 | Toepassingstype | Aanbevolen integratie |
 |---|---|
 | **de dienst van het Web / achterste** | Java SDK of Node.js SDK |
-| **toepassing van het Web** | REST API — Functie-API V3 |
-| **Mobiele toepassing** | REST API — Functie-API V3 |
-| **toepassing van de Desktop** | REST API — Functie-API V2 |
+| **toepassing van het Web** | Web SDK (binnenkort beschikbaar) |
+| **Mobiele toepassing** | Mobiele SDK (binnenkort beschikbaar) |
+| **toepassing van de Desktop** | SDK (binnenkort beschikbaar) |

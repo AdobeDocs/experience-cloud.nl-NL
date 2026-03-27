@@ -1,13 +1,13 @@
 ---
 title: Webservices
 description: Leer hoe u Adobe Experience Rollouts kunt integreren in een back-end webservice met behulp van de Java of Node.js SDK.
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+exl-id: 2e73fc30-93d4-46dc-8855-950dd1b15064
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 1%
+source-wordcount: '97'
+ht-degree: 2%
 
 ---
-
 
 # Webservices {#web-services}
 
@@ -17,16 +17,12 @@ De achtergrondservices zijn geïntegreerd met Experience Rollouts met een server
 
 | Taal | Integratiegids | Aanvullende informatie |
 |---|---|---|
-| **Java** | [&#x200B; de integratiegids van SDK van Java &#x200B;](../sdk-releases/java/java-sdk-integration-guide.md) | [&#x200B; de versienota&#39;s van SDK van Java &#x200B;](../sdk-releases/java/java-sdk-release-notes.md) |
-| **Node.js** | [&#x200B; Node.js de integratiegids van SDK &#x200B;](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) | [&#x200B; Node.js de versienota&#39;s van SDK &#x200B;](../sdk-releases/nodejs/nodejs-sdk-release-notes.md) |
+| **Java** | [ de integratiegids van SDK van Java ](../sdk-releases/java/java-sdk-integration-guide.md) | [ de versienota&#39;s van SDK van Java ](../sdk-releases/java/java-sdk-release-notes.md) |
+| **Node.js** | [ Node.js de integratiegids van SDK ](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) | [ Node.js de versienota&#39;s van SDK ](../sdk-releases/nodejs/nodejs-sdk-release-notes.md) |
 
 ## Overige talen {#other-languages}
 
-Als uw back-endservice een taal gebruikt die hierboven niet wordt vermeld, kunt u rechtstreeks integreren met de REST API:
-
-* Functie-API V3 — raadpleeg de sectie Functie-API van deze handleiding voor de volledige naslaggids
-
-Als u hulp nodig hebt bij het integreren met een niet-ondersteunde stapel, kunt u contact opnemen met de ondersteuning Rollouts voor ervaring.
+Als uw backenddienst een taal gebruikt die hierboven niet wordt vermeld, contacteer de steun van Rollouts van de Ervaring voor begeleiding bij het integreren met uw specifieke stapel.
 
 ## Zie ook {#see-also}
 

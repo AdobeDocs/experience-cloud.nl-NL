@@ -2,9 +2,9 @@
 audience: user
 user-guide-title: Adobe Experience Rollouts
 user-guide-description: Leer hoe u Adobe Experience Rollouts kunt gebruiken om functiemarkeringen, gecontroleerde rollouts en doelgerichte releases in uw toepassingen te beheren.
-source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '242'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,6 @@ ht-degree: 1%
       + [Webservices](guides/integrate/web-services.md)
       + [SDK&#39;s](guides/integrate/sdks.md)
       + [Integratiestappen](guides/integrate/integration-steps.md)
-      + [Abonneren op de API-toepassing in Adobe Developer Console](guides/integrate/subscribe-to-api-application.md)
    + Functiemarkeringen {#feature-flags}
       + [Functies en functiegroepen](guides/feature-flags/features-feature-groups-releases.md)
       + [De eerste functiemarkering maken](guides/feature-flags/create-your-first-feature-flag.md)
@@ -76,14 +75,3 @@ ht-degree: 1%
          + [Node.js SDK Integration guide](guides/sdk-releases/nodejs/nodejs-sdk-integration-guide.md)
          + [Opmerkingen bij de release Node.js SDK](guides/sdk-releases/nodejs/nodejs-sdk-release-notes.md)
       + [SDK-benchmarking](guides/sdk-releases/java-sdk-benchmarking.md)
-+ Functie-API {#feature-api}
-   + [GET Feature API V3](feature-api/get-feature-api-v3.md)
-   + [GET Feature API V2](feature-api/get-feature-api-v2.md)
-+ Beheer-API {#management-api}
-   + [Overzicht van API&#39;s voor functiebeheer](management-api/feature-management-apis-overview.md)
-   + [API voor kenmerkvlaggen](management-api/feature-flags-management-api.md)
-   + [API voor beheer van functiegroepen](management-api/feature-group-management-api.md)
-   + [Beheer-API&#39;s vrijgeven](management-api/release-management-apis.md)
-   + [Client-id voor een toepassing ophalen](management-api/get-client-id.md)
-   + [Kies de gewenste publiekscriteria](management-api/get-audience-criteria.md)
-   + [Beheer van patch-API](management-api/management-patch-api.md)

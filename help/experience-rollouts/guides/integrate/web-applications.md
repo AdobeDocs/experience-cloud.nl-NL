@@ -1,23 +1,25 @@
 ---
 title: Webtoepassingen
-description: Leer hoe u Adobe Experience Rollouts kunt integreren in een webtoepassing met de functie API V3.
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+description: Leer hoe u Adobe Experience Rollouts kunt integreren in een webtoepassing met behulp van de web-SDK.
+exl-id: 9b5d744a-263d-4b10-8745-2891f111519f
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
 
-
 # Webtoepassingen {#web-applications}
 
-De toepassingen van het Web integreren met de Rollouts van de Ervaring door de **Eigenschap API V3** te roepen om eigenschapvlaggen terug te winnen en voorwaardelijke logica achter hen in uw toepassingscode te plaatsen.
+Webtoepassingen integreren met Experience Rollouts via het web SDK.
 
-Zie **de Eigenschap API van GET V3** in de Eigenschap API sectie van deze gids voor de volledige API verwijzing, met inbegrip van verzoekparameters, reactieformaat, en voorbeeldvraag.
+>[!NOTE]
+>
+>Web SDK-documentatie wordt momenteel voorbereid en zal binnenkort beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger voor hulp bij vroege toegang.
 
 ## Integratiestappen {#integration-steps}
 
-Voor een volledige analyse van het integratieproces, zie [&#x200B; stappen van de Integratie &#x200B;](integration-steps.md).
+Voor een volledige analyse van het integratieproces, zie [ stappen van de Integratie ](integration-steps.md).
 
 ## Zie ook {#see-also}
 
