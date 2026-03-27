@@ -15,11 +15,11 @@ Ga als volgt te werk om Experience Rollouts in uw toepassing te integreren.
 
 ## Stap 1: Toegang aanvragen {#step-1-access}
 
-Vraag om toegang tot de console van de Rollouts van de Ervaring en sluit zich bij uw team aan. Zie [ toegang van het Verzoek ](../console/request-access.md) voor geleidelijke instructies.
+Vraag om toegang tot de console van de Rollouts van de Ervaring en sluit zich bij uw team aan. Zie [&#x200B; toegang van het Verzoek &#x200B;](../console/request-access.md) voor geleidelijke instructies.
 
 ## Stap 2: Aan boord van uw toepassing {#step-2-onboard}
 
-Nadat u toegang hebt gekregen, meldt u zich aan bij de console Experience Rollouts en controleert u of uw toepassing onder uw team wordt vermeld. Als dat niet het geval is, vraagt u de teambeheerder om het toe te voegen. Zie [ aan boord uw toepassing ](../applications/onboard-your-application.md).
+Nadat u toegang hebt gekregen, meldt u zich aan bij de console Experience Rollouts en controleert u of uw toepassing onder uw team wordt vermeld. Als dat niet het geval is, vraagt u de teambeheerder om het toe te voegen. Zie [&#x200B; aan boord uw toepassing &#x200B;](../applications/onboard-your-application.md).
 
 Bereid het volgende voor voordat u aan boord gaat:
 
@@ -35,7 +35,7 @@ Als u integreert via een server-side SDK, hebt u een client-id voor het servicet
 
 ## Stap 4: Integreer met een SDK {#step-4-integrate}
 
-Volg de [ integratiestappen ](integration-steps.md) voor uw toepassingstype. Kies het pad dat bij de stapel past:
+Volg de [&#x200B; integratiestappen &#x200B;](integration-steps.md) voor uw toepassingstype. Kies het pad dat bij de stapel past:
 
 * **de diensten van het Web** → Java SDK of Node.js SDK
 * **Web en mobiele apps** → Web SDK of mobiele SDK (komende spoedig)

@@ -17,13 +17,13 @@ Deze sectie verstrekt integratierichtlijnen voor alle cliënten van Rollouts van
 
 Selecteer de hulplijn die overeenkomt met het toepassingstype:
 
-1. [ Opstartgids ](startup-guide.md) — Begin hier voor een overzicht op hoog niveau van alle integratiestappen
-2. [ de toepassingen van de Desktop ](desktop-applications.md) — de integratie van SDK voor Desktopapps
-3. [ Mobiele toepassingen ](mobile-applications.md) — de integratie van SDK voor mobiele apps
-4. [ toepassingen van het Web ](web-applications.md) — de integratie van SDK voor Webeigenschappen
-5. [ de diensten van het Web ](web-services.md) — Server-kant de integratie van SDK voor de backenddiensten
-6. [ SDKs ](sdks.md) — de architectuur van SDK, eerste vereisten, en beschikbare SDKs
-7. [ stappen van de Integratie ](integration-steps.md) — Gedetailleerde geleidelijke integratieinstructies
+1. [&#x200B; Opstartgids &#x200B;](startup-guide.md) — Begin hier voor een overzicht op hoog niveau van alle integratiestappen
+2. [&#x200B; de toepassingen van de Desktop &#x200B;](desktop-applications.md) — de integratie van SDK voor Desktopapps
+3. [&#x200B; Mobiele toepassingen &#x200B;](mobile-applications.md) — de integratie van SDK voor mobiele apps
+4. [&#x200B; toepassingen van het Web &#x200B;](web-applications.md) — de integratie van SDK voor Webeigenschappen
+5. [&#x200B; de diensten van het Web &#x200B;](web-services.md) — Server-kant de integratie van SDK voor de backenddiensten
+6. [&#x200B; SDKs &#x200B;](sdks.md) — de architectuur van SDK, eerste vereisten, en beschikbare SDKs
+7. [&#x200B; stappen van de Integratie &#x200B;](integration-steps.md) — Gedetailleerde geleidelijke integratieinstructies
 
 ## Toepassingstypen in één oogopslag {#overview}
 

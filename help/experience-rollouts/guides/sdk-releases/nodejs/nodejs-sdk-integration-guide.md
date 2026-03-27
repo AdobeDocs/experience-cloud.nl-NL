@@ -23,7 +23,7 @@ Voordat u de SDK Node.js gaat integreren, moet u controleren of u beschikt over:
 
 * Een Node.js-servertoepassing
 * Een **API sleutel** en **de dienstteken** dat door Adobe Developer Console wordt verkregen — de steun van Rollouts van de Ervaring van het contact om uw cliëntidentiteitskaart te hebben gevoegd op lijst van gewenste personen
-* Uw **toepassings cliënt IDs** die in de console van Rollouts van de Ervaring wordt geregistreerd — zie [ Onboard uw toepassing ](../../applications/onboard-your-application.md)
+* Uw **toepassings cliënt IDs** die in de console van Rollouts van de Ervaring wordt geregistreerd — zie [&#x200B; Onboard uw toepassing &#x200B;](../../applications/onboard-your-application.md)
 
 ## De SDK installeren {#install}
 
@@ -117,7 +117,7 @@ floodgateClient.getFeatures(
 
 ### Standaard volledige-rollout versies {#default-releases}
 
-Wanneer noch een toegangstoken noch een versiemarkering wordt verstrekt, keert SDK eigenschappen in **Volledige Staat van de Uitvoer** terug of **3} staat van de Basislijn {:**
+Wanneer noch een toegangstoken noch een versiemarkering wordt verstrekt, keert SDK eigenschappen in **Volledige Staat van de Uitvoer** terug of **3&rbrace; staat van de Basislijn &lbrace;:**
 
 ```javascript
 floodgateClient.getFeatures(
