@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde Campaign Standard-gebruikers"
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
-source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
+source-git-commit: 6baa9bef7eae1ab8ffe9ecd426c6ba4580e8c9d7
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## Metagegevens van filters ophalen
 
-Filters zijn beschikbaar voor elke bron. Om de filters te identificeren verbonden aan een middel, moet u een verzoek van GET op de middelmeta-gegevens uitvoeren. Dit verzoek retourneert de URL waar alle filters zijn gedefinieerd voor een bepaalde bron. Voor meer op meta-gegevens, verwijs naar [&#x200B; deze sectie &#x200B;](metadata-mechanism.md).
+Filters zijn beschikbaar voor elke bron. Om de filters te identificeren verbonden aan een middel, moet u een verzoek van GET op de middelmeta-gegevens uitvoeren. Dit verzoek retourneert de URL waar alle filters zijn gedefinieerd voor een bepaalde bron. Voor meer op meta-gegevens, verwijs naar [ deze sectie ](metadata-mechanism.md).
 
 Om de meta-gegevens van een filter te identificeren en te bepalen hoe te om het te gebruiken, moet u een GET verzoek op eerder teruggekeerde URL uitvoeren.
 
@@ -202,8 +202,8 @@ Als u een aangepast filter wilt gebruiken, moet u het maken en aanpassen in de A
 
 Raadpleeg de documentatie bij Campaign Standard voor meer informatie:
 
-* [&#x200B; Vormend filterdefinitie &#x200B;](https://helpx.adobe.com/nl/campaign/standard/developing/using/configuring-filter-definition.html).
-* [&#x200B; geval van het Gebruik: Het roepen van een middel gebruikend een samengestelde identiteitskaart &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=nl-NL).
+* [ Vormend filterdefinitie ](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
+* [ geval van het Gebruik: Het roepen van een middel gebruikend een samengestelde identiteitskaart ](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
@@ -244,7 +244,8 @@ Response to the request.
 
 <!-- exemple à vérifier de bout en bout-->
 
-<!--+category = query editor
+<!--
++category = query editor
 privacy ?
 displayFOrmat ?
 pour faire un POST sur une enum, il faut lui passer le @name décrit dans le noeud values, chaque @name a une correspondance en format = au format définit par le resType

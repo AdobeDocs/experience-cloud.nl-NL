@@ -1,5 +1,5 @@
 ---
-title: Metadatamechanisme
+title: Metagegevensmechanisme
 description: Meer informatie over het mechanisme voor metagegevens.
 audience: developing
 content-type: reference
@@ -8,14 +8,14 @@ role: Developer
 level: Experienced
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde Campaign Standard-gebruikers"
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
+source-git-commit: 6baa9bef7eae1ab8ffe9ecd426c6ba4580e8c9d7
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# Metadatamechanisme {#metadata-mechanism}
+# Metagegevensmechanisme {#metadata-mechanism}
 
 U kunt de middelmeta-gegevens terugwinnen gebruikend **resourceType** in een verzoek van GET:
 
@@ -34,11 +34,13 @@ De reactie retourneert de hoofdmetagegevens van de bron (alle andere velden zijn
      Als &quot;type&quot;met de waarde &quot;verbinding&quot;of &quot;inzameling&quot;wordt voltooid, is de resTarget waarde de naam van het middel dat door de verbinding wordt gericht.
 Als het &quot;type&quot;met de waarde &quot;opsomming&quot;wordt voltooid, wordt een &quot;waarden&quot;gebied toegevoegd en elke opsommingswaarde is gedetailleerd in de **waarden** knoop.
 
-* De **Filters** knoop keert URL terug om de bijbehorende filters terug te winnen. Voor meer op filters, verwijs naar [&#x200B; deze sectie &#x200B;](filtering.md) sectie.
+* De **Filters** knoop keert URL terug om de bijbehorende filters terug te winnen. Voor meer op filters, verwijs naar [ deze sectie ](filtering.md) sectie.
 
 <!-- créer une section au même niveau sur les liens -->
-<!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
-si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
+<!-- 
+dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
+si on prend l'exemple de l'org unit, on aura un bon exemple lien 
+-->
 <!-- plus reparler du node Data -->
 
 <br/>

@@ -1,24 +1,24 @@
 ---
 title: Release aanvragen
 description: Leer hoe u een nieuwe gecoördineerde release kunt aanvragen in Adobe Experience Rollouts en welke informatie u moet verstrekken.
-source-git-commit: d311efb995b20ffc17370d68d57dd84a8605896c
+exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
+source-git-commit: f4c365e1a0e61ba3dec298dfa8ab0d9e74e1259a
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
-
 
 # Release aanvragen {#request-a-release}
 
 ## Vereisten {#prerequisites}
 
-* U hebt de **rol van de Manager van de Versie** - zie [&#x200B; de rollen van de Gebruiker &#x200B;](../teams/user-roles.md)
-* Uw toepassing wordt bewaakt - zie [&#x200B; Op uw toepassing &#x200B;](../applications/onboard-your-application.md)
+* U hebt de **rol van de Manager van de Versie** — zie <!-- broken link[User roles](../teams/user-roles.md) -->
+* Uw toepassing wordt bewaakt - zie [ Op uw toepassing ](../applications/onboard-your-application.md)
 
 >[!TIP]
 >
->Alvorens om een versie te verzoeken, herzie [&#x200B; Versies en dwars-teameigenschapgroepen &#x200B;](releases-and-cross-team-feature-groups.md). Een multiteam functiegroep kan aan uw behoeften met minder overheadkosten voldoen — het is zelf-gediend en steunt rijkere publiek het richten.
+>Reviseer <!--[Releases and cross-team feature groups](releases-and-cross-team-feature-groups.md)--> voordat u een release aanvraagt. Een multiteam functiegroep kan aan uw behoeften met minder overheadkosten voldoen — het is zelf-gediend en steunt rijkere publiek het richten.
 
 ## Een ondersteuningsverzoek indienen {#submit}
 
@@ -39,7 +39,7 @@ Maken van vrijgave is geen zelfvoorziening. Contact opnemen met de ondersteuning
 
 ## Nadat de release is gemaakt {#after}
 
-Zodra u bevestiging ontvangt dat de versie is gecreeerd, login aan de console en voltooi de versieconfiguratie. Zie [&#x200B; het werkschema van de Versie van begin tot eind &#x200B;](release-workflow-end-to-end.md) voor de volledige opeenvolging van stappen.
+Zodra u bevestiging ontvangt dat de versie is gecreeerd, login aan de console en voltooi de versieconfiguratie. Zie [ het werkschema van de Versie van begin tot eind ](release-workflow-end-to-end.md) voor de volledige opeenvolging van stappen.
 
 ## Zie ook {#see-also}
 

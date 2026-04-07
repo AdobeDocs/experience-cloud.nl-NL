@@ -9,10 +9,10 @@ level: Experienced
 mini-toc-levels: 1
 badge: label="Beperkte beschikbaarheid" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Beperkt tot gemigreerde Campaign Standard-gebruikers"
 exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
-source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
+source-git-commit: 6baa9bef7eae1ab8ffe9ecd426c6ba4580e8c9d7
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 1%
+source-wordcount: '1060'
+ht-degree: 0%
 
 ---
 
@@ -40,8 +40,8 @@ Momenteel zijn de REST API&#39;s die hieronder worden vermeld, beschikbaar voor 
 
 * **Profielen**
 * **de Diensten &amp; abonnementen**
-* **Aangepaste resources**
-* **Workflows**
+* **de middelen van de Douane**
+* **Werkstromen**
 * **Transactionele berichten**
 
 >[!AVAILABILITY]
@@ -106,7 +106,7 @@ In de onderstaande sectie worden kleine verschillen tussen Campaign Standard en 
 
 In de onderstaande sectie ziet u de verschillen tussen foutcodes en berichten van Campaign Standard en Campagne v8.
 
-| Scenario | Campaign Standard | Campaign v8 |
+| Scenario | Campaign Standard | Campagne v8 |
 |  ---  |  ---  |  ---  |
 | Een ongeldige PKey in request Body gebruiken | 500 - het attribuut &quot;O5iRp40EGA&quot;onbekend (zie definitie van &quot;Profielen (nms :recipient)&quot;schema). XTK-170036 Kan expressie &#39;@id = @O5iRp40EGA&#39; niet parseren. | 404 - Kan PKey niet decoderen. (PKey=@jksad) |
 | Een ongeldige PKey gebruiken in URI | 500 - het attribuut &quot;O5iRp40EGA&quot;onbekend (zie definitie van &quot;Profielen (nms :recipient)&quot;schema). XTK-170036 Kan expressie &#39;@id = @O5iRp40EGA&#39; niet parseren. | 404 - Kan PKey niet decoderen. (PKey=@jksad) Niet-ondersteund eindpunt. (eindpunt=rest/profielAndServices/profiel/@jksad) |
@@ -129,10 +129,12 @@ Campaign Standard Workflow GET API retourneert parameternamen zoals de werkstroo
 
 Campaign v8 biedt geen ondersteuning voor instantievariabelen van advertentieworkflows, maar verwacht dat ontwikkelaars weten wat dat zijn. Daarom moet na de migratie parameterinformatie in de instantie van de POST-aanvraag worden samengesteld zonder de beschikbaarheid van parameterinformatie in de GET API-respons.
 
-<!--## Transactional messages
+<!--
+## Transactional messages
 
 * With Campaign Standard, a POST request returns empty fields for elements and attributes in the request body. With Campaign v8, the response returns values that match the ones in the request body instead.
 
 * When publishing an event configuration, the API preview panel displays the REST URL alongside the request body syntax.
 
-    Since Campaign v8 does not support event configuration fields definition (event creation is just adding a value to eventType enumeration), there is no API preview panel when adding an event type. The REST URL is displayed  in the transactional message user interface once an event transactional message is published.-->
+    Since Campaign v8 does not support event configuration fields definition (event creation is just adding a value to eventType enumeration), there is no API preview panel when adding an event type. The REST URL is displayed  in the transactional message user interface once an event transactional message is published.
+-->
