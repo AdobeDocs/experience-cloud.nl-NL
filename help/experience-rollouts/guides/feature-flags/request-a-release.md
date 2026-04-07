@@ -14,7 +14,7 @@ ht-degree: 0%
 ## Vereisten {#prerequisites}
 
 * U hebt de **rol van de Manager van de Versie** — zie <!-- broken link[User roles](../teams/user-roles.md) -->
-* Uw toepassing wordt bewaakt - zie [ Op uw toepassing ](../applications/onboard-your-application.md)
+* Uw toepassing wordt bewaakt - zie [&#x200B; Op uw toepassing &#x200B;](../applications/onboard-your-application.md)
 
 >[!TIP]
 >
@@ -39,7 +39,7 @@ Maken van vrijgave is geen zelfvoorziening. Contact opnemen met de ondersteuning
 
 ## Nadat de release is gemaakt {#after}
 
-Zodra u bevestiging ontvangt dat de versie is gecreeerd, login aan de console en voltooi de versieconfiguratie. Zie [ het werkschema van de Versie van begin tot eind ](release-workflow-end-to-end.md) voor de volledige opeenvolging van stappen.
+Zodra u bevestiging ontvangt dat de versie is gecreeerd, login aan de console en voltooi de versieconfiguratie. Zie [&#x200B; het werkschema van de Versie van begin tot eind &#x200B;](release-workflow-end-to-end.md) voor de volledige opeenvolging van stappen.
 
 ## Zie ook {#see-also}
 
