@@ -202,8 +202,8 @@ Als u een aangepast filter wilt gebruiken, moet u het maken en aanpassen in de A
 
 Raadpleeg de documentatie bij Campaign Standard voor meer informatie:
 
-* [&#x200B; Vormend filterdefinitie &#x200B;](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [&#x200B; geval van het Gebruik: Het roepen van een middel gebruikend een samengestelde identiteitskaart &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
+* [&#x200B; Vormend filterdefinitie &#x200B;](https://helpx.adobe.com/nl/campaign/standard/developing/using/configuring-filter-definition.html).
+* [&#x200B; geval van het Gebruik: Het roepen van een middel gebruikend een samengestelde identiteitskaart &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=nl-NL).
 
 <br/>
 
