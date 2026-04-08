@@ -52,7 +52,7 @@ Zorg ervoor dat deze extensies zijn geïnstalleerd in de mobiele eigenschap Gege
    | Dataset-id | De Adobe Experience Platform-gegevensset-id voor de analytische gebeurtenisgegevens |
 
 1. Selecteer **sparen**.
-1. Volg het [&#x200B; het publiceren proces &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) om uw configuratie bij te werken.
+1. Volg het [&#x200B; het publiceren proces &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/publish/overview) om uw configuratie bij te werken.
 
 ### Bestand-id van omgeving ophalen {#environment-file-id}
 
@@ -187,7 +187,7 @@ Registreer uw `Application` -klasse in `AndroidManifest.xml` :
 
 | Methode | Vereist | Beschrijving |
 |---|---|---|
-| `withIdentity(namespace, id)` | Nee | Eerste argument: identiteit namespace (zie [&#x200B; Identiteitsnaamruimten van Adobe &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces)). Tweede argument: identiteitswaarde. Omvat dit wanneer u die namespace en identiteitskaart in analyses voor deze evaluatie wordt vertegenwoordigd. Als deze optie niet wordt opgegeven, wordt standaard ECID gebruikt. Dit wordt niet gebruikt om de besluiten van de eigenschapenactivering te drijven. |
+| `withIdentity(namespace, id)` | Nee | Eerste argument: identiteit namespace (zie [&#x200B; Identiteitsnaamruimten van Adobe &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces)). Tweede argument: identiteitswaarde. Omvat dit wanneer u die namespace en identiteitskaart in analyses voor deze evaluatie wordt vertegenwoordigd. Als deze optie niet wordt opgegeven, wordt standaard ECID gebruikt. Dit wordt niet gebruikt om de besluiten van de eigenschapenactivering te drijven. |
 | `withAttributes(map)` | Nee | `Map<String, List<String>>`. De sleutel is de naam van het contextkenmerk dat wordt gebruikt door de regels voor het uitvoeren van de functie (bijvoorbeeld `locale` , `platform` , `appVersion` , `deviceType` ). Waarde is de lijst met kandidaat-kenmerkwaarden voor die toets voor de huidige gebruiker/sessie (bijvoorbeeld `["en_US"]` of `["phone"]` ). |
 
 **Kotlin**
