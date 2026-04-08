@@ -2,9 +2,9 @@
 title: Integratiestappen
 description: Voer de integratiestappen voor uw toepassingstype uit om Adobe Experience Rollouts met de beschikbare SDK's te verbinden met uw webservice, mobiele app of bureaubladtoepassing.
 exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -15,19 +15,11 @@ Kies het integratiepad dat overeenkomt met het toepassingstype.
 
 ## Webservices {#web-services}
 
-De diensten van de steun integreren gebruikend server-kant SDK. Kies de SDK voor uw technologiestapel.
+De diensten van de steun integreren gebruikend server-kant SDK. De steun van Rollouts van de Ervaring van het contact voor begeleiding op uw specifieke stapel.
 
-**Java**
-
-Volg de [&#x200B; de integratiegids van SDK van Java &#x200B;](../sdk-releases/java/java-sdk-integration-guide.md) voor opstelling, gebiedsconfiguratie, en initialisering.
-
-**Node.js**
-
-Volg [&#x200B; Node.js de integratiegids van SDK &#x200B;](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) voor opstelling en initialisering.
-
-**Andere talen**
-
-De steun van Rollouts van de Ervaring van het contact voor begeleiding op uw specifieke stapel.
+>[!NOTE]
+>
+>SDK-documentatie aan de serverzijde wordt momenteel voorbereid en zal binnenkort beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger voor hulp bij vroege toegang.
 
 ## Web- en mobiele toepassingen {#web-mobile}
 

@@ -1,51 +1,45 @@
 ---
 title: Markeringen voor importfuncties
-description: Leer hoe u functiemarkeringen van een lagere omgeving kunt importeren in een hogere omgeving in Adobe Experience Rollouts om te voorkomen dat vlagconfiguraties handmatig opnieuw worden gemaakt.
-source-git-commit: 5c99061a7f2aaaad98190166ea6fd79b7eb26dec
+description: Leer hoe u functiemarkeringen van de ene sandbox naar een andere importeert in Adobe Experience Rollouts om te voorkomen dat vlagconfiguraties handmatig opnieuw worden gemaakt.
+exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
 
-
 # Markeringen voor importfuncties {#import-feature-flags}
 
-Met Experience Rollouts kunt u functiemarkeringen importeren vanuit een lagere omgeving (bijvoorbeeld Stage) naar een hogere omgeving (bijvoorbeeld Production). Dit vermijdt het moeten vlagconfiguraties manueel opnieuw creëren en vermindert het risico van configuratieverschuiving tussen milieu&#39;s.
+Met Experience Rollouts kunt u functiemarkeringen importeren van de ene sandbox (bijvoorbeeld sandbox 1) naar een andere sandbox (bijvoorbeeld sandbox 2). Zo voorkomt u dat u vlagconfiguraties handmatig opnieuw moet maken en verkleint u het risico van configuratieverschuiving tussen sandboxen.
 
-## Vereisten {#prerequisites}
+## Stap 1: Ga naar de doelsandbox en -toepassing {#step-1}
 
-Als u de importworkflow wilt gebruiken, moeten de toepassingsinstanties aan verschillende omgevingen zijn gekoppeld. Zie [&#x200B; milieu&#39;s aan een toepassing &#x200B;](associate-environments.md) associëren.
-
-## Stap 1: Ga naar de doelomgeving en toepassing {#step-1}
-
-Login aan de console voor het **bestemmings** milieu - het milieu u vlaggen *in* wilt invoeren. Selecteer de toepassing waarin u markeringen wilt importeren in de vervolgkeuzelijst van de toepassing op de pagina Functiemarkeringen.
+Login aan de console voor de **bestemmings** zandbak - de zandbak u vlaggen *in* wilt invoeren. Selecteer de toepassing waarin u markeringen wilt importeren in de vervolgkeuzelijst van de toepassing op de pagina Functiemarkeringen.
 
 >[!IMPORTANT]
 >
->Uw huidig milieu en geselecteerde toepassing moeten de **bestemming** zijn — niet de bron. Als u bijvoorbeeld een vlag wilt importeren van Stage naar Production, meldt u zich aan bij de productieconsole en selecteert u de productietoepassing.
+>Uw huidige zandbak en geselecteerde toepassing moeten de **bestemming** zijn — niet de bron. Als u bijvoorbeeld een vlag wilt importeren van sandbox 1 naar sandbox 2, meldt u zich aan bij de sandbox 2-console en selecteert u de sandbox 2-toepassing.
 
 ## Stap 2: Het dialoogvenster Importeren openen {#step-2}
 
-Selecteer **de Vlaggen van de Eigenschap van de Invoer**. Er wordt een dialoogvenster geopend met de bronomgeving en -toepassing, die vooraf zijn ingevuld op basis van de gekoppelde omgevingen die voor uw toepassing zijn geconfigureerd. Indien nodig kunt u de bronomgeving en toepassing wijzigen in de keuzelijst in het dialoogvenster.
+Selecteer **de Vlaggen van de Eigenschap van de Invoer**. Er wordt een dialoogvenster geopend met de bronsandbox en -toepassing, die vooraf zijn ingevuld op basis van de beschikbare toepassingen. Indien nodig, kunt u de bronzandbak en toepassing van drop-down in de dialoog veranderen.
 
 ## Stap 3: selecteer de functiemarkeringen die u wilt importeren {#step-3}
 
-Selecteer in de lijst met functiemarkeringen in de bronomgeving de markeringen die u wilt importeren. U kunt een, meerdere of alle markeringen tegelijk selecteren.
+Selecteer in de lijst met functiemarkeringen in de bronsandbox de markeringen die u wilt importeren. U kunt een, meerdere of alle markeringen tegelijk selecteren.
 
-## Stap 4: Bestaande vlaggen afhandelen (indien vereist) {#step-4}
+## Stap 4: selecteer de status van de functiemarkeringen die u wilt importeren {#step-4}
 
-Als een eigenschapvlag met de zelfde sleutel reeds in het bestemmingsmilieu bestaat, zal de Rollouts van de Ervaring u vragen om te bevestigen of om het te beschrijven. Herzie de bestaande vlagconfiguratie alvorens te bevestigen, aangezien het beschrijven de montages van de bestemmingsvlag met die van de bron zal vervangen.
+Gebruik dropdown om te kiezen hoe de eigenschapmarkeringen zouden moeten worden ingevoerd — of **Toegelaten**, **Gehandicapten**, of in hun **Huidige staat**. Door gebrek, worden de eigenschapvlaggen ingevoerd in de **Gehandicapte** staat.
 
 ## Belangrijke opmerkingen {#important-notes}
 
 Houd rekening met het volgende wanneer u functiemarkeringen importeert:
 
-* De ingevoerde vlaggen worden altijd geplaatst aan **VAN** staat in het bestemmingsmilieu, ongeacht hun staat in het bronmilieu. U moet ze na het importeren handmatig inschakelen.
-* Als een vlag op een toekomstige datum en tijd in het bronmilieu werd gepland te activeren, wordt dat programma **niet** gedragen over. U moet een nieuw programma in het bestemmingsmilieu plaatsen indien nodig.
+* Als er al een functiemarkering met dezelfde sleutel bestaat in de doelsandbox, wordt deze niet geïmporteerd.
 
 ## Zie ook {#see-also}
 
-* [Omgevingen koppelen aan een toepassing](associate-environments.md)
-* [Functievlaggen weergeven in verschillende omgevingen](view-feature-flags-across-environments.md)
-* [Concept tussen milieu en milieu](cross-environment-concept.md)
+* [Functies en functiegroepen](../feature-flags/features-feature-groups-releases.md)
+* [De eerste functiemarkering maken](../feature-flags/create-your-first-feature-flag.md)

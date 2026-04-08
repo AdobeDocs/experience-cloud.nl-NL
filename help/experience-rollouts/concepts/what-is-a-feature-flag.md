@@ -1,13 +1,13 @@
 ---
 title: Wat is een functiemarkering
 description: Leer welke functiemarkeringen zijn en hoe u toepassingsfuncties tijdens runtime kunt in- of uitschakelen zonder dat u deze opnieuw hoeft te implementeren.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: c4ed4ab5-0d73-4697-b05c-476d6e4010ce
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
-
 
 # Wat is een functiemarkering {#what-is-a-feature-flag}
 
@@ -19,4 +19,4 @@ Deze scheiding vermindert het risico aanzienlijk. De ontwikkelaars kunnen en ver
 
 >[!NOTE]
 >
->In de Rollouts van de Ervaring, is een eigenschapvlag de meest atomische eenheid van eigenschapcontrole. Het kan op zijn worden gebruikt om één enkele eigenschap, of gecombineerd met andere vlaggen in a [&#x200B; eigenschapgroep &#x200B;](feature-groups-to-control-multiple-features.md) of [&#x200B; versie &#x200B;](release-management.md) te richten.
+>In de Rollouts van de Ervaring, is een eigenschapvlag de meest atomische eenheid van eigenschapcontrole. Het kan op zijn worden gebruikt om één enkele eigenschap, of gecombineerd met andere vlaggen in a [ eigenschapgroep ](feature-groups-to-control-multiple-features.md) te richten.

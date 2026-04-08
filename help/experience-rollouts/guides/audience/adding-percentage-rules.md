@@ -1,13 +1,13 @@
 ---
 title: Percentageregels toevoegen aan publiekscriteria
 description: Leer hoe u op percentage-gebaseerde regels binnen publiekscriteria in de Rollouts van de Ervaring van Adobe toevoegt om verschillende rollout percentages voor verschillende publiekssegmenten te richten.
-source-git-commit: ae420329b94b24fcd173734b414aecf1c5fc16ca
+exl-id: 15a3c26f-31fc-4e73-aa0e-035dcbe7d770
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
-
 
 # Percentageregels toevoegen aan publiekscriteria {#adding-percentage-rules}
 
@@ -20,7 +20,7 @@ Sommige rollout-scenario&#39;s vereisen echter verschillende percentages voor ve
 * 100% van de Britse gebruikers en 50% van de Amerikaanse gebruikers
 * Alle gebruikers uit een geïmporteerde e-maillijst plus 50% van de gebruikers uit een bepaald land
 
-In deze gevallen, gebruik de **regel van het Percentage** in de **het profielsectie van het publiek** lusje van het publiek, gecombineerd met genestelde logica.
+In deze gevallen, gebruik de **regel van het Percentage** in de **de contextsectie van het publiek** lusje van het publiek, gecombineerd met genestelde logica.
 
 >[!TIP]
 >
@@ -28,10 +28,10 @@ In deze gevallen, gebruik de **regel van het Percentage** in de **het profielsec
 
 ## Een percentageregel toevoegen {#how-to-add}
 
-De **optie van het Percentage** is beschikbaar als regel in de sectie van het Profiel van het Publiek tabel.
+De **optie van het Percentage** is beschikbaar als regel in de contextsectie van het Publiek tabel.
 
 1. Ga naar het **publiek** lusje van uw eigenschapvlag of eigenschapgroep.
-2. Onder **Profiel**, voeg de regel van het a **Percentage** toe en plaats de gewenste waarde.
+2. Onder **Publiek**, voeg de regel van het Percentage van de a **Context** toe en plaats de gewenste waarde.
 3. Voeg andere publieksvoorwaarden toe die u nodig hebt (bijvoorbeeld een landregel).
 
 ## Het combineren van percentageregels met geneste logica {#nested-logic}

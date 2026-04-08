@@ -1,13 +1,13 @@
 ---
 title: Geleidelijke rollout
 description: Leer hoe u dankzij de geleidelijke rollouts in de Experience de levering veilig kunt uitvoeren, met real-time feedback en minimaal risico.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: ede24236-de19-4008-893c-e67bd82e23e3
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
-
 
 # Geleidelijke rollout {#gradual-rollout}
 
@@ -15,13 +15,13 @@ Met een geleidelijke implementatie wordt een nieuwe functie stapsgewijs in produ
 
 ## Voordelen {#benefits}
 
-**het net van de Veiligheid**
+**Het vangnet**
 Door eerst aan een klein publiek vrij te geven, kunt u terugkoppelen volgen en gedrag in productie controleren alvorens zich uit te breiden. Als er problemen optreden, is de impact beperkt en kan de functie onmiddellijk worden uitgeschakeld, zonder dat de code wordt gewijzigd of opnieuw wordt geïmplementeerd.
 
-**het beheer van de achterste lading**
+**Beheer van achtergrondbelasting**
 Als een functie gelijktijdig voor alle gebruikers wordt geopend, kunnen er plotselinge pieken optreden bij het laden van de server. Een geleidelijke uitrol verdeelt de toename van verkeer in tijd, toestaand infrastructuur om regelmatig te schrapen.
 
-**in real time terugkoppelen**
+**Realtime terugkoppelen**
 Elke fase van de rollout oppervlakken geeft feedback van echte gebruikers. Teams kunnen op die feedback reageren — de ervaring verfijnen, randgevallen corrigeren of berichten aanpassen — vóór de volgende fase.
 
 ## Hoe werkt het {#how-it-works}
@@ -38,4 +38,3 @@ Bij elke stap kan een enkele actie de rollout pauzeren of de functie volledig ui
 ## Zie ook {#see-also}
 
 * [Functiemarkeringen om functies in en uit te schakelen](feature-flags-to-enable-disable-features.md)
-* [Release-beheer](release-management.md)

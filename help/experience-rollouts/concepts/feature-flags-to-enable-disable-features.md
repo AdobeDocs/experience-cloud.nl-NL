@@ -1,13 +1,13 @@
 ---
 title: Functiemarkeringen om functies in en uit te schakelen
 description: Leer hoe de eigenschapmarkeringen in de Rollouts van de Ervaring u eigenschapbeschikbaarheid controleren, gebiedsdelen beheren, en plaatsingsrisico verminderen.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: 627775e8-9b17-4bc7-9565-07a438ae8ed7
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
-
 
 # Functiemarkeringen om functies in en uit te schakelen {#feature-flags}
 
@@ -43,5 +43,4 @@ Een functiemarkering in Experience Rollouts volgt deze doorsnede van de levenscy
 
 1. Een ontwikkelaar maakt een eigenschapmarkering en test deze afzonderlijk, zonder deze aan andere gebruikers bloot te stellen.
 2. Een producteigenaar koppelt een publiek aan de vlag, die de eigenschap aan een bepaalde reeks externe gebruikers zichtbaar maakt.
-3. De vlag wordt optioneel toegevoegd aan a [&#x200B; eigenschapgroep &#x200B;](feature-groups-to-control-multiple-features.md) om naast verwante vlaggen te worden geleid.
-4. De vlag wordt optioneel toegevoegd aan a [&#x200B; versie &#x200B;](release-management.md) voor dwars-teamcoördinatie.
+3. De vlag wordt optioneel toegevoegd aan a [ eigenschapgroep ](feature-groups-to-control-multiple-features.md) om naast verwante vlaggen te worden geleid.
