@@ -15,12 +15,12 @@ ht-degree: 0%
 
 Voer de volgende handelingen uit voordat u een functiegroep maakt:
 
-* U hebt toegang tot de console van Rollouts van de Ervaring — zie [ Login aan de console ](../console/log-in-to-the-console.md)
-* Uw toepassing wordt bewaakt - zie [ Op uw toepassing ](../applications/onboard-your-application.md)
+* U hebt toegang tot de console van Rollouts van de Ervaring — zie [&#x200B; Login aan de console &#x200B;](../console/log-in-to-the-console.md)
+* Uw toepassing wordt bewaakt - zie [&#x200B; Op uw toepassing &#x200B;](../applications/onboard-your-application.md)
 * U hebt de **rol van de Eigenaar van de Versie van de Ontwikkelaar** of **Product**
-* U hebt de eigenschapvlaggen gecreeerd u aan de groep wilt toevoegen — zie [ uw eerste eigenschapvlag ](create-your-first-feature-flag.md) creëren
+* U hebt de eigenschapvlaggen gecreeerd u aan de groep wilt toevoegen — zie [&#x200B; uw eerste eigenschapvlag &#x200B;](create-your-first-feature-flag.md) creëren
 
-Voor een inleiding aan eigenschapgroepen, zie {de groepen van de Eigenschap 0} om veelvoudige eigenschappen ](../../concepts/feature-groups-to-control-multiple-features.md) te controleren.[
+Voor een inleiding aan eigenschapgroepen, zie {de groepen van de Eigenschap 0} om veelvoudige eigenschappen [&#128279;](../../concepts/feature-groups-to-control-multiple-features.md) te controleren.
 
 ## Stap 1: Maak de functiegroep {#create}
 
@@ -35,7 +35,7 @@ Configureer de algemene instellingen voor de functiegroep:
 
 1. Geef een titel, sleutel, beschrijving en eventueel een tag op.
 2. Plaats a **percentenuitloop** voor de eigenschapgroep.
-3. Als u een test A/B wilt in werking stellen, selecteer meer dan één variant. Anders, verlaat het bij één variant. Zie [ A/B het testen met eigenschapmarkeringen ](a-b-testing.md) voor details.
+3. Als u een test A/B wilt in werking stellen, selecteer meer dan één variant. Anders, verlaat het bij één variant. Zie [&#x200B; A/B het testen met eigenschapmarkeringen &#x200B;](a-b-testing.md) voor details.
 
 ## Stap 3: Publiek {#audience}
 
@@ -46,7 +46,7 @@ Bepaal wie de eigenschappen in deze groep zal ontvangen:
 
 >[!NOTE]
 >
->De **rol van de Ontwikkelaar** is sandbox. Voeg uw eigen identiteitskaart van de Gebruiker onder **Publiek > Profiel > Gebruiker toe - identiteitskaart** om privé te testen. Om externe gebruikers te richten, hebt u de **rol van de Eigenaar van de Versie van het 0} Product nodig.**
+>De **rol van de Ontwikkelaar** is sandbox. Voeg uw eigen identiteitskaart van de Gebruiker onder **Publiek > Profiel > Gebruiker toe - identiteitskaart** om privé te testen. Om externe gebruikers te richten, hebt u de **rol van de Eigenaar van de Versie van het 0&rbrace; Product nodig.**
 
 ## Stap 4: Functies {#features}
 

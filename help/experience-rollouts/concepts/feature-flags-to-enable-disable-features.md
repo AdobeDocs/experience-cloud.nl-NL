@@ -43,4 +43,4 @@ Een functiemarkering in Experience Rollouts volgt deze doorsnede van de levenscy
 
 1. Een ontwikkelaar maakt een eigenschapmarkering en test deze afzonderlijk, zonder deze aan andere gebruikers bloot te stellen.
 2. Een producteigenaar koppelt een publiek aan de vlag, die de eigenschap aan een bepaalde reeks externe gebruikers zichtbaar maakt.
-3. De vlag wordt optioneel toegevoegd aan a [ eigenschapgroep ](feature-groups-to-control-multiple-features.md) om naast verwante vlaggen te worden geleid.
+3. De vlag wordt optioneel toegevoegd aan a [&#x200B; eigenschapgroep &#x200B;](feature-groups-to-control-multiple-features.md) om naast verwante vlaggen te worden geleid.

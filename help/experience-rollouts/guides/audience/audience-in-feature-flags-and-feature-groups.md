@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Experience Rollouts biedt doelgroepen voor functiemarkeringen en functiegroepen. U kunt contextvariabelen combineren om precies te controleren welke gebruikers een eigenschap ontvangen.
 
-Voor op context-gebaseerd richten (bijvoorbeeld, gericht door de actieve taal van de gebruiker of apparatentype), zie [ context van het Gebruik in publieksregels ](using-context-in-audience-rules.md).
+Voor op context-gebaseerd richten (bijvoorbeeld, gericht door de actieve taal van de gebruiker of apparatentype), zie [&#x200B; context van het Gebruik in publieksregels &#x200B;](using-context-in-audience-rules.md).
 
 ## Zie ook {#see-also}
 

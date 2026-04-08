@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Functiegroepen om meerdere functies te beheren {#feature-groups}
 
-A [ eigenschapvlag ](what-is-a-feature-flag.md) controleert één enkele eigenschap. Wanneer u veelvoudige verwante eigenschapvlaggen samen moet beheren — en ervoor zorgt zij het zelfde publiek bereiken — gebruikt u a **eigenschapgroep**.
+A [&#x200B; eigenschapvlag &#x200B;](what-is-a-feature-flag.md) controleert één enkele eigenschap. Wanneer u veelvoudige verwante eigenschapvlaggen samen moet beheren — en ervoor zorgt zij het zelfde publiek bereiken — gebruikt u a **eigenschapgroep**.
 
 ## Wat een functiegroep doet {#what-it-does}
 

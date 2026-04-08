@@ -17,7 +17,7 @@ In deze handleiding wordt beschreven hoe u de Experience Rollout-extensie kunt i
 
 Voordat u de Extension Experience Rollout-extensie implementeert, moet u controleren of u beschikt over:
 
-* Een mobiel bezit dat in [ wordt gevormd de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/#/data-collection)
+* Een mobiel bezit dat in [&#x200B; wordt gevormd de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/#/data-collection)
 * De Experience Rollout-extensie die is geïnstalleerd en geconfigureerd in uw mobiele eigenschap
 * Een Adobe Experience Cloud-organisatie-id
 * Minimale SDK: API 21 (Android 5.0 Lollipop)
@@ -39,7 +39,7 @@ Zorg ervoor dat deze extensies zijn geïnstalleerd in de mobiele eigenschap Gege
 
 ### De extensie installeren {#install-extension}
 
-1. Login aan [ de Inzameling van Gegevens van Adobe Experience Platform ](https://experience.adobe.com/#/data-collection).
+1. Login aan [&#x200B; de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experience.adobe.com/#/data-collection).
 1. Selecteer het **lusje van Markeringen** en kies uw mobiel bezit.
 1. Navigeer aan **Uitbreidingen** > **Catalogus**.
 1. Onderzoek naar **de uitbreiding van de Uitvoer van de Ervaring** en selecteer **installeer**.
@@ -52,7 +52,7 @@ Zorg ervoor dat deze extensies zijn geïnstalleerd in de mobiele eigenschap Gege
    | Dataset-id | De Adobe Experience Platform-gegevensset-id voor de analytische gebeurtenisgegevens |
 
 1. Selecteer **sparen**.
-1. Volg het [ het publiceren proces ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) om uw configuratie bij te werken.
+1. Volg het [&#x200B; het publiceren proces &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) om uw configuratie bij te werken.
 
 ### Bestand-id van omgeving ophalen {#environment-file-id}
 
@@ -106,7 +106,7 @@ dependencies {
 
 >[!IMPORTANT]
 >
->Voor productietoepassingen, adviseert Adobe het gebruiken van expliciete versienummers in plaats van dynamische versies. Zie [ het Leiden de gebiedsdelen van de Gradle ](https://docs.gradle.org/current/userguide/dependency_management.html) voor meer informatie.
+>Voor productietoepassingen, adviseert Adobe het gebruiken van expliciete versienummers in plaats van dynamische versies. Zie [&#x200B; het Leiden de gebiedsdelen van de Gradle &#x200B;](https://docs.gradle.org/current/userguide/dependency_management.html) voor meer informatie.
 
 ### Machtigingen toevoegen {#add-permissions}
 
@@ -187,7 +187,7 @@ Registreer uw `Application` -klasse in `AndroidManifest.xml` :
 
 | Methode | Vereist | Beschrijving |
 |---|---|---|
-| `withIdentity(namespace, id)` | Nee | Eerste argument: identiteit namespace (zie [ Identiteitsnaamruimten van Adobe ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces)). Tweede argument: identiteitswaarde. Omvat dit wanneer u die namespace en identiteitskaart in analyses voor deze evaluatie wordt vertegenwoordigd. Als deze optie niet wordt opgegeven, wordt standaard ECID gebruikt. Dit wordt niet gebruikt om de besluiten van de eigenschapenactivering te drijven. |
+| `withIdentity(namespace, id)` | Nee | Eerste argument: identiteit namespace (zie [&#x200B; Identiteitsnaamruimten van Adobe &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces)). Tweede argument: identiteitswaarde. Omvat dit wanneer u die namespace en identiteitskaart in analyses voor deze evaluatie wordt vertegenwoordigd. Als deze optie niet wordt opgegeven, wordt standaard ECID gebruikt. Dit wordt niet gebruikt om de besluiten van de eigenschapenactivering te drijven. |
 | `withAttributes(map)` | Nee | `Map<String, List<String>>`. De sleutel is de naam van het contextkenmerk dat wordt gebruikt door de regels voor het uitvoeren van de functie (bijvoorbeeld `locale` , `platform` , `appVersion` , `deviceType` ). Waarde is de lijst met kandidaat-kenmerkwaarden voor die toets voor de huidige gebruiker/sessie (bijvoorbeeld `["en_US"]` of `["phone"]` ). |
 
 **Kotlin**
@@ -240,7 +240,7 @@ FeatureEvaluationContext ctx = FeatureEvaluationContext.builder()
 
 ### isFeatureEnabled {#is-feature-enabled}
 
-`isFeatureEnabled` geeft aan of een functie Experience Rollout voor de gegeven context in- of uitgeschakeld is. Geef `featureKey` door, een `FeatureEvaluationContext` (optioneel voor kenmerken die voor activering zijn bedoeld en een optionele identiteit voor analyses) en een callback. Zie [ context van de Evaluatie ](#evaluation-context).
+`isFeatureEnabled` geeft aan of een functie Experience Rollout voor de gegeven context in- of uitgeschakeld is. Geef `featureKey` door, een `FeatureEvaluationContext` (optioneel voor kenmerken die voor activering zijn bedoeld en een optionele identiteit voor analyses) en een callback. Zie [&#x200B; context van de Evaluatie &#x200B;](#evaluation-context).
 
 **Handtekening**
 
@@ -268,7 +268,7 @@ Rollout.isFeatureEnabled(
 | Parameter | Type | Beschrijving |
 |---|---|---|
 | `featureKey` | String | Functietoets die moet worden geëvalueerd in Experience Rollout |
-| `evaluationContext` | FeatureEvaluationContext | Voeg indien nodig doelkenmerken en optionele identiteit voor analyses toe. Gebruik `FeatureEvaluationContext.builder().build()` voor een lege context. Zie [ context van de Evaluatie ](#evaluation-context). |
+| `evaluationContext` | FeatureEvaluationContext | Voeg indien nodig doelkenmerken en optionele identiteit voor analyses toe. Gebruik `FeatureEvaluationContext.builder().build()` voor een lege context. Zie [&#x200B; context van de Evaluatie &#x200B;](#evaluation-context). |
 | `callback` | AdobeCallback&lt;Boolean> | Wordt aangeroepen met `true` als de functie is ingeschakeld, anders `false` . U kunt `AdobeCallbackWithError<Boolean>` ook doorgeven om `fail(...)` te verwerken. |
 
 **Voorbeelden**
@@ -346,7 +346,7 @@ Rollout.getFeature(
 | Parameter | Type | Beschrijving |
 |---|---|---|
 | `featureKey` | String | Functietoets die moet worden geëvalueerd in Experience Rollout |
-| `evaluationContext` | FeatureEvaluationContext | Voeg indien nodig doelkenmerken en optionele identiteit voor analyses toe. Gebruik `FeatureEvaluationContext.builder().build()` voor een lege context. Zie [ context van de Evaluatie ](#evaluation-context). |
+| `evaluationContext` | FeatureEvaluationContext | Voeg indien nodig doelkenmerken en optionele identiteit voor analyses toe. Gebruik `FeatureEvaluationContext.builder().build()` voor een lege context. Zie [&#x200B; context van de Evaluatie &#x200B;](#evaluation-context). |
 | `callback` | AdobeCallback&lt;FeatureEvaluationResult> | Wordt aangeroepen met de geëvalueerde functielading; is mogelijk `null` wanneer de functie niet wordt gevonden. U kunt `AdobeCallbackWithError<FeatureEvaluationResult>` ook doorgeven om `fail(...)` te verwerken. |
 
 **Reactie**
@@ -464,8 +464,8 @@ String version = Rollout.extensionVersion();
 
 | API | Retourneert |
 |---|---|
-| `isFeatureEnabled(featureKey, evaluationContext, callback)`. `FeatureEvaluationContext` bevat doelkenmerken voor regels en een optionele identiteit voor analyses. Zie [ evaluatie van de Eigenschap ](#is-feature-enabled). | Boolean via callback |
-| `getFeature(featureKey, evaluationContext, callback)`. Retourneert de geëvalueerde functielading voor de opgegeven context. Zie [ getFeature ](#get-feature). | FeatureEvaluationResult via callback |
+| `isFeatureEnabled(featureKey, evaluationContext, callback)`. `FeatureEvaluationContext` bevat doelkenmerken voor regels en een optionele identiteit voor analyses. Zie [&#x200B; evaluatie van de Eigenschap &#x200B;](#is-feature-enabled). | Boolean via callback |
+| `getFeature(featureKey, evaluationContext, callback)`. Retourneert de geëvalueerde functielading voor de opgegeven context. Zie [&#x200B; getFeature &#x200B;](#get-feature). | FeatureEvaluationResult via callback |
 | `refreshCache()` | void |
 | `extensionVersion()` | String |
 

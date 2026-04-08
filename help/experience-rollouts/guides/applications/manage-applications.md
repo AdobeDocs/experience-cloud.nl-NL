@@ -19,7 +19,7 @@ Slechts kunnen de leden met de **Admin** rol toepassingen toevoegen of wijzigen.
 
 ## Een toepassing toevoegen {#add-application}
 
-Om een toepassing toe te voegen, zie [ Op uw toepassing ](onboard-your-application.md) voor geleidelijke instructies.
+Om een toepassing toe te voegen, zie [&#x200B; Op uw toepassing &#x200B;](onboard-your-application.md) voor geleidelijke instructies.
 
 ## Zie ook {#see-also}
 
